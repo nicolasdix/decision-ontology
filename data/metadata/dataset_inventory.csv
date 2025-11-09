@@ -5,7 +5,7 @@ dataset0003,/data/raw/era1000.csv,Polkadot Election Data,https://github.com/n-bo
 dataset0004,/data/raw/eurovision.csv,Eurovision Voting,https://github.com/Spijkervet/eurovision-dataset/releases,"freely available with citation, no license specified",csv,Music,11/9/23,2300,3b8cc72b81a63ea63788b711248b5f23544b6e3778d8a3a4e976309c69adedf7,
 dataset0005,/data/raw/eidgAbstimmung.json,Swiss referendum,https://ogd-static.voteinfo-app.ch/v1/ogd/sd-t-17-02-20250928-eidgAbstimmung.json,Open use. Must provide the source. Use for commercial purposes requires permission of the data owner.,json,Politics,10/23/25,2100,9a8d4678917ff35eb7612034bc055d27c1e81ced65f5b5e09d1e0abb1b4b41cb,"data is in four languages: english, german, french, italian"
 dataset0006,/data/raw/appropriation_requirement.csv,USCIS Decisions,https://www.uscis.gov/sites/default/files/document/data/appropriation_requirement_september%202025.csv,"Under U.S. law (17 U.S.C. ¤ 105), works created by the federal government are not subject to copyright",csv,Immigration,10/21/25,4,,
-dataset0007,/data/raw/worldRanking.csv,University World Rankings,https://www.kaggle.com/datasets/mylesoneill/world-university-rankings,individual,csv,Education,2012,186,,
+dataset0007,restricted,University World Rankings,https://www.kaggle.com/datasets/mylesoneill/world-university-rankings,individual,csv,Education,2012,186,,
 dataset0008,restricted,Sushi Preferences,https://www.kamishima.net/sushi/,individual,custom text,Food,12/29/15,125,,
 dataset0009,/data/raw/,,,,,,,,,
 dataset0010,/data/raw/,,,,,,,,,
