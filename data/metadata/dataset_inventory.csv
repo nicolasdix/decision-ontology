@@ -1,3 +1,4 @@
-id,filepath,title,source_url,license,format,domain,release_date,filesize_bytes,checksum,notes
-dataset0001,/data/raw/wahl_20241003_214746.csv,2024 Austria General Election,https://www.data.gv.at/datasets/e40e3b00-1a98-4338-acb7-42547e6fee55?locale=de,CC BY 4.0,csv,Austrian Political Election,9/23/24,182000,8fe77d6204ec17fc9eab12f176322bee7fb490279ac4adc7de6548195987493b,
-dataset0002,/data/raw/bundestagswahl2025.csv,Bundestagswahl 2025,https://www.bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse/opendata/btw25/csv/kerg.csv,DL-DE->BY-2.0,csv,German Political Election,3/14/25,166000,f6f9e87792fe01474cff516c87b86e57d8522b1047289c32ded4a56acacf6c3a,
+id,filepath,title,source_url,license,format,domain,release_date,filesize_kb,checksum,notes
+dataset0001,/data/raw/wahl_20241003_214746.csv,2024 Austria General Election,https://www.data.gv.at/datasets/e40e3b00-1a98-4338-acb7-42547e6fee55?locale=de,CC BY 4.0,csv,Austrian Political Election,9/23/24,182,8fe77d6204ec17fc9eab12f176322bee7fb490279ac4adc7de6548195987493b,
+dataset0002,/data/raw/bundestagswahl2025.csv,Bundestagswahl 2025,https://www.bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse/opendata/btw25/csv/kerg.csv,DL-DE->BY-2.0,csv,German Political Election,3/14/25,166,f6f9e87792fe01474cff516c87b86e57d8522b1047289c32ded4a56acacf6c3a,
+dataset0003,/data/raw/era1000.csv,Polkadot Election Data,https://github.com/n-boehmer/ABC-practice-Polkadot/blob/main/pol_elections/era1000.txt,MIT,csv,Blockchain Approval Voting,12/16/23,4300,4a739451be382f277e0a20325124ce1c1e0c46ebc0140b4c9fd4d7dbaead6596,
