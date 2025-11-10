@@ -8,4 +8,4 @@ dataset0006,/data/raw/appropriation_requirement.csv,USCIS Decisions,https://www.
 dataset0007,restricted,University World Rankings,https://www.kaggle.com/datasets/mylesoneill/world-university-rankings,individual,csv,Education,2012,186,657a9d8b94c500927d4d9f565ba148971cd0c56e7a53d1d4bae3427706de0bce,
 dataset0008,restricted,Sushi Preferences,https://www.kamishima.net/sushi/,individual,custom text,Food,12/29/15,125,c56da325c0f58f9a38bafc650ed699b48dd2fb9f6ad64ba61ffc288d1ae4cc24,
 dataset0009,/data/raw/Student_Behavior.csv,Student Preferences,https://www.opendatabay.com/data/science-research/7bc80540-5848-4ab1-943e-54175219f991,CC0 Public Domain,csv,Education,2/8/25,29,8bbd3cfb11f6c00d11771c6184a98c1f7e5586e5160e8b43a1578a44b971c288,
-dataset0010,/data/raw/,,,,,,,,,
+dataset0010,restricted,AI Output Preferences,https://huggingface.co/datasets/Dahoas/instruct_helpful_preferences,not specified,parquet,AI,3/1/23,9900,,
