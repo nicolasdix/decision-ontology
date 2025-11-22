@@ -1,0 +1,6 @@
+﻿concept,dataset0001,dataset0002,dataset0003,dataset0004,dataset0005,dataset0006,dataset0007,dataset0008,dataset0009,dataset0010
+spatial_code,1,1,0,1,0,0,0,0,0,0
+eligible_voters,1,1,1,0,1,1,0,0,0,0
+total_votes,1,1,1,0,1,1,0,1,1,1
+candidate_votes,1,1,1,1,1,1,0,0,0,0
+candidate,1,1,1,1,1,1,1,0,1,1
