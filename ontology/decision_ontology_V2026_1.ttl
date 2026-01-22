@@ -13,7 +13,7 @@
                                                 owl:versionIRI <http://www.semanticweb.org/decision-ontology/2026.1> ;
                                                 dc:created "2026-01-08T02:13:00" ;
                                                 dc:creator "Nicolas Dix" ;
-                                                dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                                dc:license <https://www.apache.org/licenses/LICENSE-2.0> ;
                                                 rdfs:comment "This ontology provides a formal, machine-interpretable model for representing preference data and collective decision outcomes. It aims to enable semantic interoperability between heterogeneous datasets by abstracting from format-specific encodings and making core concepts such as agents, preferences, alternatives, and contextual metadata explicit. The ontology is designed to support comparison, querying, and transformation of preference data across different sources and representations, with a particular focus on ranked, categorical, and incomplete preferences."@en ;
                                                 rdfs:label "Decision Ontology for Preference Data"@en ;
                                                 owl:versionInfo 2026.1 .
