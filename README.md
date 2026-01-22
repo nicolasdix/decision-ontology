@@ -10,4 +10,4 @@ This repository contains all artifacts produced during my bachelor's thesis on d
 - `figures/` – plots and diagrams for the thesis
 
 ## License
-MIT License © 2025
+Apache License Version 2.0
