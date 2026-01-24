@@ -1,8 +1,3 @@
-# Generated from: preflib-soc-transformer (1).ipynb
-# Converted at: 2026-01-24T01:03:59.446Z
-# Next step (optional): refactor into modules & generate tests with RunCell
-# Quick start: pip install runcell
-
 # SETUP
 import sys
 from pathlib import Path
