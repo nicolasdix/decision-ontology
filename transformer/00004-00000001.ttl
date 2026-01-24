@@ -1,0 +1,141 @@
+@prefix do: <http://www.semanticweb.org/decision-ontology#> .
+@prefix data: <http://www.semanticweb.org/decision-ontology/data/preflib/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:context/00004-00000001 a do:Context ;
+  rdfs:label "Netflix Prize Data" .
+
+data:context/00004-00000001 do:hasAvailableOption data:option/00004-00000001/1, data:option/00004-00000001/2, data:option/00004-00000001/3 .
+
+data:option/00004-00000001/1 a do:Option ; rdfs:label "Shrek (Full-screen)" .
+data:option/00004-00000001/2 a do:Option ; rdfs:label "The X-Files: Season 2" .
+data:option/00004-00000001/3 a do:Option ; rdfs:label "The Punisher" .
+
+data:ballot/00004-00000001/1 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00004-00000001 ;
+  do:hasWeight "263"^^xsd:int ;
+  do:hasBallotOption data:bo/00004-00000001/1/2, data:bo/00004-00000001/1/1, data:bo/00004-00000001/1/3 .
+
+data:bo/00004-00000001/1/2 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/2 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00004-00000001/1/1 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/1 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00004-00000001/1/3 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/3 ;
+  do:optionRank "3"^^xsd:int .
+
+data:agent/00004-00000001/1 a do:Agent ;
+  rdfs:label "Synthetic agent 1 (00004-00000001)" ;
+  do:hasExpressed data:ballot/00004-00000001/1 .
+
+data:ballot/00004-00000001/2 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00004-00000001 ;
+  do:hasWeight "249"^^xsd:int ;
+  do:hasBallotOption data:bo/00004-00000001/2/1, data:bo/00004-00000001/2/2, data:bo/00004-00000001/2/3 .
+
+data:bo/00004-00000001/2/1 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/1 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00004-00000001/2/2 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/2 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00004-00000001/2/3 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/3 ;
+  do:optionRank "3"^^xsd:int .
+
+data:agent/00004-00000001/2 a do:Agent ;
+  rdfs:label "Synthetic agent 2 (00004-00000001)" ;
+  do:hasExpressed data:ballot/00004-00000001/2 .
+
+data:ballot/00004-00000001/3 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00004-00000001 ;
+  do:hasWeight "78"^^xsd:int ;
+  do:hasBallotOption data:bo/00004-00000001/3/1, data:bo/00004-00000001/3/3, data:bo/00004-00000001/3/2 .
+
+data:bo/00004-00000001/3/1 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/1 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00004-00000001/3/3 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/3 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00004-00000001/3/2 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/2 ;
+  do:optionRank "3"^^xsd:int .
+
+data:agent/00004-00000001/3 a do:Agent ;
+  rdfs:label "Synthetic agent 3 (00004-00000001)" ;
+  do:hasExpressed data:ballot/00004-00000001/3 .
+
+data:ballot/00004-00000001/4 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00004-00000001 ;
+  do:hasWeight "46"^^xsd:int ;
+  do:hasBallotOption data:bo/00004-00000001/4/2, data:bo/00004-00000001/4/3, data:bo/00004-00000001/4/1 .
+
+data:bo/00004-00000001/4/2 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/2 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00004-00000001/4/3 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/3 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00004-00000001/4/1 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/1 ;
+  do:optionRank "3"^^xsd:int .
+
+data:agent/00004-00000001/4 a do:Agent ;
+  rdfs:label "Synthetic agent 4 (00004-00000001)" ;
+  do:hasExpressed data:ballot/00004-00000001/4 .
+
+data:ballot/00004-00000001/5 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00004-00000001 ;
+  do:hasWeight "17"^^xsd:int ;
+  do:hasBallotOption data:bo/00004-00000001/5/3, data:bo/00004-00000001/5/1, data:bo/00004-00000001/5/2 .
+
+data:bo/00004-00000001/5/3 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/3 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00004-00000001/5/1 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/1 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00004-00000001/5/2 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/2 ;
+  do:optionRank "3"^^xsd:int .
+
+data:agent/00004-00000001/5 a do:Agent ;
+  rdfs:label "Synthetic agent 5 (00004-00000001)" ;
+  do:hasExpressed data:ballot/00004-00000001/5 .
+
+data:ballot/00004-00000001/6 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00004-00000001 ;
+  do:hasWeight "11"^^xsd:int ;
+  do:hasBallotOption data:bo/00004-00000001/6/3, data:bo/00004-00000001/6/2, data:bo/00004-00000001/6/1 .
+
+data:bo/00004-00000001/6/3 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/3 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00004-00000001/6/2 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/2 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00004-00000001/6/1 a do:BallotOption ;
+  do:refersToOption data:option/00004-00000001/1 ;
+  do:optionRank "3"^^xsd:int .
+
+data:agent/00004-00000001/6 a do:Agent ;
+  rdfs:label "Synthetic agent 6 (00004-00000001)" ;
+  do:hasExpressed data:ballot/00004-00000001/6 .
+
