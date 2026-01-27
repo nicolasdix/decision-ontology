@@ -1,0 +1,243 @@
+@prefix : <http://www.semanticweb.org/decision-ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix do: <http://www.semanticweb.org/decision-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://www.semanticweb.org/decision-ontology#> .
+
+<http://www.semanticweb.org/decision-ontology> rdf:type owl:Ontology ;
+                                                owl:versionIRI <http://www.semanticweb.org/decision-ontology/2026.1> ;
+                                                dc:created "2026-01-08T02:13:00" ;
+                                                dc:creator "Nicolas Dix" ;
+                                                dc:license <https://www.apache.org/licenses/LICENSE-2.0> ;
+                                                rdfs:comment "This ontology provides a formal, machine-interpretable model for representing preference data and collective decision outcomes. It aims to enable semantic interoperability between heterogeneous datasets by abstracting from format-specific encodings and making core concepts such as agents, preferences, alternatives, and contextual metadata explicit. The ontology is designed to support comparison, querying, and transformation of preference data across different sources and representations, with a particular focus on ranked, categorical, and incomplete preferences."@en ;
+                                                rdfs:label "Decision Ontology for Preference Data"@en ;
+                                                owl:versionInfo 2026.1 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/created
+dc:created rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+dc:license rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/decision-ontology#hasAvailableOption
+do:hasAvailableOption rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain do:Context ;
+                      rdfs:range do:Option ;
+                      rdfs:comment "Links a context to the options that are available for selection within a given decision situation. This property defines the set of alternatives from which agents may choose when expressing their preferences, independently of whether an option is referenced in a particular ballot."@en ;
+                      rdfs:label "has available option"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#hasBallotOption
+do:hasBallotOption rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain do:Ballot ;
+                   rdfs:range do:BallotOption ;
+                   rdfs:comment "Links a ballot to a BallotOption instance that represents the participation of a specific option in a particular preference expression. This intermediate construct allows contextual attributes such as rank, category, or score to be attached to an option as expressed on a given ballot, without treating these attributes as intrinsic properties of the option itself."@en ;
+                   rdfs:label "has ballot option"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#hasContext
+do:hasContext rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain do:Ballot ;
+              rdfs:range do:Context ;
+              rdfs:comment "Links a ballot to the context in which it was expressed, such as an election, survey, or experiment. This enables preference expressions to be interpreted and compared with respect to their situational setting."@en ;
+              rdfs:label "has context"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#hasExpressed
+do:hasExpressed rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain do:Agent ;
+                rdfs:range do:Ballot ;
+                rdfs:comment "Links a ballot to the agent that expressed it. This property supports explicit attribution of preference expressions independently of the original data format or identifier conventions."@en ;
+                rdfs:label "has expressed"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#producesResult
+do:producesResult rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain do:Context ;
+                  rdfs:range do:Result ;
+                  rdfs:comment "Links a ballot to the context in which it was expressed, such as an election, survey, or experiment. This enables preference expressions to be interpreted and compared with respect to their situational setting.en"@en ;
+                  rdfs:label "produces result"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#refersToOption
+do:refersToOption rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain do:BallotOption ;
+                  rdfs:range do:Option ;
+                  rdfs:comment "Links a Ballot Option to the (universal) Option it represents on a specific ballot."@en ;
+                  rdfs:label "refers to option"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/decision-ontology#hasMultiplicity
+do:hasMultiplicity rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain do:Ballot ;
+                   rdfs:range xsd:int ;
+                   rdfs:comment "Number of agents who submitted this exact ballot"@en ;
+                   rdfs:label "has multiplicity"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#hasRank
+do:hasRank rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain do:BallotOption ;
+           rdfs:range xsd:int ;
+           rdfs:comment "Ordinal position in ranking"@en ;
+           rdfs:label "has rank"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#hasVoteCount
+do:hasVoteCount rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain do:BallotOption ;
+                rdfs:range xsd:int ;
+                rdfs:comment "Number of votes for an option"@en ;
+                rdfs:label "has vote count"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#hasWeight
+do:hasWeight rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain do:Ballot ,
+                         do:BallotOption ;
+             rdfs:range xsd:float ;
+             rdfs:comment "Influence / strength (contextual)"@en ;
+             rdfs:label "has weight"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#isValid
+do:isValid rdf:type owl:DatatypeProperty ;
+           rdfs:domain do:Ballot ;
+           rdfs:range xsd:boolean ;
+           rdfs:label "is valid"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/decision-ontology#Agent
+do:Agent rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing ;
+         rdfs:comment "An entity capable of expressing preferences in a collective decision-making setting. Agents may represent individuals, groups, organizations, or other participants, and are modeled independently of any particular data format to enable unambiguous attribution of preference expressions."@en ;
+         rdfs:label "Agent"@en ;
+         skos:altLabel "Participant"@en ,
+                       "Voter"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#AggregatedBallot
+do:AggregatedBallot rdf:type owl:Class ;
+                    rdfs:subClassOf do:Ballot ;
+                    rdfs:label "Aggregated ballot"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#Ballot
+do:Ballot rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ;
+          rdfs:comment "A concrete preference expression submitted by an agent within a given context. A ballot captures how preferences are expressed (e.g., ranked, tied, categorical, complete or incomplete) and serves as the primary unit for representing preference data independently of format-specific encodings."@en ;
+          rdfs:label "Ballot"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#BallotOption
+do:BallotOption rdf:type owl:Class ;
+                rdfs:subClassOf owl:Thing ;
+                rdfs:comment "Represents the participation of a specific option in a specific ballot. A BallotOption captures contextual attributes of an option as it is expressed within a particular preference expression such as rank, category, or score, without treating these attributes as intrinsic properties of the option itself."@en ;
+                rdfs:label "Ballot Option"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#CategoricalBallot
+do:CategoricalBallot rdf:type owl:Class ;
+                     rdfs:subClassOf do:Ballot ;
+                     rdfs:comment "A ballot in which an agent assigns options to one or more categories, such as approval, rejection, or indifference. This class abstracts from specific category semantics and supports preference expressions that are not based on explicit rankings."@en ;
+                     rdfs:label "Categorical ballot" .
+
+
+###  http://www.semanticweb.org/decision-ontology#CompleteBallot
+do:CompleteBallot rdf:type owl:Class ;
+                  rdfs:subClassOf do:Ballot ;
+                  rdfs:comment "A ballot that references all options available in the associated context. This classification reflects completeness of the preference expression without imposing assumptions about preference structure or ordering."@en ;
+                  rdfs:label "Complete ballot"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#Context
+do:Context rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing ;
+           rdfs:comment "The situational environment in which preferences are expressed and interpreted, such as an election, survey, or experiment. Context provides the semantic frame for preference expressions and outcomes, allowing datasets to be compared while keeping procedural and legal aspects out of scope."@en ;
+           rdfs:label "Context"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#IncompleteBallot
+do:IncompleteBallot rdf:type owl:Class ;
+                    rdfs:subClassOf do:Ballot ;
+                    rdfs:comment "A ballot that references only a subset of the options available in the associated context. This class allows partial or truncated preference expressions to be distinguished without interpreting omitted options."@en ;
+                    rdfs:label "Incomplete ballot"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#IndividualBallot
+do:IndividualBallot rdf:type owl:Class ;
+                    rdfs:subClassOf do:Ballot ;
+                    rdfs:label "Individual ballot"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#Option
+do:Option rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ;
+          rdfs:comment "An abstract alternative over which preferences can be expressed within a decision-making context, such as a candidate, item, or outcome. Options represent universal choice possibilities that may be made available in one or more contexts and referenced by ballots, but do not themselves carry contextual attributes such as rank or category."@en ;
+          rdfs:label "Option"@en ;
+          skos:altLabel "Alternative"@en ,
+                        "Party"@en ,
+                        "Survey Item"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#RankedBallot
+do:RankedBallot rdf:type owl:Class ;
+                rdfs:subClassOf do:Ballot ;
+                rdfs:comment "A ballot in which an agent expresses preferences by ordering options relative to one another. This class captures preference expressions that convey comparative ranking without prescribing how ties, weights, or completeness are represented."@en ;
+                rdfs:label "Ranked ballot"@en .
+
+
+###  http://www.semanticweb.org/decision-ontology#Result
+do:Result rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing ;
+          rdfs:comment "An outcome derived from one or more preference expressions within a context. Results are modeled separately from ballots to distinguish collective outcomes from individual inputs and to enable querying and analysis of decision outputs alongside preference data."@en ;
+          rdfs:label "Result"@en ;
+          skos:altLabel "Outcome"@en .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
