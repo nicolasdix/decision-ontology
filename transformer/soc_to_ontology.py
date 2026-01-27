@@ -8,7 +8,7 @@ DATA_NS = "http://www.semanticweb.org/decision-ontology/data/preflib/"
 
 def main() -> int:
     if len(sys.argv) != 2:
-        print("Usage: python soc_to_ttl.py <file.soc>", file=sys.stderr)
+        print("Usage: python soc_to_ttl.py <path/to/file.soc>", file=sys.stderr)
         return 1
 
     soc_path = Path(sys.argv[1])
@@ -53,9 +53,9 @@ def main() -> int:
     rankings = []
     for line in data_lines:
         count_part, order_part = line.split(":", 1)
-        weight = int(count_part.strip())
+        multiplicity = int(count_part.strip())
         order = [int(x.strip()) for x in order_part.split(",")]
-        rankings.append((weight, order))
+        rankings.append((multiplicity, order))
 
     # Build TTL
     ttl = (
@@ -80,7 +80,7 @@ def main() -> int:
         ttl += f'{option_iris[alt_id]} a do:Option ; rdfs:label "{alternatives[alt_id]}" .\n'
     ttl += "\n"
 
-    for ballot_index, (weight, order) in enumerate(rankings, start=1):
+    for ballot_index, (multiplicity, order) in enumerate(rankings, start=1):
         ballot_iri = f"data:ballot/{dataset_id}/{ballot_index}"
         agent_iri = f"data:agent/{dataset_id}/{ballot_index}"
         bo_iris = [f"data:bo/{dataset_id}/{ballot_index}/{alt_id}" for alt_id in order]
@@ -88,7 +88,7 @@ def main() -> int:
         ttl += (
             f"{ballot_iri} a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;\n"
             f"  do:hasContext {context_iri} ;\n"
-            f"  do:hasWeight \"{weight}\"^^xsd:int ;\n"
+            f"  do:hasMultiplicity \"{multiplicity}\"^^xsd:int ;\n"
             f"  do:hasBallotOption {', '.join(bo_iris)} .\n\n"
         )
 
