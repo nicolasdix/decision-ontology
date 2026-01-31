@@ -113,12 +113,12 @@ def main() -> int:
     print(
 f"""\
 
- ██████╗ ██╗  ██╗
-██╔════╝ ██║  ██║
-██║  ███╗███████║
-██║   ██║╚════██║
-╚██████╔╝     ██║
- ╚═════╝      ╚═╝
+██╗  ██╗██████╗ 
+██║  ██║╚════██╗
+███████║ █████╔╝
+╚════██║██╔═══╝ 
+     ██║███████╗
+     ╚═╝╚══════╝
 
 The Answer to the Ultimate Question of Life, the Universe, and Everything
 can be found by querying a knowledge graph → {out_path}
