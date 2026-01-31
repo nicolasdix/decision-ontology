@@ -121,7 +121,7 @@ f"""\
      ╚═╝╚══════╝
 
 The Answer to the Ultimate Question of Life, the Universe, and Everything
-can be found by querying a knowledge graph → {out_path}
+might be found by querying a knowledge graph → {out_path}
 """
 )
     return 0
