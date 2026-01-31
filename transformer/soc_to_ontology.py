@@ -112,13 +112,16 @@ def main() -> int:
 
     print(
 f"""\
-    *
-   ***
-  *****
- *******
-*********
-    |
-\nTriples grew on trees → {out_path}
+
+ ██████╗ ██╗  ██╗
+██╔════╝ ██║  ██║
+██║  ███╗███████║
+██║   ██║╚════██║
+╚██████╔╝     ██║
+ ╚═════╝      ╚═╝
+
+The Answer to the Ultimate Question of Life, the Universe, and Everything
+can be found by querying a knowledge graph → {out_path}
 """
 )
     return 0
