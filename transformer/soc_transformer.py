@@ -37,7 +37,7 @@ def main() -> int:
             title = line[len("# TITLE:"):].strip()
             break
     if title is None:
-        title = dataset_id  # fallback
+        title = dataset_id
 
     # Alternatives
     alternatives = {}
