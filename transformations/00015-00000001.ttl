@@ -1,0 +1,4128 @@
+@prefix do: <http://www.semanticweb.org/decision-ontology#> .
+@prefix data: <http://www.semanticweb.org/decision-ontology/data/preflib/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:context/00015-00000001 a do:Context ;
+  rdfs:label "webimpact capitals4 complete" .
+
+data:context/00015-00000001 do:hasAvailableOption data:option/00015-00000001/1, data:option/00015-00000001/2, data:option/00015-00000001/3, data:option/00015-00000001/4, data:option/00015-00000001/5, data:option/00015-00000001/6, data:option/00015-00000001/7, data:option/00015-00000001/8, data:option/00015-00000001/9, data:option/00015-00000001/10, data:option/00015-00000001/11, data:option/00015-00000001/12, data:option/00015-00000001/13, data:option/00015-00000001/14, data:option/00015-00000001/15, data:option/00015-00000001/16, data:option/00015-00000001/17, data:option/00015-00000001/18, data:option/00015-00000001/19, data:option/00015-00000001/20, data:option/00015-00000001/21, data:option/00015-00000001/22, data:option/00015-00000001/23, data:option/00015-00000001/24, data:option/00015-00000001/25, data:option/00015-00000001/26, data:option/00015-00000001/27, data:option/00015-00000001/28, data:option/00015-00000001/29, data:option/00015-00000001/30, data:option/00015-00000001/31, data:option/00015-00000001/32, data:option/00015-00000001/33, data:option/00015-00000001/34, data:option/00015-00000001/35, data:option/00015-00000001/36, data:option/00015-00000001/37, data:option/00015-00000001/38, data:option/00015-00000001/39, data:option/00015-00000001/40, data:option/00015-00000001/41, data:option/00015-00000001/42, data:option/00015-00000001/43, data:option/00015-00000001/44, data:option/00015-00000001/45, data:option/00015-00000001/46, data:option/00015-00000001/47, data:option/00015-00000001/48, data:option/00015-00000001/49, data:option/00015-00000001/50, data:option/00015-00000001/51, data:option/00015-00000001/52, data:option/00015-00000001/53, data:option/00015-00000001/54, data:option/00015-00000001/55, data:option/00015-00000001/56, data:option/00015-00000001/57, data:option/00015-00000001/58, data:option/00015-00000001/59, data:option/00015-00000001/60, data:option/00015-00000001/61, data:option/00015-00000001/62, data:option/00015-00000001/63, data:option/00015-00000001/64, data:option/00015-00000001/65, data:option/00015-00000001/66, data:option/00015-00000001/67, data:option/00015-00000001/68, data:option/00015-00000001/69, data:option/00015-00000001/70, data:option/00015-00000001/71, data:option/00015-00000001/72, data:option/00015-00000001/73, data:option/00015-00000001/74, data:option/00015-00000001/75, data:option/00015-00000001/76, data:option/00015-00000001/77, data:option/00015-00000001/78, data:option/00015-00000001/79, data:option/00015-00000001/80, data:option/00015-00000001/81, data:option/00015-00000001/82, data:option/00015-00000001/83, data:option/00015-00000001/84, data:option/00015-00000001/85, data:option/00015-00000001/86, data:option/00015-00000001/87, data:option/00015-00000001/88, data:option/00015-00000001/89, data:option/00015-00000001/90, data:option/00015-00000001/91, data:option/00015-00000001/92, data:option/00015-00000001/93, data:option/00015-00000001/94, data:option/00015-00000001/95, data:option/00015-00000001/96, data:option/00015-00000001/97, data:option/00015-00000001/98, data:option/00015-00000001/99, data:option/00015-00000001/100, data:option/00015-00000001/101, data:option/00015-00000001/102, data:option/00015-00000001/103, data:option/00015-00000001/104, data:option/00015-00000001/105, data:option/00015-00000001/106, data:option/00015-00000001/107, data:option/00015-00000001/108, data:option/00015-00000001/109, data:option/00015-00000001/110, data:option/00015-00000001/111, data:option/00015-00000001/112, data:option/00015-00000001/113, data:option/00015-00000001/114, data:option/00015-00000001/115, data:option/00015-00000001/116, data:option/00015-00000001/117, data:option/00015-00000001/118, data:option/00015-00000001/119, data:option/00015-00000001/120, data:option/00015-00000001/121, data:option/00015-00000001/122, data:option/00015-00000001/123, data:option/00015-00000001/124, data:option/00015-00000001/125, data:option/00015-00000001/126, data:option/00015-00000001/127, data:option/00015-00000001/128, data:option/00015-00000001/129, data:option/00015-00000001/130, data:option/00015-00000001/131, data:option/00015-00000001/132, data:option/00015-00000001/133, data:option/00015-00000001/134, data:option/00015-00000001/135, data:option/00015-00000001/136, data:option/00015-00000001/137, data:option/00015-00000001/138, data:option/00015-00000001/139, data:option/00015-00000001/140, data:option/00015-00000001/141, data:option/00015-00000001/142, data:option/00015-00000001/143, data:option/00015-00000001/144, data:option/00015-00000001/145, data:option/00015-00000001/146, data:option/00015-00000001/147, data:option/00015-00000001/148, data:option/00015-00000001/149, data:option/00015-00000001/150, data:option/00015-00000001/151, data:option/00015-00000001/152, data:option/00015-00000001/153, data:option/00015-00000001/154, data:option/00015-00000001/155, data:option/00015-00000001/156, data:option/00015-00000001/157, data:option/00015-00000001/158, data:option/00015-00000001/159, data:option/00015-00000001/160, data:option/00015-00000001/161, data:option/00015-00000001/162, data:option/00015-00000001/163, data:option/00015-00000001/164, data:option/00015-00000001/165, data:option/00015-00000001/166, data:option/00015-00000001/167, data:option/00015-00000001/168, data:option/00015-00000001/169, data:option/00015-00000001/170, data:option/00015-00000001/171, data:option/00015-00000001/172, data:option/00015-00000001/173, data:option/00015-00000001/174, data:option/00015-00000001/175, data:option/00015-00000001/176, data:option/00015-00000001/177, data:option/00015-00000001/178, data:option/00015-00000001/179, data:option/00015-00000001/180, data:option/00015-00000001/181, data:option/00015-00000001/182, data:option/00015-00000001/183, data:option/00015-00000001/184, data:option/00015-00000001/185, data:option/00015-00000001/186, data:option/00015-00000001/187, data:option/00015-00000001/188, data:option/00015-00000001/189, data:option/00015-00000001/190, data:option/00015-00000001/191, data:option/00015-00000001/192, data:option/00015-00000001/193, data:option/00015-00000001/194, data:option/00015-00000001/195, data:option/00015-00000001/196, data:option/00015-00000001/197, data:option/00015-00000001/198, data:option/00015-00000001/199, data:option/00015-00000001/200, data:option/00015-00000001/201, data:option/00015-00000001/202, data:option/00015-00000001/203, data:option/00015-00000001/204, data:option/00015-00000001/205, data:option/00015-00000001/206, data:option/00015-00000001/207, data:option/00015-00000001/208, data:option/00015-00000001/209, data:option/00015-00000001/210, data:option/00015-00000001/211, data:option/00015-00000001/212, data:option/00015-00000001/213, data:option/00015-00000001/214, data:option/00015-00000001/215, data:option/00015-00000001/216, data:option/00015-00000001/217, data:option/00015-00000001/218, data:option/00015-00000001/219, data:option/00015-00000001/220, data:option/00015-00000001/221, data:option/00015-00000001/222, data:option/00015-00000001/223, data:option/00015-00000001/224, data:option/00015-00000001/225, data:option/00015-00000001/226, data:option/00015-00000001/227, data:option/00015-00000001/228, data:option/00015-00000001/229, data:option/00015-00000001/230, data:option/00015-00000001/231, data:option/00015-00000001/232, data:option/00015-00000001/233, data:option/00015-00000001/234, data:option/00015-00000001/235, data:option/00015-00000001/236, data:option/00015-00000001/237, data:option/00015-00000001/238, data:option/00015-00000001/239, data:option/00015-00000001/240 .
+
+data:option/00015-00000001/1 a do:Option ; rdfs:label "London" .
+data:option/00015-00000001/2 a do:Option ; rdfs:label "Paris" .
+data:option/00015-00000001/3 a do:Option ; rdfs:label "Luxembourg+City" .
+data:option/00015-00000001/4 a do:Option ; rdfs:label "Madrid" .
+data:option/00015-00000001/5 a do:Option ; rdfs:label "Berlin" .
+data:option/00015-00000001/6 a do:Option ; rdfs:label "Singapore" .
+data:option/00015-00000001/7 a do:Option ; rdfs:label "Victoria" .
+data:option/00015-00000001/8 a do:Option ; rdfs:label "Washington" .
+data:option/00015-00000001/9 a do:Option ; rdfs:label "Monaco" .
+data:option/00015-00000001/10 a do:Option ; rdfs:label "San+José" .
+data:option/00015-00000001/11 a do:Option ; rdfs:label "Road+Town" .
+data:option/00015-00000001/12 a do:Option ; rdfs:label "Tokyo" .
+data:option/00015-00000001/13 a do:Option ; rdfs:label "Santiago" .
+data:option/00015-00000001/14 a do:Option ; rdfs:label "Mexico+City" .
+data:option/00015-00000001/15 a do:Option ; rdfs:label "Lima" .
+data:option/00015-00000001/16 a do:Option ; rdfs:label "West+Island" .
+data:option/00015-00000001/17 a do:Option ; rdfs:label "Amsterdam" .
+data:option/00015-00000001/18 a do:Option ; rdfs:label "Hamilton" .
+data:option/00015-00000001/19 a do:Option ; rdfs:label "Douglas" .
+data:option/00015-00000001/20 a do:Option ; rdfs:label "Rome" .
+data:option/00015-00000001/21 a do:Option ; rdfs:label "San+Marino" .
+data:option/00015-00000001/22 a do:Option ; rdfs:label "Gibraltar" .
+data:option/00015-00000001/23 a do:Option ; rdfs:label "Wellington" .
+data:option/00015-00000001/24 a do:Option ; rdfs:label "Buenos+Aires" .
+data:option/00015-00000001/25 a do:Option ; rdfs:label "Bissau" .
+data:option/00015-00000001/26 a do:Option ; rdfs:label "George+Town" .
+data:option/00015-00000001/27 a do:Option ; rdfs:label "Stockholm" .
+data:option/00015-00000001/28 a do:Option ; rdfs:label "Beijing" .
+data:option/00015-00000001/29 a do:Option ; rdfs:label "Kingston" .
+data:option/00015-00000001/30 a do:Option ; rdfs:label "Stanley" .
+data:option/00015-00000001/31 a do:Option ; rdfs:label "Dublin" .
+data:option/00015-00000001/32 a do:Option ; rdfs:label "Ankara" .
+data:option/00015-00000001/33 a do:Option ; rdfs:label "The+Valley" .
+data:option/00015-00000001/34 a do:Option ; rdfs:label "Djibouti" .
+data:option/00015-00000001/35 a do:Option ; rdfs:label "San+Juan" .
+data:option/00015-00000001/36 a do:Option ; rdfs:label "Jakarta" .
+data:option/00015-00000001/37 a do:Option ; rdfs:label "Moscow" .
+data:option/00015-00000001/38 a do:Option ; rdfs:label "Athens" .
+data:option/00015-00000001/39 a do:Option ; rdfs:label "Vatican+City" .
+data:option/00015-00000001/40 a do:Option ; rdfs:label "Ottawa" .
+data:option/00015-00000001/41 a do:Option ; rdfs:label "San+Salvador" .
+data:option/00015-00000001/42 a do:Option ; rdfs:label "St.+Pierre" .
+data:option/00015-00000001/43 a do:Option ; rdfs:label "Bangkok" .
+data:option/00015-00000001/44 a do:Option ; rdfs:label "São+Tomé" .
+data:option/00015-00000001/45 a do:Option ; rdfs:label "Edinburgh" .
+data:option/00015-00000001/46 a do:Option ; rdfs:label "Kabul" .
+data:option/00015-00000001/47 a do:Option ; rdfs:label "Plymouth" .
+data:option/00015-00000001/48 a do:Option ; rdfs:label "Oslo" .
+data:option/00015-00000001/49 a do:Option ; rdfs:label "Vienna" .
+data:option/00015-00000001/50 a do:Option ; rdfs:label "Sofia" .
+data:option/00015-00000001/51 a do:Option ; rdfs:label "Praia" .
+data:option/00015-00000001/52 a do:Option ; rdfs:label "Budapest" .
+data:option/00015-00000001/53 a do:Option ; rdfs:label "Guatemala+City" .
+data:option/00015-00000001/54 a do:Option ; rdfs:label "Brasília" .
+data:option/00015-00000001/55 a do:Option ; rdfs:label "Manila" .
+data:option/00015-00000001/56 a do:Option ; rdfs:label "New+Delhi" .
+data:option/00015-00000001/57 a do:Option ; rdfs:label "Canberra" .
+data:option/00015-00000001/58 a do:Option ; rdfs:label "Kiev" .
+data:option/00015-00000001/59 a do:Option ; rdfs:label "Jerusalem" .
+data:option/00015-00000001/60 a do:Option ; rdfs:label "Panama+City" .
+data:option/00015-00000001/61 a do:Option ; rdfs:label "Tallinn" .
+data:option/00015-00000001/62 a do:Option ; rdfs:label "Helsinki" .
+data:option/00015-00000001/63 a do:Option ; rdfs:label "Brussels" .
+data:option/00015-00000001/64 a do:Option ; rdfs:label "St.+John's" .
+data:option/00015-00000001/65 a do:Option ; rdfs:label "Kuwait+City" .
+data:option/00015-00000001/66 a do:Option ; rdfs:label "Cardiff" .
+data:option/00015-00000001/67 a do:Option ; rdfs:label "Prague" .
+data:option/00015-00000001/68 a do:Option ; rdfs:label "Zagreb" .
+data:option/00015-00000001/69 a do:Option ; rdfs:label "La+Paz" .
+data:option/00015-00000001/70 a do:Option ; rdfs:label "Bern" .
+data:option/00015-00000001/71 a do:Option ; rdfs:label "Kuala+Lumpur" .
+data:option/00015-00000001/72 a do:Option ; rdfs:label "Seoul" .
+data:option/00015-00000001/73 a do:Option ; rdfs:label "Cairo" .
+data:option/00015-00000001/74 a do:Option ; rdfs:label "Bogotá" .
+data:option/00015-00000001/75 a do:Option ; rdfs:label "Port+Louis" .
+data:option/00015-00000001/76 a do:Option ; rdfs:label "Vilnius" .
+data:option/00015-00000001/77 a do:Option ; rdfs:label "Port+of+Spain" .
+data:option/00015-00000001/78 a do:Option ; rdfs:label "Taipei" .
+data:option/00015-00000001/79 a do:Option ; rdfs:label "Copenhagen" .
+data:option/00015-00000001/80 a do:Option ; rdfs:label "Bratislava" .
+data:option/00015-00000001/81 a do:Option ; rdfs:label "Georgetown" .
+data:option/00015-00000001/82 a do:Option ; rdfs:label "Belfast+" .
+data:option/00015-00000001/83 a do:Option ; rdfs:label "Riga" .
+data:option/00015-00000001/84 a do:Option ; rdfs:label "Lisbon" .
+data:option/00015-00000001/85 a do:Option ; rdfs:label "Tirana" .
+data:option/00015-00000001/86 a do:Option ; rdfs:label "Caracas" .
+data:option/00015-00000001/87 a do:Option ; rdfs:label "Ljubljana" .
+data:option/00015-00000001/88 a do:Option ; rdfs:label "Warsaw" .
+data:option/00015-00000001/89 a do:Option ; rdfs:label "The+Settlement" .
+data:option/00015-00000001/90 a do:Option ; rdfs:label "Dakar" .
+data:option/00015-00000001/91 a do:Option ; rdfs:label "Dili" .
+data:option/00015-00000001/92 a do:Option ; rdfs:label "Sucre" .
+data:option/00015-00000001/93 a do:Option ; rdfs:label "Baghdad" .
+data:option/00015-00000001/94 a do:Option ; rdfs:label "St.+George's" .
+data:option/00015-00000001/95 a do:Option ; rdfs:label "South+Sandwich+Islands" .
+data:option/00015-00000001/96 a do:Option ; rdfs:label "Havana" .
+data:option/00015-00000001/97 a do:Option ; rdfs:label "Reykjavík" .
+data:option/00015-00000001/98 a do:Option ; rdfs:label "Abu+Dhabi" .
+data:option/00015-00000001/99 a do:Option ; rdfs:label "Montevideo" .
+data:option/00015-00000001/100 a do:Option ; rdfs:label "Nassau" .
+data:option/00015-00000001/101 a do:Option ; rdfs:label "Santo+Domingo" .
+data:option/00015-00000001/102 a do:Option ; rdfs:label "Hanoi" .
+data:option/00015-00000001/103 a do:Option ; rdfs:label "Quito" .
+data:option/00015-00000001/104 a do:Option ; rdfs:label "Tehran" .
+data:option/00015-00000001/105 a do:Option ; rdfs:label "Doha" .
+data:option/00015-00000001/106 a do:Option ; rdfs:label "Basseterre" .
+data:option/00015-00000001/107 a do:Option ; rdfs:label "Sarajevo" .
+data:option/00015-00000001/108 a do:Option ; rdfs:label "Beirut" .
+data:option/00015-00000001/109 a do:Option ; rdfs:label "Tunis" .
+data:option/00015-00000001/110 a do:Option ; rdfs:label "Bucharest" .
+data:option/00015-00000001/111 a do:Option ; rdfs:label "Asunción" .
+data:option/00015-00000001/112 a do:Option ; rdfs:label "Nairobi" .
+data:option/00015-00000001/113 a do:Option ; rdfs:label "Baku" .
+data:option/00015-00000001/114 a do:Option ; rdfs:label "Malé" .
+data:option/00015-00000001/115 a do:Option ; rdfs:label "Belgrade" .
+data:option/00015-00000001/116 a do:Option ; rdfs:label "Minsk" .
+data:option/00015-00000001/117 a do:Option ; rdfs:label "Pretoria" .
+data:option/00015-00000001/118 a do:Option ; rdfs:label "Rabat" .
+data:option/00015-00000001/119 a do:Option ; rdfs:label "Tbilisi" .
+data:option/00015-00000001/120 a do:Option ; rdfs:label "Jamestown" .
+data:option/00015-00000001/121 a do:Option ; rdfs:label "Brazzaville" .
+data:option/00015-00000001/122 a do:Option ; rdfs:label "Islamabad" .
+data:option/00015-00000001/123 a do:Option ; rdfs:label "Libreville" .
+data:option/00015-00000001/124 a do:Option ; rdfs:label "Amman" .
+data:option/00015-00000001/125 a do:Option ; rdfs:label "Adamstown" .
+data:option/00015-00000001/126 a do:Option ; rdfs:label "Riyadh" .
+data:option/00015-00000001/127 a do:Option ; rdfs:label "Damascus" .
+data:option/00015-00000001/128 a do:Option ; rdfs:label "Kinshasa" .
+data:option/00015-00000001/129 a do:Option ; rdfs:label "Pago+Pago" .
+data:option/00015-00000001/130 a do:Option ; rdfs:label "Kathmandu+" .
+data:option/00015-00000001/131 a do:Option ; rdfs:label "Skopje" .
+data:option/00015-00000001/132 a do:Option ; rdfs:label "Dhaka" .
+data:option/00015-00000001/133 a do:Option ; rdfs:label "Tripoli" .
+data:option/00015-00000001/134 a do:Option ; rdfs:label "Muscat" .
+data:option/00015-00000001/135 a do:Option ; rdfs:label "Porto-Novo" .
+data:option/00015-00000001/136 a do:Option ; rdfs:label "Nicosia" .
+data:option/00015-00000001/137 a do:Option ; rdfs:label "Accra" .
+data:option/00015-00000001/138 a do:Option ; rdfs:label "Monrovia" .
+data:option/00015-00000001/139 a do:Option ; rdfs:label "Astana" .
+data:option/00015-00000001/140 a do:Option ; rdfs:label "Nukuʻalofa" .
+data:option/00015-00000001/141 a do:Option ; rdfs:label "Sanaá" .
+data:option/00015-00000001/142 a do:Option ; rdfs:label "Luanda" .
+data:option/00015-00000001/143 a do:Option ; rdfs:label "Tegucigalpa" .
+data:option/00015-00000001/144 a do:Option ; rdfs:label "Managua" .
+data:option/00015-00000001/145 a do:Option ; rdfs:label "Phnom+Penh" .
+data:option/00015-00000001/146 a do:Option ; rdfs:label "Chisinau" .
+data:option/00015-00000001/147 a do:Option ; rdfs:label "Putrajaya" .
+data:option/00015-00000001/148 a do:Option ; rdfs:label "Algiers" .
+data:option/00015-00000001/149 a do:Option ; rdfs:label "Podgorica" .
+data:option/00015-00000001/150 a do:Option ; rdfs:label "Nouméa" .
+data:option/00015-00000001/151 a do:Option ; rdfs:label "Bridgetown" .
+data:option/00015-00000001/152 a do:Option ; rdfs:label "Suva" .
+data:option/00015-00000001/153 a do:Option ; rdfs:label "Harare" .
+data:option/00015-00000001/154 a do:Option ; rdfs:label "Pyongyang" .
+data:option/00015-00000001/155 a do:Option ; rdfs:label "Asmara" .
+data:option/00015-00000001/156 a do:Option ; rdfs:label "Tashkent" .
+data:option/00015-00000001/157 a do:Option ; rdfs:label "Valletta" .
+data:option/00015-00000001/158 a do:Option ; rdfs:label "Maputo" .
+data:option/00015-00000001/159 a do:Option ; rdfs:label "Khartoum" .
+data:option/00015-00000001/160 a do:Option ; rdfs:label "Saipan" .
+data:option/00015-00000001/161 a do:Option ; rdfs:label "Lomé" .
+data:option/00015-00000001/162 a do:Option ; rdfs:label "Lusaka" .
+data:option/00015-00000001/163 a do:Option ; rdfs:label "Kingstown" .
+data:option/00015-00000001/164 a do:Option ; rdfs:label "Kampala" .
+data:option/00015-00000001/165 a do:Option ; rdfs:label "Pristina" .
+data:option/00015-00000001/166 a do:Option ; rdfs:label "Addis+Ababa" .
+data:option/00015-00000001/167 a do:Option ; rdfs:label "Bamako" .
+data:option/00015-00000001/168 a do:Option ; rdfs:label "Roseau" .
+data:option/00015-00000001/169 a do:Option ; rdfs:label "Freetown" .
+data:option/00015-00000001/170 a do:Option ; rdfs:label "Vaduz" .
+data:option/00015-00000001/171 a do:Option ; rdfs:label "Yaoundé" .
+data:option/00015-00000001/172 a do:Option ; rdfs:label "Moroni" .
+data:option/00015-00000001/173 a do:Option ; rdfs:label "Port-au-Prince" .
+data:option/00015-00000001/174 a do:Option ; rdfs:label "Ramallah" .
+data:option/00015-00000001/175 a do:Option ; rdfs:label "Vientiane" .
+data:option/00015-00000001/176 a do:Option ; rdfs:label "Mogadishu" .
+data:option/00015-00000001/177 a do:Option ; rdfs:label "Windhoek" .
+data:option/00015-00000001/178 a do:Option ; rdfs:label "Conakry" .
+data:option/00015-00000001/179 a do:Option ; rdfs:label "St.+Peter+Port" .
+data:option/00015-00000001/180 a do:Option ; rdfs:label "Dodoma" .
+data:option/00015-00000001/181 a do:Option ; rdfs:label "Antananarivo" .
+data:option/00015-00000001/182 a do:Option ; rdfs:label "Malabo" .
+data:option/00015-00000001/183 a do:Option ; rdfs:label "Ouagadougou" .
+data:option/00015-00000001/184 a do:Option ; rdfs:label "Apia" .
+data:option/00015-00000001/185 a do:Option ; rdfs:label "Tórshavn" .
+data:option/00015-00000001/186 a do:Option ; rdfs:label "Kigali" .
+data:option/00015-00000001/187 a do:Option ; rdfs:label "Manama" .
+data:option/00015-00000001/188 a do:Option ; rdfs:label "Bangui" .
+data:option/00015-00000001/189 a do:Option ; rdfs:label "Papeete" .
+data:option/00015-00000001/190 a do:Option ; rdfs:label "Bishkek" .
+data:option/00015-00000001/191 a do:Option ; rdfs:label "Port+Moresby" .
+data:option/00015-00000001/192 a do:Option ; rdfs:label "Willemstad" .
+data:option/00015-00000001/193 a do:Option ; rdfs:label "Gaborone" .
+data:option/00015-00000001/194 a do:Option ; rdfs:label "Ulaanbaatar" .
+data:option/00015-00000001/195 a do:Option ; rdfs:label "Banjul" .
+data:option/00015-00000001/196 a do:Option ; rdfs:label "Andorra+la+Vella" .
+data:option/00015-00000001/197 a do:Option ; rdfs:label "Niamey" .
+data:option/00015-00000001/198 a do:Option ; rdfs:label "Yaren" .
+data:option/00015-00000001/199 a do:Option ; rdfs:label "Castries" .
+data:option/00015-00000001/200 a do:Option ; rdfs:label "Nouakchott" .
+data:option/00015-00000001/201 a do:Option ; rdfs:label "Paramaribo" .
+data:option/00015-00000001/202 a do:Option ; rdfs:label "Bujumbura" .
+data:option/00015-00000001/203 a do:Option ; rdfs:label "Lilongwe" .
+data:option/00015-00000001/204 a do:Option ; rdfs:label "Port+Vila" .
+data:option/00015-00000001/205 a do:Option ; rdfs:label "Tiraspol" .
+data:option/00015-00000001/206 a do:Option ; rdfs:label "Dushanbe" .
+data:option/00015-00000001/207 a do:Option ; rdfs:label "Bandar+Seri+Begawan" .
+data:option/00015-00000001/208 a do:Option ; rdfs:label "Maseru" .
+data:option/00015-00000001/209 a do:Option ; rdfs:label "Oranjestad" .
+data:option/00015-00000001/210 a do:Option ; rdfs:label "Yerevan" .
+data:option/00015-00000001/211 a do:Option ; rdfs:label "St.+Helier" .
+data:option/00015-00000001/212 a do:Option ; rdfs:label "Thimphu" .
+data:option/00015-00000001/213 a do:Option ; rdfs:label "Charlotte+Amalie" .
+data:option/00015-00000001/214 a do:Option ; rdfs:label "Nuuk" .
+data:option/00015-00000001/215 a do:Option ; rdfs:label "Majuro" .
+data:option/00015-00000001/216 a do:Option ; rdfs:label "Honiara" .
+data:option/00015-00000001/217 a do:Option ; rdfs:label "Yamoussoukro" .
+data:option/00015-00000001/218 a do:Option ; rdfs:label "N'Djamena" .
+data:option/00015-00000001/219 a do:Option ; rdfs:label "Marigot" .
+data:option/00015-00000001/220 a do:Option ; rdfs:label "Ashgabat" .
+data:option/00015-00000001/221 a do:Option ; rdfs:label "Mbabane" .
+data:option/00015-00000001/222 a do:Option ; rdfs:label "South+Tarawa" .
+data:option/00015-00000001/223 a do:Option ; rdfs:label "Funafuti" .
+data:option/00015-00000001/224 a do:Option ; rdfs:label "Belmopan" .
+data:option/00015-00000001/225 a do:Option ; rdfs:label "Gustavia" .
+data:option/00015-00000001/226 a do:Option ; rdfs:label "Naypyidaw" .
+data:option/00015-00000001/227 a do:Option ; rdfs:label "Mamoudzou" .
+data:option/00015-00000001/228 a do:Option ; rdfs:label "Hargeisa" .
+data:option/00015-00000001/229 a do:Option ; rdfs:label "Palikir" .
+data:option/00015-00000001/230 a do:Option ; rdfs:label "Cockburn+Town" .
+data:option/00015-00000001/231 a do:Option ; rdfs:label "Alofi" .
+data:option/00015-00000001/232 a do:Option ; rdfs:label "Hagåtña" .
+data:option/00015-00000001/233 a do:Option ; rdfs:label "Avarua" .
+data:option/00015-00000001/234 a do:Option ; rdfs:label "Mata-Utu" .
+data:option/00015-00000001/235 a do:Option ; rdfs:label "Grytviken+" .
+data:option/00015-00000001/236 a do:Option ; rdfs:label "Sri+Jayawardenepura" .
+data:option/00015-00000001/237 a do:Option ; rdfs:label "Episkopi+Cantonment" .
+data:option/00015-00000001/238 a do:Option ; rdfs:label "Laâyoune+(El+Aaiún)" .
+data:option/00015-00000001/239 a do:Option ; rdfs:label "Ngerulmud" .
+data:option/00015-00000001/240 a do:Option ; rdfs:label "Abuja" .
+
+data:ballot/00015-00000001/1 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00015-00000001 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00015-00000001/1/1, data:bo/00015-00000001/1/2, data:bo/00015-00000001/1/3, data:bo/00015-00000001/1/4, data:bo/00015-00000001/1/5, data:bo/00015-00000001/1/6, data:bo/00015-00000001/1/7, data:bo/00015-00000001/1/8, data:bo/00015-00000001/1/9, data:bo/00015-00000001/1/10, data:bo/00015-00000001/1/11, data:bo/00015-00000001/1/12, data:bo/00015-00000001/1/13, data:bo/00015-00000001/1/14, data:bo/00015-00000001/1/15, data:bo/00015-00000001/1/16, data:bo/00015-00000001/1/17, data:bo/00015-00000001/1/18, data:bo/00015-00000001/1/19, data:bo/00015-00000001/1/20, data:bo/00015-00000001/1/21, data:bo/00015-00000001/1/22, data:bo/00015-00000001/1/23, data:bo/00015-00000001/1/24, data:bo/00015-00000001/1/25, data:bo/00015-00000001/1/26, data:bo/00015-00000001/1/27, data:bo/00015-00000001/1/28, data:bo/00015-00000001/1/29, data:bo/00015-00000001/1/30, data:bo/00015-00000001/1/31, data:bo/00015-00000001/1/32, data:bo/00015-00000001/1/33, data:bo/00015-00000001/1/34, data:bo/00015-00000001/1/35, data:bo/00015-00000001/1/36, data:bo/00015-00000001/1/37, data:bo/00015-00000001/1/38, data:bo/00015-00000001/1/39, data:bo/00015-00000001/1/40, data:bo/00015-00000001/1/41, data:bo/00015-00000001/1/42, data:bo/00015-00000001/1/43, data:bo/00015-00000001/1/44, data:bo/00015-00000001/1/45, data:bo/00015-00000001/1/46, data:bo/00015-00000001/1/47, data:bo/00015-00000001/1/48, data:bo/00015-00000001/1/49, data:bo/00015-00000001/1/50, data:bo/00015-00000001/1/51, data:bo/00015-00000001/1/52, data:bo/00015-00000001/1/53, data:bo/00015-00000001/1/54, data:bo/00015-00000001/1/55, data:bo/00015-00000001/1/56, data:bo/00015-00000001/1/57, data:bo/00015-00000001/1/58, data:bo/00015-00000001/1/59, data:bo/00015-00000001/1/60, data:bo/00015-00000001/1/61, data:bo/00015-00000001/1/62, data:bo/00015-00000001/1/63, data:bo/00015-00000001/1/64, data:bo/00015-00000001/1/65, data:bo/00015-00000001/1/66, data:bo/00015-00000001/1/67, data:bo/00015-00000001/1/68, data:bo/00015-00000001/1/69, data:bo/00015-00000001/1/70, data:bo/00015-00000001/1/71, data:bo/00015-00000001/1/72, data:bo/00015-00000001/1/73, data:bo/00015-00000001/1/74, data:bo/00015-00000001/1/75, data:bo/00015-00000001/1/76, data:bo/00015-00000001/1/77, data:bo/00015-00000001/1/78, data:bo/00015-00000001/1/79, data:bo/00015-00000001/1/80, data:bo/00015-00000001/1/81, data:bo/00015-00000001/1/82, data:bo/00015-00000001/1/83, data:bo/00015-00000001/1/84, data:bo/00015-00000001/1/85, data:bo/00015-00000001/1/86, data:bo/00015-00000001/1/87, data:bo/00015-00000001/1/88, data:bo/00015-00000001/1/89, data:bo/00015-00000001/1/90, data:bo/00015-00000001/1/91, data:bo/00015-00000001/1/92, data:bo/00015-00000001/1/93, data:bo/00015-00000001/1/94, data:bo/00015-00000001/1/95, data:bo/00015-00000001/1/96, data:bo/00015-00000001/1/97, data:bo/00015-00000001/1/98, data:bo/00015-00000001/1/99, data:bo/00015-00000001/1/100, data:bo/00015-00000001/1/101, data:bo/00015-00000001/1/102, data:bo/00015-00000001/1/103, data:bo/00015-00000001/1/104, data:bo/00015-00000001/1/105, data:bo/00015-00000001/1/106, data:bo/00015-00000001/1/107, data:bo/00015-00000001/1/108, data:bo/00015-00000001/1/109, data:bo/00015-00000001/1/110, data:bo/00015-00000001/1/111, data:bo/00015-00000001/1/112, data:bo/00015-00000001/1/113, data:bo/00015-00000001/1/114, data:bo/00015-00000001/1/115, data:bo/00015-00000001/1/116, data:bo/00015-00000001/1/117, data:bo/00015-00000001/1/118, data:bo/00015-00000001/1/119, data:bo/00015-00000001/1/120, data:bo/00015-00000001/1/121, data:bo/00015-00000001/1/122, data:bo/00015-00000001/1/123, data:bo/00015-00000001/1/124, data:bo/00015-00000001/1/125, data:bo/00015-00000001/1/126, data:bo/00015-00000001/1/127, data:bo/00015-00000001/1/128, data:bo/00015-00000001/1/129, data:bo/00015-00000001/1/130, data:bo/00015-00000001/1/131, data:bo/00015-00000001/1/132, data:bo/00015-00000001/1/133, data:bo/00015-00000001/1/134, data:bo/00015-00000001/1/135, data:bo/00015-00000001/1/136, data:bo/00015-00000001/1/137, data:bo/00015-00000001/1/138, data:bo/00015-00000001/1/139, data:bo/00015-00000001/1/140, data:bo/00015-00000001/1/141, data:bo/00015-00000001/1/142, data:bo/00015-00000001/1/143, data:bo/00015-00000001/1/144, data:bo/00015-00000001/1/145, data:bo/00015-00000001/1/146, data:bo/00015-00000001/1/147, data:bo/00015-00000001/1/148, data:bo/00015-00000001/1/149, data:bo/00015-00000001/1/150, data:bo/00015-00000001/1/151, data:bo/00015-00000001/1/152, data:bo/00015-00000001/1/153, data:bo/00015-00000001/1/154, data:bo/00015-00000001/1/155, data:bo/00015-00000001/1/156, data:bo/00015-00000001/1/157, data:bo/00015-00000001/1/158, data:bo/00015-00000001/1/159, data:bo/00015-00000001/1/160, data:bo/00015-00000001/1/161, data:bo/00015-00000001/1/162, data:bo/00015-00000001/1/163, data:bo/00015-00000001/1/164, data:bo/00015-00000001/1/165, data:bo/00015-00000001/1/166, data:bo/00015-00000001/1/167, data:bo/00015-00000001/1/168, data:bo/00015-00000001/1/169, data:bo/00015-00000001/1/170, data:bo/00015-00000001/1/171, data:bo/00015-00000001/1/172, data:bo/00015-00000001/1/173, data:bo/00015-00000001/1/174, data:bo/00015-00000001/1/175, data:bo/00015-00000001/1/176, data:bo/00015-00000001/1/177, data:bo/00015-00000001/1/178, data:bo/00015-00000001/1/179, data:bo/00015-00000001/1/180, data:bo/00015-00000001/1/181, data:bo/00015-00000001/1/182, data:bo/00015-00000001/1/183, data:bo/00015-00000001/1/184, data:bo/00015-00000001/1/185, data:bo/00015-00000001/1/186, data:bo/00015-00000001/1/187, data:bo/00015-00000001/1/188, data:bo/00015-00000001/1/189, data:bo/00015-00000001/1/190, data:bo/00015-00000001/1/191, data:bo/00015-00000001/1/192, data:bo/00015-00000001/1/193, data:bo/00015-00000001/1/194, data:bo/00015-00000001/1/195, data:bo/00015-00000001/1/196, data:bo/00015-00000001/1/197, data:bo/00015-00000001/1/198, data:bo/00015-00000001/1/199, data:bo/00015-00000001/1/200, data:bo/00015-00000001/1/201, data:bo/00015-00000001/1/202, data:bo/00015-00000001/1/203, data:bo/00015-00000001/1/204, data:bo/00015-00000001/1/205, data:bo/00015-00000001/1/206, data:bo/00015-00000001/1/207, data:bo/00015-00000001/1/208, data:bo/00015-00000001/1/209, data:bo/00015-00000001/1/210, data:bo/00015-00000001/1/211, data:bo/00015-00000001/1/212, data:bo/00015-00000001/1/213, data:bo/00015-00000001/1/214, data:bo/00015-00000001/1/215, data:bo/00015-00000001/1/216, data:bo/00015-00000001/1/217, data:bo/00015-00000001/1/218, data:bo/00015-00000001/1/219, data:bo/00015-00000001/1/220, data:bo/00015-00000001/1/221, data:bo/00015-00000001/1/222, data:bo/00015-00000001/1/223, data:bo/00015-00000001/1/224, data:bo/00015-00000001/1/225, data:bo/00015-00000001/1/226, data:bo/00015-00000001/1/227, data:bo/00015-00000001/1/228, data:bo/00015-00000001/1/229, data:bo/00015-00000001/1/230, data:bo/00015-00000001/1/231, data:bo/00015-00000001/1/232, data:bo/00015-00000001/1/233, data:bo/00015-00000001/1/234, data:bo/00015-00000001/1/235, data:bo/00015-00000001/1/236, data:bo/00015-00000001/1/237, data:bo/00015-00000001/1/238, data:bo/00015-00000001/1/239, data:bo/00015-00000001/1/240 .
+
+data:bo/00015-00000001/1/1 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/1 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00015-00000001/1/2 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/2 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00015-00000001/1/3 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/3 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00015-00000001/1/4 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/4 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00015-00000001/1/5 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/5 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00015-00000001/1/6 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00015-00000001/1/7 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/7 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00015-00000001/1/8 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00015-00000001/1/9 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/9 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00015-00000001/1/10 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/10 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00015-00000001/1/11 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/11 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00015-00000001/1/12 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/12 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00015-00000001/1/13 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/13 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00015-00000001/1/14 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/14 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00015-00000001/1/15 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/15 ;
+  do:optionRank "15"^^xsd:int .
+
+data:bo/00015-00000001/1/16 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/16 ;
+  do:optionRank "16"^^xsd:int .
+
+data:bo/00015-00000001/1/17 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/17 ;
+  do:optionRank "17"^^xsd:int .
+
+data:bo/00015-00000001/1/18 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/18 ;
+  do:optionRank "18"^^xsd:int .
+
+data:bo/00015-00000001/1/19 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/19 ;
+  do:optionRank "19"^^xsd:int .
+
+data:bo/00015-00000001/1/20 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/20 ;
+  do:optionRank "20"^^xsd:int .
+
+data:bo/00015-00000001/1/21 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/21 ;
+  do:optionRank "21"^^xsd:int .
+
+data:bo/00015-00000001/1/22 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/22 ;
+  do:optionRank "22"^^xsd:int .
+
+data:bo/00015-00000001/1/23 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/23 ;
+  do:optionRank "23"^^xsd:int .
+
+data:bo/00015-00000001/1/24 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/24 ;
+  do:optionRank "24"^^xsd:int .
+
+data:bo/00015-00000001/1/25 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/25 ;
+  do:optionRank "25"^^xsd:int .
+
+data:bo/00015-00000001/1/26 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/26 ;
+  do:optionRank "26"^^xsd:int .
+
+data:bo/00015-00000001/1/27 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/27 ;
+  do:optionRank "27"^^xsd:int .
+
+data:bo/00015-00000001/1/28 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/28 ;
+  do:optionRank "28"^^xsd:int .
+
+data:bo/00015-00000001/1/29 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/29 ;
+  do:optionRank "29"^^xsd:int .
+
+data:bo/00015-00000001/1/30 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/30 ;
+  do:optionRank "30"^^xsd:int .
+
+data:bo/00015-00000001/1/31 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/31 ;
+  do:optionRank "31"^^xsd:int .
+
+data:bo/00015-00000001/1/32 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/32 ;
+  do:optionRank "32"^^xsd:int .
+
+data:bo/00015-00000001/1/33 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/33 ;
+  do:optionRank "33"^^xsd:int .
+
+data:bo/00015-00000001/1/34 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/34 ;
+  do:optionRank "34"^^xsd:int .
+
+data:bo/00015-00000001/1/35 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/35 ;
+  do:optionRank "35"^^xsd:int .
+
+data:bo/00015-00000001/1/36 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/36 ;
+  do:optionRank "36"^^xsd:int .
+
+data:bo/00015-00000001/1/37 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/37 ;
+  do:optionRank "37"^^xsd:int .
+
+data:bo/00015-00000001/1/38 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/38 ;
+  do:optionRank "38"^^xsd:int .
+
+data:bo/00015-00000001/1/39 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/39 ;
+  do:optionRank "39"^^xsd:int .
+
+data:bo/00015-00000001/1/40 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/40 ;
+  do:optionRank "40"^^xsd:int .
+
+data:bo/00015-00000001/1/41 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/41 ;
+  do:optionRank "41"^^xsd:int .
+
+data:bo/00015-00000001/1/42 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/42 ;
+  do:optionRank "42"^^xsd:int .
+
+data:bo/00015-00000001/1/43 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/43 ;
+  do:optionRank "43"^^xsd:int .
+
+data:bo/00015-00000001/1/44 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/44 ;
+  do:optionRank "44"^^xsd:int .
+
+data:bo/00015-00000001/1/45 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/45 ;
+  do:optionRank "45"^^xsd:int .
+
+data:bo/00015-00000001/1/46 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/46 ;
+  do:optionRank "46"^^xsd:int .
+
+data:bo/00015-00000001/1/47 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/47 ;
+  do:optionRank "47"^^xsd:int .
+
+data:bo/00015-00000001/1/48 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/48 ;
+  do:optionRank "48"^^xsd:int .
+
+data:bo/00015-00000001/1/49 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/49 ;
+  do:optionRank "49"^^xsd:int .
+
+data:bo/00015-00000001/1/50 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/50 ;
+  do:optionRank "50"^^xsd:int .
+
+data:bo/00015-00000001/1/51 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/51 ;
+  do:optionRank "51"^^xsd:int .
+
+data:bo/00015-00000001/1/52 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/52 ;
+  do:optionRank "52"^^xsd:int .
+
+data:bo/00015-00000001/1/53 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/53 ;
+  do:optionRank "53"^^xsd:int .
+
+data:bo/00015-00000001/1/54 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/54 ;
+  do:optionRank "54"^^xsd:int .
+
+data:bo/00015-00000001/1/55 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/55 ;
+  do:optionRank "55"^^xsd:int .
+
+data:bo/00015-00000001/1/56 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/56 ;
+  do:optionRank "56"^^xsd:int .
+
+data:bo/00015-00000001/1/57 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/57 ;
+  do:optionRank "57"^^xsd:int .
+
+data:bo/00015-00000001/1/58 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/58 ;
+  do:optionRank "58"^^xsd:int .
+
+data:bo/00015-00000001/1/59 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/59 ;
+  do:optionRank "59"^^xsd:int .
+
+data:bo/00015-00000001/1/60 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/60 ;
+  do:optionRank "60"^^xsd:int .
+
+data:bo/00015-00000001/1/61 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/61 ;
+  do:optionRank "61"^^xsd:int .
+
+data:bo/00015-00000001/1/62 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/62 ;
+  do:optionRank "62"^^xsd:int .
+
+data:bo/00015-00000001/1/63 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/63 ;
+  do:optionRank "63"^^xsd:int .
+
+data:bo/00015-00000001/1/64 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/64 ;
+  do:optionRank "64"^^xsd:int .
+
+data:bo/00015-00000001/1/65 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/65 ;
+  do:optionRank "65"^^xsd:int .
+
+data:bo/00015-00000001/1/66 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/66 ;
+  do:optionRank "66"^^xsd:int .
+
+data:bo/00015-00000001/1/67 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/67 ;
+  do:optionRank "67"^^xsd:int .
+
+data:bo/00015-00000001/1/68 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/68 ;
+  do:optionRank "68"^^xsd:int .
+
+data:bo/00015-00000001/1/69 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/69 ;
+  do:optionRank "69"^^xsd:int .
+
+data:bo/00015-00000001/1/70 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/70 ;
+  do:optionRank "70"^^xsd:int .
+
+data:bo/00015-00000001/1/71 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/71 ;
+  do:optionRank "71"^^xsd:int .
+
+data:bo/00015-00000001/1/72 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/72 ;
+  do:optionRank "72"^^xsd:int .
+
+data:bo/00015-00000001/1/73 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/73 ;
+  do:optionRank "73"^^xsd:int .
+
+data:bo/00015-00000001/1/74 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/74 ;
+  do:optionRank "74"^^xsd:int .
+
+data:bo/00015-00000001/1/75 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/75 ;
+  do:optionRank "75"^^xsd:int .
+
+data:bo/00015-00000001/1/76 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/76 ;
+  do:optionRank "76"^^xsd:int .
+
+data:bo/00015-00000001/1/77 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/77 ;
+  do:optionRank "77"^^xsd:int .
+
+data:bo/00015-00000001/1/78 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/78 ;
+  do:optionRank "78"^^xsd:int .
+
+data:bo/00015-00000001/1/79 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/79 ;
+  do:optionRank "79"^^xsd:int .
+
+data:bo/00015-00000001/1/80 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/80 ;
+  do:optionRank "80"^^xsd:int .
+
+data:bo/00015-00000001/1/81 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/81 ;
+  do:optionRank "81"^^xsd:int .
+
+data:bo/00015-00000001/1/82 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/82 ;
+  do:optionRank "82"^^xsd:int .
+
+data:bo/00015-00000001/1/83 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/83 ;
+  do:optionRank "83"^^xsd:int .
+
+data:bo/00015-00000001/1/84 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/84 ;
+  do:optionRank "84"^^xsd:int .
+
+data:bo/00015-00000001/1/85 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/85 ;
+  do:optionRank "85"^^xsd:int .
+
+data:bo/00015-00000001/1/86 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/86 ;
+  do:optionRank "86"^^xsd:int .
+
+data:bo/00015-00000001/1/87 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/87 ;
+  do:optionRank "87"^^xsd:int .
+
+data:bo/00015-00000001/1/88 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/88 ;
+  do:optionRank "88"^^xsd:int .
+
+data:bo/00015-00000001/1/89 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/89 ;
+  do:optionRank "89"^^xsd:int .
+
+data:bo/00015-00000001/1/90 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/90 ;
+  do:optionRank "90"^^xsd:int .
+
+data:bo/00015-00000001/1/91 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/91 ;
+  do:optionRank "91"^^xsd:int .
+
+data:bo/00015-00000001/1/92 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/92 ;
+  do:optionRank "92"^^xsd:int .
+
+data:bo/00015-00000001/1/93 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/93 ;
+  do:optionRank "93"^^xsd:int .
+
+data:bo/00015-00000001/1/94 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/94 ;
+  do:optionRank "94"^^xsd:int .
+
+data:bo/00015-00000001/1/95 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/95 ;
+  do:optionRank "95"^^xsd:int .
+
+data:bo/00015-00000001/1/96 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/96 ;
+  do:optionRank "96"^^xsd:int .
+
+data:bo/00015-00000001/1/97 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/97 ;
+  do:optionRank "97"^^xsd:int .
+
+data:bo/00015-00000001/1/98 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/98 ;
+  do:optionRank "98"^^xsd:int .
+
+data:bo/00015-00000001/1/99 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/99 ;
+  do:optionRank "99"^^xsd:int .
+
+data:bo/00015-00000001/1/100 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/100 ;
+  do:optionRank "100"^^xsd:int .
+
+data:bo/00015-00000001/1/101 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/101 ;
+  do:optionRank "101"^^xsd:int .
+
+data:bo/00015-00000001/1/102 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/102 ;
+  do:optionRank "102"^^xsd:int .
+
+data:bo/00015-00000001/1/103 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/103 ;
+  do:optionRank "103"^^xsd:int .
+
+data:bo/00015-00000001/1/104 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/104 ;
+  do:optionRank "104"^^xsd:int .
+
+data:bo/00015-00000001/1/105 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/105 ;
+  do:optionRank "105"^^xsd:int .
+
+data:bo/00015-00000001/1/106 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/106 ;
+  do:optionRank "106"^^xsd:int .
+
+data:bo/00015-00000001/1/107 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/107 ;
+  do:optionRank "107"^^xsd:int .
+
+data:bo/00015-00000001/1/108 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/108 ;
+  do:optionRank "108"^^xsd:int .
+
+data:bo/00015-00000001/1/109 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/109 ;
+  do:optionRank "109"^^xsd:int .
+
+data:bo/00015-00000001/1/110 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/110 ;
+  do:optionRank "110"^^xsd:int .
+
+data:bo/00015-00000001/1/111 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/111 ;
+  do:optionRank "111"^^xsd:int .
+
+data:bo/00015-00000001/1/112 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/112 ;
+  do:optionRank "112"^^xsd:int .
+
+data:bo/00015-00000001/1/113 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/113 ;
+  do:optionRank "113"^^xsd:int .
+
+data:bo/00015-00000001/1/114 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/114 ;
+  do:optionRank "114"^^xsd:int .
+
+data:bo/00015-00000001/1/115 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/115 ;
+  do:optionRank "115"^^xsd:int .
+
+data:bo/00015-00000001/1/116 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/116 ;
+  do:optionRank "116"^^xsd:int .
+
+data:bo/00015-00000001/1/117 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/117 ;
+  do:optionRank "117"^^xsd:int .
+
+data:bo/00015-00000001/1/118 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/118 ;
+  do:optionRank "118"^^xsd:int .
+
+data:bo/00015-00000001/1/119 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/119 ;
+  do:optionRank "119"^^xsd:int .
+
+data:bo/00015-00000001/1/120 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/120 ;
+  do:optionRank "120"^^xsd:int .
+
+data:bo/00015-00000001/1/121 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/121 ;
+  do:optionRank "121"^^xsd:int .
+
+data:bo/00015-00000001/1/122 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/122 ;
+  do:optionRank "122"^^xsd:int .
+
+data:bo/00015-00000001/1/123 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/123 ;
+  do:optionRank "123"^^xsd:int .
+
+data:bo/00015-00000001/1/124 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/124 ;
+  do:optionRank "124"^^xsd:int .
+
+data:bo/00015-00000001/1/125 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/125 ;
+  do:optionRank "125"^^xsd:int .
+
+data:bo/00015-00000001/1/126 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/126 ;
+  do:optionRank "126"^^xsd:int .
+
+data:bo/00015-00000001/1/127 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/127 ;
+  do:optionRank "127"^^xsd:int .
+
+data:bo/00015-00000001/1/128 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/128 ;
+  do:optionRank "128"^^xsd:int .
+
+data:bo/00015-00000001/1/129 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/129 ;
+  do:optionRank "129"^^xsd:int .
+
+data:bo/00015-00000001/1/130 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/130 ;
+  do:optionRank "130"^^xsd:int .
+
+data:bo/00015-00000001/1/131 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/131 ;
+  do:optionRank "131"^^xsd:int .
+
+data:bo/00015-00000001/1/132 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/132 ;
+  do:optionRank "132"^^xsd:int .
+
+data:bo/00015-00000001/1/133 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/133 ;
+  do:optionRank "133"^^xsd:int .
+
+data:bo/00015-00000001/1/134 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/134 ;
+  do:optionRank "134"^^xsd:int .
+
+data:bo/00015-00000001/1/135 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/135 ;
+  do:optionRank "135"^^xsd:int .
+
+data:bo/00015-00000001/1/136 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/136 ;
+  do:optionRank "136"^^xsd:int .
+
+data:bo/00015-00000001/1/137 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/137 ;
+  do:optionRank "137"^^xsd:int .
+
+data:bo/00015-00000001/1/138 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/138 ;
+  do:optionRank "138"^^xsd:int .
+
+data:bo/00015-00000001/1/139 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/139 ;
+  do:optionRank "139"^^xsd:int .
+
+data:bo/00015-00000001/1/140 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/140 ;
+  do:optionRank "140"^^xsd:int .
+
+data:bo/00015-00000001/1/141 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/141 ;
+  do:optionRank "141"^^xsd:int .
+
+data:bo/00015-00000001/1/142 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/142 ;
+  do:optionRank "142"^^xsd:int .
+
+data:bo/00015-00000001/1/143 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/143 ;
+  do:optionRank "143"^^xsd:int .
+
+data:bo/00015-00000001/1/144 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/144 ;
+  do:optionRank "144"^^xsd:int .
+
+data:bo/00015-00000001/1/145 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/145 ;
+  do:optionRank "145"^^xsd:int .
+
+data:bo/00015-00000001/1/146 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/146 ;
+  do:optionRank "146"^^xsd:int .
+
+data:bo/00015-00000001/1/147 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/147 ;
+  do:optionRank "147"^^xsd:int .
+
+data:bo/00015-00000001/1/148 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/148 ;
+  do:optionRank "148"^^xsd:int .
+
+data:bo/00015-00000001/1/149 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/149 ;
+  do:optionRank "149"^^xsd:int .
+
+data:bo/00015-00000001/1/150 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/150 ;
+  do:optionRank "150"^^xsd:int .
+
+data:bo/00015-00000001/1/151 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/151 ;
+  do:optionRank "151"^^xsd:int .
+
+data:bo/00015-00000001/1/152 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/152 ;
+  do:optionRank "152"^^xsd:int .
+
+data:bo/00015-00000001/1/153 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/153 ;
+  do:optionRank "153"^^xsd:int .
+
+data:bo/00015-00000001/1/154 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/154 ;
+  do:optionRank "154"^^xsd:int .
+
+data:bo/00015-00000001/1/155 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/155 ;
+  do:optionRank "155"^^xsd:int .
+
+data:bo/00015-00000001/1/156 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/156 ;
+  do:optionRank "156"^^xsd:int .
+
+data:bo/00015-00000001/1/157 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/157 ;
+  do:optionRank "157"^^xsd:int .
+
+data:bo/00015-00000001/1/158 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/158 ;
+  do:optionRank "158"^^xsd:int .
+
+data:bo/00015-00000001/1/159 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/159 ;
+  do:optionRank "159"^^xsd:int .
+
+data:bo/00015-00000001/1/160 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/160 ;
+  do:optionRank "160"^^xsd:int .
+
+data:bo/00015-00000001/1/161 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/161 ;
+  do:optionRank "161"^^xsd:int .
+
+data:bo/00015-00000001/1/162 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/162 ;
+  do:optionRank "162"^^xsd:int .
+
+data:bo/00015-00000001/1/163 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/163 ;
+  do:optionRank "163"^^xsd:int .
+
+data:bo/00015-00000001/1/164 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/164 ;
+  do:optionRank "164"^^xsd:int .
+
+data:bo/00015-00000001/1/165 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/165 ;
+  do:optionRank "165"^^xsd:int .
+
+data:bo/00015-00000001/1/166 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/166 ;
+  do:optionRank "166"^^xsd:int .
+
+data:bo/00015-00000001/1/167 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/167 ;
+  do:optionRank "167"^^xsd:int .
+
+data:bo/00015-00000001/1/168 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/168 ;
+  do:optionRank "168"^^xsd:int .
+
+data:bo/00015-00000001/1/169 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/169 ;
+  do:optionRank "169"^^xsd:int .
+
+data:bo/00015-00000001/1/170 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/170 ;
+  do:optionRank "170"^^xsd:int .
+
+data:bo/00015-00000001/1/171 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/171 ;
+  do:optionRank "171"^^xsd:int .
+
+data:bo/00015-00000001/1/172 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/172 ;
+  do:optionRank "172"^^xsd:int .
+
+data:bo/00015-00000001/1/173 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/173 ;
+  do:optionRank "173"^^xsd:int .
+
+data:bo/00015-00000001/1/174 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/174 ;
+  do:optionRank "174"^^xsd:int .
+
+data:bo/00015-00000001/1/175 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/175 ;
+  do:optionRank "175"^^xsd:int .
+
+data:bo/00015-00000001/1/176 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/176 ;
+  do:optionRank "176"^^xsd:int .
+
+data:bo/00015-00000001/1/177 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/177 ;
+  do:optionRank "177"^^xsd:int .
+
+data:bo/00015-00000001/1/178 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/178 ;
+  do:optionRank "178"^^xsd:int .
+
+data:bo/00015-00000001/1/179 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/179 ;
+  do:optionRank "179"^^xsd:int .
+
+data:bo/00015-00000001/1/180 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/180 ;
+  do:optionRank "180"^^xsd:int .
+
+data:bo/00015-00000001/1/181 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/181 ;
+  do:optionRank "181"^^xsd:int .
+
+data:bo/00015-00000001/1/182 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/182 ;
+  do:optionRank "182"^^xsd:int .
+
+data:bo/00015-00000001/1/183 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/183 ;
+  do:optionRank "183"^^xsd:int .
+
+data:bo/00015-00000001/1/184 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/184 ;
+  do:optionRank "184"^^xsd:int .
+
+data:bo/00015-00000001/1/185 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/185 ;
+  do:optionRank "185"^^xsd:int .
+
+data:bo/00015-00000001/1/186 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/186 ;
+  do:optionRank "186"^^xsd:int .
+
+data:bo/00015-00000001/1/187 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/187 ;
+  do:optionRank "187"^^xsd:int .
+
+data:bo/00015-00000001/1/188 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/188 ;
+  do:optionRank "188"^^xsd:int .
+
+data:bo/00015-00000001/1/189 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/189 ;
+  do:optionRank "189"^^xsd:int .
+
+data:bo/00015-00000001/1/190 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/190 ;
+  do:optionRank "190"^^xsd:int .
+
+data:bo/00015-00000001/1/191 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/191 ;
+  do:optionRank "191"^^xsd:int .
+
+data:bo/00015-00000001/1/192 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/192 ;
+  do:optionRank "192"^^xsd:int .
+
+data:bo/00015-00000001/1/193 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/193 ;
+  do:optionRank "193"^^xsd:int .
+
+data:bo/00015-00000001/1/194 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/194 ;
+  do:optionRank "194"^^xsd:int .
+
+data:bo/00015-00000001/1/195 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/195 ;
+  do:optionRank "195"^^xsd:int .
+
+data:bo/00015-00000001/1/196 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/196 ;
+  do:optionRank "196"^^xsd:int .
+
+data:bo/00015-00000001/1/197 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/197 ;
+  do:optionRank "197"^^xsd:int .
+
+data:bo/00015-00000001/1/198 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/198 ;
+  do:optionRank "198"^^xsd:int .
+
+data:bo/00015-00000001/1/199 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/199 ;
+  do:optionRank "199"^^xsd:int .
+
+data:bo/00015-00000001/1/200 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/200 ;
+  do:optionRank "200"^^xsd:int .
+
+data:bo/00015-00000001/1/201 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/201 ;
+  do:optionRank "201"^^xsd:int .
+
+data:bo/00015-00000001/1/202 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/202 ;
+  do:optionRank "202"^^xsd:int .
+
+data:bo/00015-00000001/1/203 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/203 ;
+  do:optionRank "203"^^xsd:int .
+
+data:bo/00015-00000001/1/204 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/204 ;
+  do:optionRank "204"^^xsd:int .
+
+data:bo/00015-00000001/1/205 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/205 ;
+  do:optionRank "205"^^xsd:int .
+
+data:bo/00015-00000001/1/206 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/206 ;
+  do:optionRank "206"^^xsd:int .
+
+data:bo/00015-00000001/1/207 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/207 ;
+  do:optionRank "207"^^xsd:int .
+
+data:bo/00015-00000001/1/208 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/208 ;
+  do:optionRank "208"^^xsd:int .
+
+data:bo/00015-00000001/1/209 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/209 ;
+  do:optionRank "209"^^xsd:int .
+
+data:bo/00015-00000001/1/210 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/210 ;
+  do:optionRank "210"^^xsd:int .
+
+data:bo/00015-00000001/1/211 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/211 ;
+  do:optionRank "211"^^xsd:int .
+
+data:bo/00015-00000001/1/212 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/212 ;
+  do:optionRank "212"^^xsd:int .
+
+data:bo/00015-00000001/1/213 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/213 ;
+  do:optionRank "213"^^xsd:int .
+
+data:bo/00015-00000001/1/214 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/214 ;
+  do:optionRank "214"^^xsd:int .
+
+data:bo/00015-00000001/1/215 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/215 ;
+  do:optionRank "215"^^xsd:int .
+
+data:bo/00015-00000001/1/216 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/216 ;
+  do:optionRank "216"^^xsd:int .
+
+data:bo/00015-00000001/1/217 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/217 ;
+  do:optionRank "217"^^xsd:int .
+
+data:bo/00015-00000001/1/218 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/218 ;
+  do:optionRank "218"^^xsd:int .
+
+data:bo/00015-00000001/1/219 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/219 ;
+  do:optionRank "219"^^xsd:int .
+
+data:bo/00015-00000001/1/220 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/220 ;
+  do:optionRank "220"^^xsd:int .
+
+data:bo/00015-00000001/1/221 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/221 ;
+  do:optionRank "221"^^xsd:int .
+
+data:bo/00015-00000001/1/222 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/222 ;
+  do:optionRank "222"^^xsd:int .
+
+data:bo/00015-00000001/1/223 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/223 ;
+  do:optionRank "223"^^xsd:int .
+
+data:bo/00015-00000001/1/224 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/224 ;
+  do:optionRank "224"^^xsd:int .
+
+data:bo/00015-00000001/1/225 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/225 ;
+  do:optionRank "225"^^xsd:int .
+
+data:bo/00015-00000001/1/226 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/226 ;
+  do:optionRank "226"^^xsd:int .
+
+data:bo/00015-00000001/1/227 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/227 ;
+  do:optionRank "227"^^xsd:int .
+
+data:bo/00015-00000001/1/228 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/228 ;
+  do:optionRank "228"^^xsd:int .
+
+data:bo/00015-00000001/1/229 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/229 ;
+  do:optionRank "229"^^xsd:int .
+
+data:bo/00015-00000001/1/230 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/230 ;
+  do:optionRank "230"^^xsd:int .
+
+data:bo/00015-00000001/1/231 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/231 ;
+  do:optionRank "231"^^xsd:int .
+
+data:bo/00015-00000001/1/232 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/232 ;
+  do:optionRank "232"^^xsd:int .
+
+data:bo/00015-00000001/1/233 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/233 ;
+  do:optionRank "233"^^xsd:int .
+
+data:bo/00015-00000001/1/234 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/234 ;
+  do:optionRank "234"^^xsd:int .
+
+data:bo/00015-00000001/1/235 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/235 ;
+  do:optionRank "235"^^xsd:int .
+
+data:bo/00015-00000001/1/236 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/236 ;
+  do:optionRank "236"^^xsd:int .
+
+data:bo/00015-00000001/1/237 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/237 ;
+  do:optionRank "237"^^xsd:int .
+
+data:bo/00015-00000001/1/238 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/238 ;
+  do:optionRank "238"^^xsd:int .
+
+data:bo/00015-00000001/1/239 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/239 ;
+  do:optionRank "239"^^xsd:int .
+
+data:bo/00015-00000001/1/240 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/240 ;
+  do:optionRank "240"^^xsd:int .
+
+data:agent/00015-00000001/1 a do:Agent ;
+  rdfs:label "Synthetic agent 1 (00015-00000001)" ;
+  do:hasExpressed data:ballot/00015-00000001/1 .
+
+data:ballot/00015-00000001/2 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00015-00000001 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00015-00000001/2/11, data:bo/00015-00000001/2/14, data:bo/00015-00000001/2/16, data:bo/00015-00000001/2/2, data:bo/00015-00000001/2/10, data:bo/00015-00000001/2/1, data:bo/00015-00000001/2/4, data:bo/00015-00000001/2/8, data:bo/00015-00000001/2/26, data:bo/00015-00000001/2/6, data:bo/00015-00000001/2/5, data:bo/00015-00000001/2/33, data:bo/00015-00000001/2/41, data:bo/00015-00000001/2/12, data:bo/00015-00000001/2/53, data:bo/00015-00000001/2/3, data:bo/00015-00000001/2/7, data:bo/00015-00000001/2/77, data:bo/00015-00000001/2/9, data:bo/00015-00000001/2/13, data:bo/00015-00000001/2/21, data:bo/00015-00000001/2/65, data:bo/00015-00000001/2/60, data:bo/00015-00000001/2/42, data:bo/00015-00000001/2/35, data:bo/00015-00000001/2/15, data:bo/00015-00000001/2/17, data:bo/00015-00000001/2/44, data:bo/00015-00000001/2/22, data:bo/00015-00000001/2/36, data:bo/00015-00000001/2/75, data:bo/00015-00000001/2/28, data:bo/00015-00000001/2/20, data:bo/00015-00000001/2/25, data:bo/00015-00000001/2/56, data:bo/00015-00000001/2/96, data:bo/00015-00000001/2/24, data:bo/00015-00000001/2/39, data:bo/00015-00000001/2/18, data:bo/00015-00000001/2/31, data:bo/00015-00000001/2/38, data:bo/00015-00000001/2/19, data:bo/00015-00000001/2/34, data:bo/00015-00000001/2/43, data:bo/00015-00000001/2/32, data:bo/00015-00000001/2/29, data:bo/00015-00000001/2/46, data:bo/00015-00000001/2/55, data:bo/00015-00000001/2/37, data:bo/00015-00000001/2/45, data:bo/00015-00000001/2/30, data:bo/00015-00000001/2/94, data:bo/00015-00000001/2/51, data:bo/00015-00000001/2/66, data:bo/00015-00000001/2/89, data:bo/00015-00000001/2/27, data:bo/00015-00000001/2/49, data:bo/00015-00000001/2/64, data:bo/00015-00000001/2/48, data:bo/00015-00000001/2/52, data:bo/00015-00000001/2/50, data:bo/00015-00000001/2/40, data:bo/00015-00000001/2/23, data:bo/00015-00000001/2/47, data:bo/00015-00000001/2/72, data:bo/00015-00000001/2/63, data:bo/00015-00000001/2/69, data:bo/00015-00000001/2/71, data:bo/00015-00000001/2/208, data:bo/00015-00000001/2/68, data:bo/00015-00000001/2/74, data:bo/00015-00000001/2/95, data:bo/00015-00000001/2/59, data:bo/00015-00000001/2/62, data:bo/00015-00000001/2/86, data:bo/00015-00000001/2/78, data:bo/00015-00000001/2/70, data:bo/00015-00000001/2/102, data:bo/00015-00000001/2/129, data:bo/00015-00000001/2/58, data:bo/00015-00000001/2/67, data:bo/00015-00000001/2/79, data:bo/00015-00000001/2/101, data:bo/00015-00000001/2/84, data:bo/00015-00000001/2/73, data:bo/00015-00000001/2/92, data:bo/00015-00000001/2/76, data:bo/00015-00000001/2/80, data:bo/00015-00000001/2/57, data:bo/00015-00000001/2/91, data:bo/00015-00000001/2/82, data:bo/00015-00000001/2/61, data:bo/00015-00000001/2/88, data:bo/00015-00000001/2/90, data:bo/00015-00000001/2/93, data:bo/00015-00000001/2/97, data:bo/00015-00000001/2/103, data:bo/00015-00000001/2/87, data:bo/00015-00000001/2/134, data:bo/00015-00000001/2/98, data:bo/00015-00000001/2/99, data:bo/00015-00000001/2/83, data:bo/00015-00000001/2/113, data:bo/00015-00000001/2/81, data:bo/00015-00000001/2/111, data:bo/00015-00000001/2/121, data:bo/00015-00000001/2/135, data:bo/00015-00000001/2/107, data:bo/00015-00000001/2/117, data:bo/00015-00000001/2/109, data:bo/00015-00000001/2/105, data:bo/00015-00000001/2/108, data:bo/00015-00000001/2/104, data:bo/00015-00000001/2/112, data:bo/00015-00000001/2/100, data:bo/00015-00000001/2/118, data:bo/00015-00000001/2/110, data:bo/00015-00000001/2/115, data:bo/00015-00000001/2/128, data:bo/00015-00000001/2/116, data:bo/00015-00000001/2/85, data:bo/00015-00000001/2/122, data:bo/00015-00000001/2/133, data:bo/00015-00000001/2/131, data:bo/00015-00000001/2/119, data:bo/00015-00000001/2/126, data:bo/00015-00000001/2/124, data:bo/00015-00000001/2/114, data:bo/00015-00000001/2/179, data:bo/00015-00000001/2/132, data:bo/00015-00000001/2/210, data:bo/00015-00000001/2/142, data:bo/00015-00000001/2/152, data:bo/00015-00000001/2/127, data:bo/00015-00000001/2/155, data:bo/00015-00000001/2/149, data:bo/00015-00000001/2/120, data:bo/00015-00000001/2/180, data:bo/00015-00000001/2/141, data:bo/00015-00000001/2/144, data:bo/00015-00000001/2/139, data:bo/00015-00000001/2/138, data:bo/00015-00000001/2/130, data:bo/00015-00000001/2/147, data:bo/00015-00000001/2/240, data:bo/00015-00000001/2/145, data:bo/00015-00000001/2/185, data:bo/00015-00000001/2/136, data:bo/00015-00000001/2/173, data:bo/00015-00000001/2/148, data:bo/00015-00000001/2/143, data:bo/00015-00000001/2/146, data:bo/00015-00000001/2/162, data:bo/00015-00000001/2/163, data:bo/00015-00000001/2/137, data:bo/00015-00000001/2/156, data:bo/00015-00000001/2/188, data:bo/00015-00000001/2/153, data:bo/00015-00000001/2/157, data:bo/00015-00000001/2/165, data:bo/00015-00000001/2/154, data:bo/00015-00000001/2/158, data:bo/00015-00000001/2/160, data:bo/00015-00000001/2/164, data:bo/00015-00000001/2/175, data:bo/00015-00000001/2/167, data:bo/00015-00000001/2/159, data:bo/00015-00000001/2/170, data:bo/00015-00000001/2/150, data:bo/00015-00000001/2/172, data:bo/00015-00000001/2/166, data:bo/00015-00000001/2/161, data:bo/00015-00000001/2/182, data:bo/00015-00000001/2/178, data:bo/00015-00000001/2/183, data:bo/00015-00000001/2/177, data:bo/00015-00000001/2/184, data:bo/00015-00000001/2/181, data:bo/00015-00000001/2/151, data:bo/00015-00000001/2/176, data:bo/00015-00000001/2/187, data:bo/00015-00000001/2/186, data:bo/00015-00000001/2/169, data:bo/00015-00000001/2/174, data:bo/00015-00000001/2/190, data:bo/00015-00000001/2/123, data:bo/00015-00000001/2/194, data:bo/00015-00000001/2/189, data:bo/00015-00000001/2/196, data:bo/00015-00000001/2/168, data:bo/00015-00000001/2/204, data:bo/00015-00000001/2/197, data:bo/00015-00000001/2/200, data:bo/00015-00000001/2/201, data:bo/00015-00000001/2/195, data:bo/00015-00000001/2/199, data:bo/00015-00000001/2/198, data:bo/00015-00000001/2/193, data:bo/00015-00000001/2/192, data:bo/00015-00000001/2/191, data:bo/00015-00000001/2/202, data:bo/00015-00000001/2/106, data:bo/00015-00000001/2/206, data:bo/00015-00000001/2/203, data:bo/00015-00000001/2/125, data:bo/00015-00000001/2/207, data:bo/00015-00000001/2/218, data:bo/00015-00000001/2/140, data:bo/00015-00000001/2/205, data:bo/00015-00000001/2/214, data:bo/00015-00000001/2/221, data:bo/00015-00000001/2/212, data:bo/00015-00000001/2/217, data:bo/00015-00000001/2/220, data:bo/00015-00000001/2/209, data:bo/00015-00000001/2/215, data:bo/00015-00000001/2/216, data:bo/00015-00000001/2/219, data:bo/00015-00000001/2/224, data:bo/00015-00000001/2/230, data:bo/00015-00000001/2/213, data:bo/00015-00000001/2/222, data:bo/00015-00000001/2/223, data:bo/00015-00000001/2/229, data:bo/00015-00000001/2/227, data:bo/00015-00000001/2/211, data:bo/00015-00000001/2/225, data:bo/00015-00000001/2/228, data:bo/00015-00000001/2/226, data:bo/00015-00000001/2/234, data:bo/00015-00000001/2/232, data:bo/00015-00000001/2/233, data:bo/00015-00000001/2/231, data:bo/00015-00000001/2/171, data:bo/00015-00000001/2/235, data:bo/00015-00000001/2/236, data:bo/00015-00000001/2/238, data:bo/00015-00000001/2/237, data:bo/00015-00000001/2/239, data:bo/00015-00000001/2/54 .
+
+data:bo/00015-00000001/2/11 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/11 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00015-00000001/2/14 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00015-00000001/2/16 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/16 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00015-00000001/2/2 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/2 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00015-00000001/2/10 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/10 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00015-00000001/2/1 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/1 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00015-00000001/2/4 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/4 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00015-00000001/2/8 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00015-00000001/2/26 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/26 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00015-00000001/2/6 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/6 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00015-00000001/2/5 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/5 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00015-00000001/2/33 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/33 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00015-00000001/2/41 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/41 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00015-00000001/2/12 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/12 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00015-00000001/2/53 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/53 ;
+  do:optionRank "15"^^xsd:int .
+
+data:bo/00015-00000001/2/3 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/3 ;
+  do:optionRank "16"^^xsd:int .
+
+data:bo/00015-00000001/2/7 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/7 ;
+  do:optionRank "17"^^xsd:int .
+
+data:bo/00015-00000001/2/77 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/77 ;
+  do:optionRank "18"^^xsd:int .
+
+data:bo/00015-00000001/2/9 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/9 ;
+  do:optionRank "19"^^xsd:int .
+
+data:bo/00015-00000001/2/13 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/13 ;
+  do:optionRank "20"^^xsd:int .
+
+data:bo/00015-00000001/2/21 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/21 ;
+  do:optionRank "21"^^xsd:int .
+
+data:bo/00015-00000001/2/65 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/65 ;
+  do:optionRank "22"^^xsd:int .
+
+data:bo/00015-00000001/2/60 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/60 ;
+  do:optionRank "23"^^xsd:int .
+
+data:bo/00015-00000001/2/42 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/42 ;
+  do:optionRank "24"^^xsd:int .
+
+data:bo/00015-00000001/2/35 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/35 ;
+  do:optionRank "25"^^xsd:int .
+
+data:bo/00015-00000001/2/15 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/15 ;
+  do:optionRank "26"^^xsd:int .
+
+data:bo/00015-00000001/2/17 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/17 ;
+  do:optionRank "27"^^xsd:int .
+
+data:bo/00015-00000001/2/44 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/44 ;
+  do:optionRank "28"^^xsd:int .
+
+data:bo/00015-00000001/2/22 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/22 ;
+  do:optionRank "29"^^xsd:int .
+
+data:bo/00015-00000001/2/36 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/36 ;
+  do:optionRank "30"^^xsd:int .
+
+data:bo/00015-00000001/2/75 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/75 ;
+  do:optionRank "31"^^xsd:int .
+
+data:bo/00015-00000001/2/28 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/28 ;
+  do:optionRank "32"^^xsd:int .
+
+data:bo/00015-00000001/2/20 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/20 ;
+  do:optionRank "33"^^xsd:int .
+
+data:bo/00015-00000001/2/25 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/25 ;
+  do:optionRank "34"^^xsd:int .
+
+data:bo/00015-00000001/2/56 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/56 ;
+  do:optionRank "35"^^xsd:int .
+
+data:bo/00015-00000001/2/96 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/96 ;
+  do:optionRank "36"^^xsd:int .
+
+data:bo/00015-00000001/2/24 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/24 ;
+  do:optionRank "37"^^xsd:int .
+
+data:bo/00015-00000001/2/39 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/39 ;
+  do:optionRank "38"^^xsd:int .
+
+data:bo/00015-00000001/2/18 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/18 ;
+  do:optionRank "39"^^xsd:int .
+
+data:bo/00015-00000001/2/31 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/31 ;
+  do:optionRank "40"^^xsd:int .
+
+data:bo/00015-00000001/2/38 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/38 ;
+  do:optionRank "41"^^xsd:int .
+
+data:bo/00015-00000001/2/19 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/19 ;
+  do:optionRank "42"^^xsd:int .
+
+data:bo/00015-00000001/2/34 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/34 ;
+  do:optionRank "43"^^xsd:int .
+
+data:bo/00015-00000001/2/43 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/43 ;
+  do:optionRank "44"^^xsd:int .
+
+data:bo/00015-00000001/2/32 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/32 ;
+  do:optionRank "45"^^xsd:int .
+
+data:bo/00015-00000001/2/29 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/29 ;
+  do:optionRank "46"^^xsd:int .
+
+data:bo/00015-00000001/2/46 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/46 ;
+  do:optionRank "47"^^xsd:int .
+
+data:bo/00015-00000001/2/55 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/55 ;
+  do:optionRank "48"^^xsd:int .
+
+data:bo/00015-00000001/2/37 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/37 ;
+  do:optionRank "49"^^xsd:int .
+
+data:bo/00015-00000001/2/45 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/45 ;
+  do:optionRank "50"^^xsd:int .
+
+data:bo/00015-00000001/2/30 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/30 ;
+  do:optionRank "51"^^xsd:int .
+
+data:bo/00015-00000001/2/94 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/94 ;
+  do:optionRank "52"^^xsd:int .
+
+data:bo/00015-00000001/2/51 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/51 ;
+  do:optionRank "53"^^xsd:int .
+
+data:bo/00015-00000001/2/66 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/66 ;
+  do:optionRank "54"^^xsd:int .
+
+data:bo/00015-00000001/2/89 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/89 ;
+  do:optionRank "55"^^xsd:int .
+
+data:bo/00015-00000001/2/27 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/27 ;
+  do:optionRank "56"^^xsd:int .
+
+data:bo/00015-00000001/2/49 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/49 ;
+  do:optionRank "57"^^xsd:int .
+
+data:bo/00015-00000001/2/64 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/64 ;
+  do:optionRank "58"^^xsd:int .
+
+data:bo/00015-00000001/2/48 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/48 ;
+  do:optionRank "59"^^xsd:int .
+
+data:bo/00015-00000001/2/52 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/52 ;
+  do:optionRank "60"^^xsd:int .
+
+data:bo/00015-00000001/2/50 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/50 ;
+  do:optionRank "61"^^xsd:int .
+
+data:bo/00015-00000001/2/40 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/40 ;
+  do:optionRank "62"^^xsd:int .
+
+data:bo/00015-00000001/2/23 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/23 ;
+  do:optionRank "63"^^xsd:int .
+
+data:bo/00015-00000001/2/47 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/47 ;
+  do:optionRank "64"^^xsd:int .
+
+data:bo/00015-00000001/2/72 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/72 ;
+  do:optionRank "65"^^xsd:int .
+
+data:bo/00015-00000001/2/63 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/63 ;
+  do:optionRank "66"^^xsd:int .
+
+data:bo/00015-00000001/2/69 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/69 ;
+  do:optionRank "67"^^xsd:int .
+
+data:bo/00015-00000001/2/71 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/71 ;
+  do:optionRank "68"^^xsd:int .
+
+data:bo/00015-00000001/2/208 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/208 ;
+  do:optionRank "69"^^xsd:int .
+
+data:bo/00015-00000001/2/68 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/68 ;
+  do:optionRank "70"^^xsd:int .
+
+data:bo/00015-00000001/2/74 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/74 ;
+  do:optionRank "71"^^xsd:int .
+
+data:bo/00015-00000001/2/95 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/95 ;
+  do:optionRank "72"^^xsd:int .
+
+data:bo/00015-00000001/2/59 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/59 ;
+  do:optionRank "73"^^xsd:int .
+
+data:bo/00015-00000001/2/62 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/62 ;
+  do:optionRank "74"^^xsd:int .
+
+data:bo/00015-00000001/2/86 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/86 ;
+  do:optionRank "75"^^xsd:int .
+
+data:bo/00015-00000001/2/78 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/78 ;
+  do:optionRank "76"^^xsd:int .
+
+data:bo/00015-00000001/2/70 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/70 ;
+  do:optionRank "77"^^xsd:int .
+
+data:bo/00015-00000001/2/102 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/102 ;
+  do:optionRank "78"^^xsd:int .
+
+data:bo/00015-00000001/2/129 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/129 ;
+  do:optionRank "79"^^xsd:int .
+
+data:bo/00015-00000001/2/58 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/58 ;
+  do:optionRank "80"^^xsd:int .
+
+data:bo/00015-00000001/2/67 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/67 ;
+  do:optionRank "81"^^xsd:int .
+
+data:bo/00015-00000001/2/79 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/79 ;
+  do:optionRank "82"^^xsd:int .
+
+data:bo/00015-00000001/2/101 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/101 ;
+  do:optionRank "83"^^xsd:int .
+
+data:bo/00015-00000001/2/84 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/84 ;
+  do:optionRank "84"^^xsd:int .
+
+data:bo/00015-00000001/2/73 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/73 ;
+  do:optionRank "85"^^xsd:int .
+
+data:bo/00015-00000001/2/92 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/92 ;
+  do:optionRank "86"^^xsd:int .
+
+data:bo/00015-00000001/2/76 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/76 ;
+  do:optionRank "87"^^xsd:int .
+
+data:bo/00015-00000001/2/80 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/80 ;
+  do:optionRank "88"^^xsd:int .
+
+data:bo/00015-00000001/2/57 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/57 ;
+  do:optionRank "89"^^xsd:int .
+
+data:bo/00015-00000001/2/91 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/91 ;
+  do:optionRank "90"^^xsd:int .
+
+data:bo/00015-00000001/2/82 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/82 ;
+  do:optionRank "91"^^xsd:int .
+
+data:bo/00015-00000001/2/61 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/61 ;
+  do:optionRank "92"^^xsd:int .
+
+data:bo/00015-00000001/2/88 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/88 ;
+  do:optionRank "93"^^xsd:int .
+
+data:bo/00015-00000001/2/90 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/90 ;
+  do:optionRank "94"^^xsd:int .
+
+data:bo/00015-00000001/2/93 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/93 ;
+  do:optionRank "95"^^xsd:int .
+
+data:bo/00015-00000001/2/97 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/97 ;
+  do:optionRank "96"^^xsd:int .
+
+data:bo/00015-00000001/2/103 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/103 ;
+  do:optionRank "97"^^xsd:int .
+
+data:bo/00015-00000001/2/87 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/87 ;
+  do:optionRank "98"^^xsd:int .
+
+data:bo/00015-00000001/2/134 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/134 ;
+  do:optionRank "99"^^xsd:int .
+
+data:bo/00015-00000001/2/98 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/98 ;
+  do:optionRank "100"^^xsd:int .
+
+data:bo/00015-00000001/2/99 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/99 ;
+  do:optionRank "101"^^xsd:int .
+
+data:bo/00015-00000001/2/83 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/83 ;
+  do:optionRank "102"^^xsd:int .
+
+data:bo/00015-00000001/2/113 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/113 ;
+  do:optionRank "103"^^xsd:int .
+
+data:bo/00015-00000001/2/81 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/81 ;
+  do:optionRank "104"^^xsd:int .
+
+data:bo/00015-00000001/2/111 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/111 ;
+  do:optionRank "105"^^xsd:int .
+
+data:bo/00015-00000001/2/121 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/121 ;
+  do:optionRank "106"^^xsd:int .
+
+data:bo/00015-00000001/2/135 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/135 ;
+  do:optionRank "107"^^xsd:int .
+
+data:bo/00015-00000001/2/107 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/107 ;
+  do:optionRank "108"^^xsd:int .
+
+data:bo/00015-00000001/2/117 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/117 ;
+  do:optionRank "109"^^xsd:int .
+
+data:bo/00015-00000001/2/109 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/109 ;
+  do:optionRank "110"^^xsd:int .
+
+data:bo/00015-00000001/2/105 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/105 ;
+  do:optionRank "111"^^xsd:int .
+
+data:bo/00015-00000001/2/108 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/108 ;
+  do:optionRank "112"^^xsd:int .
+
+data:bo/00015-00000001/2/104 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/104 ;
+  do:optionRank "113"^^xsd:int .
+
+data:bo/00015-00000001/2/112 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/112 ;
+  do:optionRank "114"^^xsd:int .
+
+data:bo/00015-00000001/2/100 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/100 ;
+  do:optionRank "115"^^xsd:int .
+
+data:bo/00015-00000001/2/118 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/118 ;
+  do:optionRank "116"^^xsd:int .
+
+data:bo/00015-00000001/2/110 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/110 ;
+  do:optionRank "117"^^xsd:int .
+
+data:bo/00015-00000001/2/115 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/115 ;
+  do:optionRank "118"^^xsd:int .
+
+data:bo/00015-00000001/2/128 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/128 ;
+  do:optionRank "119"^^xsd:int .
+
+data:bo/00015-00000001/2/116 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/116 ;
+  do:optionRank "120"^^xsd:int .
+
+data:bo/00015-00000001/2/85 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/85 ;
+  do:optionRank "121"^^xsd:int .
+
+data:bo/00015-00000001/2/122 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/122 ;
+  do:optionRank "122"^^xsd:int .
+
+data:bo/00015-00000001/2/133 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/133 ;
+  do:optionRank "123"^^xsd:int .
+
+data:bo/00015-00000001/2/131 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/131 ;
+  do:optionRank "124"^^xsd:int .
+
+data:bo/00015-00000001/2/119 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/119 ;
+  do:optionRank "125"^^xsd:int .
+
+data:bo/00015-00000001/2/126 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/126 ;
+  do:optionRank "126"^^xsd:int .
+
+data:bo/00015-00000001/2/124 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/124 ;
+  do:optionRank "127"^^xsd:int .
+
+data:bo/00015-00000001/2/114 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/114 ;
+  do:optionRank "128"^^xsd:int .
+
+data:bo/00015-00000001/2/179 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/179 ;
+  do:optionRank "129"^^xsd:int .
+
+data:bo/00015-00000001/2/132 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/132 ;
+  do:optionRank "130"^^xsd:int .
+
+data:bo/00015-00000001/2/210 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/210 ;
+  do:optionRank "131"^^xsd:int .
+
+data:bo/00015-00000001/2/142 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/142 ;
+  do:optionRank "132"^^xsd:int .
+
+data:bo/00015-00000001/2/152 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/152 ;
+  do:optionRank "133"^^xsd:int .
+
+data:bo/00015-00000001/2/127 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/127 ;
+  do:optionRank "134"^^xsd:int .
+
+data:bo/00015-00000001/2/155 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/155 ;
+  do:optionRank "135"^^xsd:int .
+
+data:bo/00015-00000001/2/149 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/149 ;
+  do:optionRank "136"^^xsd:int .
+
+data:bo/00015-00000001/2/120 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/120 ;
+  do:optionRank "137"^^xsd:int .
+
+data:bo/00015-00000001/2/180 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/180 ;
+  do:optionRank "138"^^xsd:int .
+
+data:bo/00015-00000001/2/141 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/141 ;
+  do:optionRank "139"^^xsd:int .
+
+data:bo/00015-00000001/2/144 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/144 ;
+  do:optionRank "140"^^xsd:int .
+
+data:bo/00015-00000001/2/139 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/139 ;
+  do:optionRank "141"^^xsd:int .
+
+data:bo/00015-00000001/2/138 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/138 ;
+  do:optionRank "142"^^xsd:int .
+
+data:bo/00015-00000001/2/130 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/130 ;
+  do:optionRank "143"^^xsd:int .
+
+data:bo/00015-00000001/2/147 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/147 ;
+  do:optionRank "144"^^xsd:int .
+
+data:bo/00015-00000001/2/240 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/240 ;
+  do:optionRank "145"^^xsd:int .
+
+data:bo/00015-00000001/2/145 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/145 ;
+  do:optionRank "146"^^xsd:int .
+
+data:bo/00015-00000001/2/185 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/185 ;
+  do:optionRank "147"^^xsd:int .
+
+data:bo/00015-00000001/2/136 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/136 ;
+  do:optionRank "148"^^xsd:int .
+
+data:bo/00015-00000001/2/173 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/173 ;
+  do:optionRank "149"^^xsd:int .
+
+data:bo/00015-00000001/2/148 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/148 ;
+  do:optionRank "150"^^xsd:int .
+
+data:bo/00015-00000001/2/143 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/143 ;
+  do:optionRank "151"^^xsd:int .
+
+data:bo/00015-00000001/2/146 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/146 ;
+  do:optionRank "152"^^xsd:int .
+
+data:bo/00015-00000001/2/162 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/162 ;
+  do:optionRank "153"^^xsd:int .
+
+data:bo/00015-00000001/2/163 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/163 ;
+  do:optionRank "154"^^xsd:int .
+
+data:bo/00015-00000001/2/137 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/137 ;
+  do:optionRank "155"^^xsd:int .
+
+data:bo/00015-00000001/2/156 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/156 ;
+  do:optionRank "156"^^xsd:int .
+
+data:bo/00015-00000001/2/188 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/188 ;
+  do:optionRank "157"^^xsd:int .
+
+data:bo/00015-00000001/2/153 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/153 ;
+  do:optionRank "158"^^xsd:int .
+
+data:bo/00015-00000001/2/157 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/157 ;
+  do:optionRank "159"^^xsd:int .
+
+data:bo/00015-00000001/2/165 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/165 ;
+  do:optionRank "160"^^xsd:int .
+
+data:bo/00015-00000001/2/154 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/154 ;
+  do:optionRank "161"^^xsd:int .
+
+data:bo/00015-00000001/2/158 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/158 ;
+  do:optionRank "162"^^xsd:int .
+
+data:bo/00015-00000001/2/160 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/160 ;
+  do:optionRank "163"^^xsd:int .
+
+data:bo/00015-00000001/2/164 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/164 ;
+  do:optionRank "164"^^xsd:int .
+
+data:bo/00015-00000001/2/175 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/175 ;
+  do:optionRank "165"^^xsd:int .
+
+data:bo/00015-00000001/2/167 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/167 ;
+  do:optionRank "166"^^xsd:int .
+
+data:bo/00015-00000001/2/159 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/159 ;
+  do:optionRank "167"^^xsd:int .
+
+data:bo/00015-00000001/2/170 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/170 ;
+  do:optionRank "168"^^xsd:int .
+
+data:bo/00015-00000001/2/150 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/150 ;
+  do:optionRank "169"^^xsd:int .
+
+data:bo/00015-00000001/2/172 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/172 ;
+  do:optionRank "170"^^xsd:int .
+
+data:bo/00015-00000001/2/166 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/166 ;
+  do:optionRank "171"^^xsd:int .
+
+data:bo/00015-00000001/2/161 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/161 ;
+  do:optionRank "172"^^xsd:int .
+
+data:bo/00015-00000001/2/182 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/182 ;
+  do:optionRank "173"^^xsd:int .
+
+data:bo/00015-00000001/2/178 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/178 ;
+  do:optionRank "174"^^xsd:int .
+
+data:bo/00015-00000001/2/183 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/183 ;
+  do:optionRank "175"^^xsd:int .
+
+data:bo/00015-00000001/2/177 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/177 ;
+  do:optionRank "176"^^xsd:int .
+
+data:bo/00015-00000001/2/184 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/184 ;
+  do:optionRank "177"^^xsd:int .
+
+data:bo/00015-00000001/2/181 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/181 ;
+  do:optionRank "178"^^xsd:int .
+
+data:bo/00015-00000001/2/151 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/151 ;
+  do:optionRank "179"^^xsd:int .
+
+data:bo/00015-00000001/2/176 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/176 ;
+  do:optionRank "180"^^xsd:int .
+
+data:bo/00015-00000001/2/187 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/187 ;
+  do:optionRank "181"^^xsd:int .
+
+data:bo/00015-00000001/2/186 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/186 ;
+  do:optionRank "182"^^xsd:int .
+
+data:bo/00015-00000001/2/169 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/169 ;
+  do:optionRank "183"^^xsd:int .
+
+data:bo/00015-00000001/2/174 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/174 ;
+  do:optionRank "184"^^xsd:int .
+
+data:bo/00015-00000001/2/190 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/190 ;
+  do:optionRank "185"^^xsd:int .
+
+data:bo/00015-00000001/2/123 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/123 ;
+  do:optionRank "186"^^xsd:int .
+
+data:bo/00015-00000001/2/194 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/194 ;
+  do:optionRank "187"^^xsd:int .
+
+data:bo/00015-00000001/2/189 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/189 ;
+  do:optionRank "188"^^xsd:int .
+
+data:bo/00015-00000001/2/196 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/196 ;
+  do:optionRank "189"^^xsd:int .
+
+data:bo/00015-00000001/2/168 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/168 ;
+  do:optionRank "190"^^xsd:int .
+
+data:bo/00015-00000001/2/204 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/204 ;
+  do:optionRank "191"^^xsd:int .
+
+data:bo/00015-00000001/2/197 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/197 ;
+  do:optionRank "192"^^xsd:int .
+
+data:bo/00015-00000001/2/200 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/200 ;
+  do:optionRank "193"^^xsd:int .
+
+data:bo/00015-00000001/2/201 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/201 ;
+  do:optionRank "194"^^xsd:int .
+
+data:bo/00015-00000001/2/195 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/195 ;
+  do:optionRank "195"^^xsd:int .
+
+data:bo/00015-00000001/2/199 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/199 ;
+  do:optionRank "196"^^xsd:int .
+
+data:bo/00015-00000001/2/198 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/198 ;
+  do:optionRank "197"^^xsd:int .
+
+data:bo/00015-00000001/2/193 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/193 ;
+  do:optionRank "198"^^xsd:int .
+
+data:bo/00015-00000001/2/192 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/192 ;
+  do:optionRank "199"^^xsd:int .
+
+data:bo/00015-00000001/2/191 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/191 ;
+  do:optionRank "200"^^xsd:int .
+
+data:bo/00015-00000001/2/202 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/202 ;
+  do:optionRank "201"^^xsd:int .
+
+data:bo/00015-00000001/2/106 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/106 ;
+  do:optionRank "202"^^xsd:int .
+
+data:bo/00015-00000001/2/206 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/206 ;
+  do:optionRank "203"^^xsd:int .
+
+data:bo/00015-00000001/2/203 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/203 ;
+  do:optionRank "204"^^xsd:int .
+
+data:bo/00015-00000001/2/125 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/125 ;
+  do:optionRank "205"^^xsd:int .
+
+data:bo/00015-00000001/2/207 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/207 ;
+  do:optionRank "206"^^xsd:int .
+
+data:bo/00015-00000001/2/218 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/218 ;
+  do:optionRank "207"^^xsd:int .
+
+data:bo/00015-00000001/2/140 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/140 ;
+  do:optionRank "208"^^xsd:int .
+
+data:bo/00015-00000001/2/205 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/205 ;
+  do:optionRank "209"^^xsd:int .
+
+data:bo/00015-00000001/2/214 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/214 ;
+  do:optionRank "210"^^xsd:int .
+
+data:bo/00015-00000001/2/221 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/221 ;
+  do:optionRank "211"^^xsd:int .
+
+data:bo/00015-00000001/2/212 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/212 ;
+  do:optionRank "212"^^xsd:int .
+
+data:bo/00015-00000001/2/217 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/217 ;
+  do:optionRank "213"^^xsd:int .
+
+data:bo/00015-00000001/2/220 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/220 ;
+  do:optionRank "214"^^xsd:int .
+
+data:bo/00015-00000001/2/209 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/209 ;
+  do:optionRank "215"^^xsd:int .
+
+data:bo/00015-00000001/2/215 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/215 ;
+  do:optionRank "216"^^xsd:int .
+
+data:bo/00015-00000001/2/216 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/216 ;
+  do:optionRank "217"^^xsd:int .
+
+data:bo/00015-00000001/2/219 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/219 ;
+  do:optionRank "218"^^xsd:int .
+
+data:bo/00015-00000001/2/224 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/224 ;
+  do:optionRank "219"^^xsd:int .
+
+data:bo/00015-00000001/2/230 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/230 ;
+  do:optionRank "220"^^xsd:int .
+
+data:bo/00015-00000001/2/213 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/213 ;
+  do:optionRank "221"^^xsd:int .
+
+data:bo/00015-00000001/2/222 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/222 ;
+  do:optionRank "222"^^xsd:int .
+
+data:bo/00015-00000001/2/223 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/223 ;
+  do:optionRank "223"^^xsd:int .
+
+data:bo/00015-00000001/2/229 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/229 ;
+  do:optionRank "224"^^xsd:int .
+
+data:bo/00015-00000001/2/227 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/227 ;
+  do:optionRank "225"^^xsd:int .
+
+data:bo/00015-00000001/2/211 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/211 ;
+  do:optionRank "226"^^xsd:int .
+
+data:bo/00015-00000001/2/225 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/225 ;
+  do:optionRank "227"^^xsd:int .
+
+data:bo/00015-00000001/2/228 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/228 ;
+  do:optionRank "228"^^xsd:int .
+
+data:bo/00015-00000001/2/226 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/226 ;
+  do:optionRank "229"^^xsd:int .
+
+data:bo/00015-00000001/2/234 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/234 ;
+  do:optionRank "230"^^xsd:int .
+
+data:bo/00015-00000001/2/232 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/232 ;
+  do:optionRank "231"^^xsd:int .
+
+data:bo/00015-00000001/2/233 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/233 ;
+  do:optionRank "232"^^xsd:int .
+
+data:bo/00015-00000001/2/231 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/231 ;
+  do:optionRank "233"^^xsd:int .
+
+data:bo/00015-00000001/2/171 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/171 ;
+  do:optionRank "234"^^xsd:int .
+
+data:bo/00015-00000001/2/235 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/235 ;
+  do:optionRank "235"^^xsd:int .
+
+data:bo/00015-00000001/2/236 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/236 ;
+  do:optionRank "236"^^xsd:int .
+
+data:bo/00015-00000001/2/238 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/238 ;
+  do:optionRank "237"^^xsd:int .
+
+data:bo/00015-00000001/2/237 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/237 ;
+  do:optionRank "238"^^xsd:int .
+
+data:bo/00015-00000001/2/239 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/239 ;
+  do:optionRank "239"^^xsd:int .
+
+data:bo/00015-00000001/2/54 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/54 ;
+  do:optionRank "240"^^xsd:int .
+
+data:agent/00015-00000001/2 a do:Agent ;
+  rdfs:label "Synthetic agent 2 (00015-00000001)" ;
+  do:hasExpressed data:ballot/00015-00000001/2 .
+
+data:ballot/00015-00000001/3 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00015-00000001 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00015-00000001/3/114, data:bo/00015-00000001/3/8, data:bo/00015-00000001/3/94, data:bo/00015-00000001/3/26, data:bo/00015-00000001/3/33, data:bo/00015-00000001/3/17, data:bo/00015-00000001/3/14, data:bo/00015-00000001/3/7, data:bo/00015-00000001/3/64, data:bo/00015-00000001/3/173, data:bo/00015-00000001/3/4, data:bo/00015-00000001/3/10, data:bo/00015-00000001/3/11, data:bo/00015-00000001/3/60, data:bo/00015-00000001/3/41, data:bo/00015-00000001/3/9, data:bo/00015-00000001/3/53, data:bo/00015-00000001/3/19, data:bo/00015-00000001/3/42, data:bo/00015-00000001/3/30, data:bo/00015-00000001/3/52, data:bo/00015-00000001/3/43, data:bo/00015-00000001/3/49, data:bo/00015-00000001/3/40, data:bo/00015-00000001/3/21, data:bo/00015-00000001/3/89, data:bo/00015-00000001/3/37, data:bo/00015-00000001/3/27, data:bo/00015-00000001/3/29, data:bo/00015-00000001/3/13, data:bo/00015-00000001/3/34, data:bo/00015-00000001/3/24, data:bo/00015-00000001/3/95, data:bo/00015-00000001/3/25, data:bo/00015-00000001/3/39, data:bo/00015-00000001/3/70, data:bo/00015-00000001/3/63, data:bo/00015-00000001/3/79, data:bo/00015-00000001/3/75, data:bo/00015-00000001/3/56, data:bo/00015-00000001/3/77, data:bo/00015-00000001/3/28, data:bo/00015-00000001/3/69, data:bo/00015-00000001/3/50, data:bo/00015-00000001/3/73, data:bo/00015-00000001/3/32, data:bo/00015-00000001/3/101, data:bo/00015-00000001/3/82, data:bo/00015-00000001/3/72, data:bo/00015-00000001/3/57, data:bo/00015-00000001/3/96, data:bo/00015-00000001/3/83, data:bo/00015-00000001/3/88, data:bo/00015-00000001/3/58, data:bo/00015-00000001/3/61, data:bo/00015-00000001/3/129, data:bo/00015-00000001/3/109, data:bo/00015-00000001/3/71, data:bo/00015-00000001/3/120, data:bo/00015-00000001/3/78, data:bo/00015-00000001/3/76, data:bo/00015-00000001/3/80, data:bo/00015-00000001/3/87, data:bo/00015-00000001/3/68, data:bo/00015-00000001/3/98, data:bo/00015-00000001/3/99, data:bo/00015-00000001/3/110, data:bo/00015-00000001/3/102, data:bo/00015-00000001/3/115, data:bo/00015-00000001/3/127, data:bo/00015-00000001/3/118, data:bo/00015-00000001/3/117, data:bo/00015-00000001/3/104, data:bo/00015-00000001/3/122, data:bo/00015-00000001/3/138, data:bo/00015-00000001/3/97, data:bo/00015-00000001/3/133, data:bo/00015-00000001/3/153, data:bo/00015-00000001/3/137, data:bo/00015-00000001/3/160, data:bo/00015-00000001/3/126, data:bo/00015-00000001/3/204, data:bo/00015-00000001/3/128, data:bo/00015-00000001/3/184, data:bo/00015-00000001/3/234, data:bo/00015-00000001/3/176, data:bo/00015-00000001/3/131, data:bo/00015-00000001/3/213, data:bo/00015-00000001/3/85, data:bo/00015-00000001/3/145, data:bo/00015-00000001/3/177, data:bo/00015-00000001/3/163, data:bo/00015-00000001/3/152, data:bo/00015-00000001/3/148, data:bo/00015-00000001/3/189, data:bo/00015-00000001/3/201, data:bo/00015-00000001/3/183, data:bo/00015-00000001/3/164, data:bo/00015-00000001/3/168, data:bo/00015-00000001/3/158, data:bo/00015-00000001/3/150, data:bo/00015-00000001/3/171, data:bo/00015-00000001/3/162, data:bo/00015-00000001/3/143, data:bo/00015-00000001/3/172, data:bo/00015-00000001/3/151, data:bo/00015-00000001/3/161, data:bo/00015-00000001/3/159, data:bo/00015-00000001/3/211, data:bo/00015-00000001/3/175, data:bo/00015-00000001/3/141, data:bo/00015-00000001/3/165, data:bo/00015-00000001/3/200, data:bo/00015-00000001/3/125, data:bo/00015-00000001/3/219, data:bo/00015-00000001/3/149, data:bo/00015-00000001/3/155, data:bo/00015-00000001/3/222, data:bo/00015-00000001/3/202, data:bo/00015-00000001/3/216, data:bo/00015-00000001/3/209, data:bo/00015-00000001/3/192, data:bo/00015-00000001/3/182, data:bo/00015-00000001/3/223, data:bo/00015-00000001/3/212, data:bo/00015-00000001/3/190, data:bo/00015-00000001/3/224, data:bo/00015-00000001/3/106, data:bo/00015-00000001/3/215, data:bo/00015-00000001/3/221, data:bo/00015-00000001/3/205, data:bo/00015-00000001/3/218, data:bo/00015-00000001/3/236, data:bo/00015-00000001/3/229, data:bo/00015-00000001/3/225, data:bo/00015-00000001/3/180, data:bo/00015-00000001/3/198, data:bo/00015-00000001/3/233, data:bo/00015-00000001/3/231, data:bo/00015-00000001/3/228, data:bo/00015-00000001/3/232, data:bo/00015-00000001/3/227, data:bo/00015-00000001/3/235, data:bo/00015-00000001/3/238, data:bo/00015-00000001/3/237, data:bo/00015-00000001/3/140, data:bo/00015-00000001/3/239, data:bo/00015-00000001/3/210, data:bo/00015-00000001/3/217, data:bo/00015-00000001/3/16, data:bo/00015-00000001/3/23, data:bo/00015-00000001/3/157, data:bo/00015-00000001/3/170, data:bo/00015-00000001/3/194, data:bo/00015-00000001/3/185, data:bo/00015-00000001/3/12, data:bo/00015-00000001/3/119, data:bo/00015-00000001/3/156, data:bo/00015-00000001/3/92, data:bo/00015-00000001/3/179, data:bo/00015-00000001/3/6, data:bo/00015-00000001/3/107, data:bo/00015-00000001/3/44, data:bo/00015-00000001/3/35, data:bo/00015-00000001/3/20, data:bo/00015-00000001/3/174, data:bo/00015-00000001/3/103, data:bo/00015-00000001/3/154, data:bo/00015-00000001/3/147, data:bo/00015-00000001/3/51, data:bo/00015-00000001/3/67, data:bo/00015-00000001/3/135, data:bo/00015-00000001/3/191, data:bo/00015-00000001/3/47, data:bo/00015-00000001/3/2, data:bo/00015-00000001/3/48, data:bo/00015-00000001/3/214, data:bo/00015-00000001/3/136, data:bo/00015-00000001/3/197, data:bo/00015-00000001/3/226, data:bo/00015-00000001/3/100, data:bo/00015-00000001/3/112, data:bo/00015-00000001/3/134, data:bo/00015-00000001/3/116, data:bo/00015-00000001/3/208, data:bo/00015-00000001/3/55, data:bo/00015-00000001/3/187, data:bo/00015-00000001/3/144, data:bo/00015-00000001/3/3, data:bo/00015-00000001/3/142, data:bo/00015-00000001/3/1, data:bo/00015-00000001/3/84, data:bo/00015-00000001/3/15, data:bo/00015-00000001/3/203, data:bo/00015-00000001/3/123, data:bo/00015-00000001/3/65, data:bo/00015-00000001/3/186, data:bo/00015-00000001/3/130, data:bo/00015-00000001/3/46, data:bo/00015-00000001/3/59, data:bo/00015-00000001/3/36, data:bo/00015-00000001/3/62, data:bo/00015-00000001/3/18, data:bo/00015-00000001/3/22, data:bo/00015-00000001/3/81, data:bo/00015-00000001/3/193, data:bo/00015-00000001/3/169, data:bo/00015-00000001/3/45, data:bo/00015-00000001/3/206, data:bo/00015-00000001/3/31, data:bo/00015-00000001/3/105, data:bo/00015-00000001/3/91, data:bo/00015-00000001/3/132, data:bo/00015-00000001/3/90, data:bo/00015-00000001/3/178, data:bo/00015-00000001/3/230, data:bo/00015-00000001/3/146, data:bo/00015-00000001/3/199, data:bo/00015-00000001/3/66, data:bo/00015-00000001/3/86, data:bo/00015-00000001/3/121, data:bo/00015-00000001/3/54, data:bo/00015-00000001/3/74, data:bo/00015-00000001/3/5, data:bo/00015-00000001/3/108, data:bo/00015-00000001/3/195, data:bo/00015-00000001/3/188, data:bo/00015-00000001/3/207, data:bo/00015-00000001/3/167, data:bo/00015-00000001/3/113, data:bo/00015-00000001/3/93, data:bo/00015-00000001/3/38, data:bo/00015-00000001/3/111, data:bo/00015-00000001/3/139, data:bo/00015-00000001/3/220, data:bo/00015-00000001/3/181, data:bo/00015-00000001/3/196, data:bo/00015-00000001/3/124, data:bo/00015-00000001/3/166, data:bo/00015-00000001/3/240 .
+
+data:bo/00015-00000001/3/114 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/114 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00015-00000001/3/8 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/8 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00015-00000001/3/94 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/94 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00015-00000001/3/26 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/26 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00015-00000001/3/33 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/33 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00015-00000001/3/17 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/17 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00015-00000001/3/14 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/14 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00015-00000001/3/7 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/7 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00015-00000001/3/64 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/64 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00015-00000001/3/173 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/173 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00015-00000001/3/4 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/4 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00015-00000001/3/10 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/10 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00015-00000001/3/11 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/11 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00015-00000001/3/60 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/60 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00015-00000001/3/41 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/41 ;
+  do:optionRank "15"^^xsd:int .
+
+data:bo/00015-00000001/3/9 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/9 ;
+  do:optionRank "16"^^xsd:int .
+
+data:bo/00015-00000001/3/53 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/53 ;
+  do:optionRank "17"^^xsd:int .
+
+data:bo/00015-00000001/3/19 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/19 ;
+  do:optionRank "18"^^xsd:int .
+
+data:bo/00015-00000001/3/42 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/42 ;
+  do:optionRank "19"^^xsd:int .
+
+data:bo/00015-00000001/3/30 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/30 ;
+  do:optionRank "20"^^xsd:int .
+
+data:bo/00015-00000001/3/52 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/52 ;
+  do:optionRank "21"^^xsd:int .
+
+data:bo/00015-00000001/3/43 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/43 ;
+  do:optionRank "22"^^xsd:int .
+
+data:bo/00015-00000001/3/49 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/49 ;
+  do:optionRank "23"^^xsd:int .
+
+data:bo/00015-00000001/3/40 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/40 ;
+  do:optionRank "24"^^xsd:int .
+
+data:bo/00015-00000001/3/21 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/21 ;
+  do:optionRank "25"^^xsd:int .
+
+data:bo/00015-00000001/3/89 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/89 ;
+  do:optionRank "26"^^xsd:int .
+
+data:bo/00015-00000001/3/37 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/37 ;
+  do:optionRank "27"^^xsd:int .
+
+data:bo/00015-00000001/3/27 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/27 ;
+  do:optionRank "28"^^xsd:int .
+
+data:bo/00015-00000001/3/29 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/29 ;
+  do:optionRank "29"^^xsd:int .
+
+data:bo/00015-00000001/3/13 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/13 ;
+  do:optionRank "30"^^xsd:int .
+
+data:bo/00015-00000001/3/34 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/34 ;
+  do:optionRank "31"^^xsd:int .
+
+data:bo/00015-00000001/3/24 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/24 ;
+  do:optionRank "32"^^xsd:int .
+
+data:bo/00015-00000001/3/95 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/95 ;
+  do:optionRank "33"^^xsd:int .
+
+data:bo/00015-00000001/3/25 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/25 ;
+  do:optionRank "34"^^xsd:int .
+
+data:bo/00015-00000001/3/39 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/39 ;
+  do:optionRank "35"^^xsd:int .
+
+data:bo/00015-00000001/3/70 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/70 ;
+  do:optionRank "36"^^xsd:int .
+
+data:bo/00015-00000001/3/63 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/63 ;
+  do:optionRank "37"^^xsd:int .
+
+data:bo/00015-00000001/3/79 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/79 ;
+  do:optionRank "38"^^xsd:int .
+
+data:bo/00015-00000001/3/75 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/75 ;
+  do:optionRank "39"^^xsd:int .
+
+data:bo/00015-00000001/3/56 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/56 ;
+  do:optionRank "40"^^xsd:int .
+
+data:bo/00015-00000001/3/77 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/77 ;
+  do:optionRank "41"^^xsd:int .
+
+data:bo/00015-00000001/3/28 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/28 ;
+  do:optionRank "42"^^xsd:int .
+
+data:bo/00015-00000001/3/69 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/69 ;
+  do:optionRank "43"^^xsd:int .
+
+data:bo/00015-00000001/3/50 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/50 ;
+  do:optionRank "44"^^xsd:int .
+
+data:bo/00015-00000001/3/73 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/73 ;
+  do:optionRank "45"^^xsd:int .
+
+data:bo/00015-00000001/3/32 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/32 ;
+  do:optionRank "46"^^xsd:int .
+
+data:bo/00015-00000001/3/101 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/101 ;
+  do:optionRank "47"^^xsd:int .
+
+data:bo/00015-00000001/3/82 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/82 ;
+  do:optionRank "48"^^xsd:int .
+
+data:bo/00015-00000001/3/72 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/72 ;
+  do:optionRank "49"^^xsd:int .
+
+data:bo/00015-00000001/3/57 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/57 ;
+  do:optionRank "50"^^xsd:int .
+
+data:bo/00015-00000001/3/96 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/96 ;
+  do:optionRank "51"^^xsd:int .
+
+data:bo/00015-00000001/3/83 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/83 ;
+  do:optionRank "52"^^xsd:int .
+
+data:bo/00015-00000001/3/88 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/88 ;
+  do:optionRank "53"^^xsd:int .
+
+data:bo/00015-00000001/3/58 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/58 ;
+  do:optionRank "54"^^xsd:int .
+
+data:bo/00015-00000001/3/61 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/61 ;
+  do:optionRank "55"^^xsd:int .
+
+data:bo/00015-00000001/3/129 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/129 ;
+  do:optionRank "56"^^xsd:int .
+
+data:bo/00015-00000001/3/109 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/109 ;
+  do:optionRank "57"^^xsd:int .
+
+data:bo/00015-00000001/3/71 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/71 ;
+  do:optionRank "58"^^xsd:int .
+
+data:bo/00015-00000001/3/120 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/120 ;
+  do:optionRank "59"^^xsd:int .
+
+data:bo/00015-00000001/3/78 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/78 ;
+  do:optionRank "60"^^xsd:int .
+
+data:bo/00015-00000001/3/76 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/76 ;
+  do:optionRank "61"^^xsd:int .
+
+data:bo/00015-00000001/3/80 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/80 ;
+  do:optionRank "62"^^xsd:int .
+
+data:bo/00015-00000001/3/87 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/87 ;
+  do:optionRank "63"^^xsd:int .
+
+data:bo/00015-00000001/3/68 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/68 ;
+  do:optionRank "64"^^xsd:int .
+
+data:bo/00015-00000001/3/98 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/98 ;
+  do:optionRank "65"^^xsd:int .
+
+data:bo/00015-00000001/3/99 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/99 ;
+  do:optionRank "66"^^xsd:int .
+
+data:bo/00015-00000001/3/110 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/110 ;
+  do:optionRank "67"^^xsd:int .
+
+data:bo/00015-00000001/3/102 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/102 ;
+  do:optionRank "68"^^xsd:int .
+
+data:bo/00015-00000001/3/115 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/115 ;
+  do:optionRank "69"^^xsd:int .
+
+data:bo/00015-00000001/3/127 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/127 ;
+  do:optionRank "70"^^xsd:int .
+
+data:bo/00015-00000001/3/118 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/118 ;
+  do:optionRank "71"^^xsd:int .
+
+data:bo/00015-00000001/3/117 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/117 ;
+  do:optionRank "72"^^xsd:int .
+
+data:bo/00015-00000001/3/104 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/104 ;
+  do:optionRank "73"^^xsd:int .
+
+data:bo/00015-00000001/3/122 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/122 ;
+  do:optionRank "74"^^xsd:int .
+
+data:bo/00015-00000001/3/138 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/138 ;
+  do:optionRank "75"^^xsd:int .
+
+data:bo/00015-00000001/3/97 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/97 ;
+  do:optionRank "76"^^xsd:int .
+
+data:bo/00015-00000001/3/133 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/133 ;
+  do:optionRank "77"^^xsd:int .
+
+data:bo/00015-00000001/3/153 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/153 ;
+  do:optionRank "78"^^xsd:int .
+
+data:bo/00015-00000001/3/137 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/137 ;
+  do:optionRank "79"^^xsd:int .
+
+data:bo/00015-00000001/3/160 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/160 ;
+  do:optionRank "80"^^xsd:int .
+
+data:bo/00015-00000001/3/126 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/126 ;
+  do:optionRank "81"^^xsd:int .
+
+data:bo/00015-00000001/3/204 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/204 ;
+  do:optionRank "82"^^xsd:int .
+
+data:bo/00015-00000001/3/128 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/128 ;
+  do:optionRank "83"^^xsd:int .
+
+data:bo/00015-00000001/3/184 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/184 ;
+  do:optionRank "84"^^xsd:int .
+
+data:bo/00015-00000001/3/234 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/234 ;
+  do:optionRank "85"^^xsd:int .
+
+data:bo/00015-00000001/3/176 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/176 ;
+  do:optionRank "86"^^xsd:int .
+
+data:bo/00015-00000001/3/131 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/131 ;
+  do:optionRank "87"^^xsd:int .
+
+data:bo/00015-00000001/3/213 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/213 ;
+  do:optionRank "88"^^xsd:int .
+
+data:bo/00015-00000001/3/85 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/85 ;
+  do:optionRank "89"^^xsd:int .
+
+data:bo/00015-00000001/3/145 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/145 ;
+  do:optionRank "90"^^xsd:int .
+
+data:bo/00015-00000001/3/177 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/177 ;
+  do:optionRank "91"^^xsd:int .
+
+data:bo/00015-00000001/3/163 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/163 ;
+  do:optionRank "92"^^xsd:int .
+
+data:bo/00015-00000001/3/152 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/152 ;
+  do:optionRank "93"^^xsd:int .
+
+data:bo/00015-00000001/3/148 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/148 ;
+  do:optionRank "94"^^xsd:int .
+
+data:bo/00015-00000001/3/189 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/189 ;
+  do:optionRank "95"^^xsd:int .
+
+data:bo/00015-00000001/3/201 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/201 ;
+  do:optionRank "96"^^xsd:int .
+
+data:bo/00015-00000001/3/183 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/183 ;
+  do:optionRank "97"^^xsd:int .
+
+data:bo/00015-00000001/3/164 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/164 ;
+  do:optionRank "98"^^xsd:int .
+
+data:bo/00015-00000001/3/168 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/168 ;
+  do:optionRank "99"^^xsd:int .
+
+data:bo/00015-00000001/3/158 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/158 ;
+  do:optionRank "100"^^xsd:int .
+
+data:bo/00015-00000001/3/150 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/150 ;
+  do:optionRank "101"^^xsd:int .
+
+data:bo/00015-00000001/3/171 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/171 ;
+  do:optionRank "102"^^xsd:int .
+
+data:bo/00015-00000001/3/162 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/162 ;
+  do:optionRank "103"^^xsd:int .
+
+data:bo/00015-00000001/3/143 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/143 ;
+  do:optionRank "104"^^xsd:int .
+
+data:bo/00015-00000001/3/172 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/172 ;
+  do:optionRank "105"^^xsd:int .
+
+data:bo/00015-00000001/3/151 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/151 ;
+  do:optionRank "106"^^xsd:int .
+
+data:bo/00015-00000001/3/161 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/161 ;
+  do:optionRank "107"^^xsd:int .
+
+data:bo/00015-00000001/3/159 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/159 ;
+  do:optionRank "108"^^xsd:int .
+
+data:bo/00015-00000001/3/211 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/211 ;
+  do:optionRank "109"^^xsd:int .
+
+data:bo/00015-00000001/3/175 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/175 ;
+  do:optionRank "110"^^xsd:int .
+
+data:bo/00015-00000001/3/141 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/141 ;
+  do:optionRank "111"^^xsd:int .
+
+data:bo/00015-00000001/3/165 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/165 ;
+  do:optionRank "112"^^xsd:int .
+
+data:bo/00015-00000001/3/200 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/200 ;
+  do:optionRank "113"^^xsd:int .
+
+data:bo/00015-00000001/3/125 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/125 ;
+  do:optionRank "114"^^xsd:int .
+
+data:bo/00015-00000001/3/219 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/219 ;
+  do:optionRank "115"^^xsd:int .
+
+data:bo/00015-00000001/3/149 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/149 ;
+  do:optionRank "116"^^xsd:int .
+
+data:bo/00015-00000001/3/155 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/155 ;
+  do:optionRank "117"^^xsd:int .
+
+data:bo/00015-00000001/3/222 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/222 ;
+  do:optionRank "118"^^xsd:int .
+
+data:bo/00015-00000001/3/202 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/202 ;
+  do:optionRank "119"^^xsd:int .
+
+data:bo/00015-00000001/3/216 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/216 ;
+  do:optionRank "120"^^xsd:int .
+
+data:bo/00015-00000001/3/209 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/209 ;
+  do:optionRank "121"^^xsd:int .
+
+data:bo/00015-00000001/3/192 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/192 ;
+  do:optionRank "122"^^xsd:int .
+
+data:bo/00015-00000001/3/182 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/182 ;
+  do:optionRank "123"^^xsd:int .
+
+data:bo/00015-00000001/3/223 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/223 ;
+  do:optionRank "124"^^xsd:int .
+
+data:bo/00015-00000001/3/212 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/212 ;
+  do:optionRank "125"^^xsd:int .
+
+data:bo/00015-00000001/3/190 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/190 ;
+  do:optionRank "126"^^xsd:int .
+
+data:bo/00015-00000001/3/224 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/224 ;
+  do:optionRank "127"^^xsd:int .
+
+data:bo/00015-00000001/3/106 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/106 ;
+  do:optionRank "128"^^xsd:int .
+
+data:bo/00015-00000001/3/215 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/215 ;
+  do:optionRank "129"^^xsd:int .
+
+data:bo/00015-00000001/3/221 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/221 ;
+  do:optionRank "130"^^xsd:int .
+
+data:bo/00015-00000001/3/205 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/205 ;
+  do:optionRank "131"^^xsd:int .
+
+data:bo/00015-00000001/3/218 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/218 ;
+  do:optionRank "132"^^xsd:int .
+
+data:bo/00015-00000001/3/236 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/236 ;
+  do:optionRank "133"^^xsd:int .
+
+data:bo/00015-00000001/3/229 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/229 ;
+  do:optionRank "134"^^xsd:int .
+
+data:bo/00015-00000001/3/225 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/225 ;
+  do:optionRank "135"^^xsd:int .
+
+data:bo/00015-00000001/3/180 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/180 ;
+  do:optionRank "136"^^xsd:int .
+
+data:bo/00015-00000001/3/198 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/198 ;
+  do:optionRank "137"^^xsd:int .
+
+data:bo/00015-00000001/3/233 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/233 ;
+  do:optionRank "138"^^xsd:int .
+
+data:bo/00015-00000001/3/231 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/231 ;
+  do:optionRank "139"^^xsd:int .
+
+data:bo/00015-00000001/3/228 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/228 ;
+  do:optionRank "140"^^xsd:int .
+
+data:bo/00015-00000001/3/232 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/232 ;
+  do:optionRank "141"^^xsd:int .
+
+data:bo/00015-00000001/3/227 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/227 ;
+  do:optionRank "142"^^xsd:int .
+
+data:bo/00015-00000001/3/235 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/235 ;
+  do:optionRank "143"^^xsd:int .
+
+data:bo/00015-00000001/3/238 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/238 ;
+  do:optionRank "144"^^xsd:int .
+
+data:bo/00015-00000001/3/237 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/237 ;
+  do:optionRank "145"^^xsd:int .
+
+data:bo/00015-00000001/3/140 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/140 ;
+  do:optionRank "146"^^xsd:int .
+
+data:bo/00015-00000001/3/239 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/239 ;
+  do:optionRank "147"^^xsd:int .
+
+data:bo/00015-00000001/3/210 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/210 ;
+  do:optionRank "148"^^xsd:int .
+
+data:bo/00015-00000001/3/217 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/217 ;
+  do:optionRank "149"^^xsd:int .
+
+data:bo/00015-00000001/3/16 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/16 ;
+  do:optionRank "150"^^xsd:int .
+
+data:bo/00015-00000001/3/23 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/23 ;
+  do:optionRank "151"^^xsd:int .
+
+data:bo/00015-00000001/3/157 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/157 ;
+  do:optionRank "152"^^xsd:int .
+
+data:bo/00015-00000001/3/170 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/170 ;
+  do:optionRank "153"^^xsd:int .
+
+data:bo/00015-00000001/3/194 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/194 ;
+  do:optionRank "154"^^xsd:int .
+
+data:bo/00015-00000001/3/185 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/185 ;
+  do:optionRank "155"^^xsd:int .
+
+data:bo/00015-00000001/3/12 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/12 ;
+  do:optionRank "156"^^xsd:int .
+
+data:bo/00015-00000001/3/119 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/119 ;
+  do:optionRank "157"^^xsd:int .
+
+data:bo/00015-00000001/3/156 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/156 ;
+  do:optionRank "158"^^xsd:int .
+
+data:bo/00015-00000001/3/92 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/92 ;
+  do:optionRank "159"^^xsd:int .
+
+data:bo/00015-00000001/3/179 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/179 ;
+  do:optionRank "160"^^xsd:int .
+
+data:bo/00015-00000001/3/6 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/6 ;
+  do:optionRank "161"^^xsd:int .
+
+data:bo/00015-00000001/3/107 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/107 ;
+  do:optionRank "162"^^xsd:int .
+
+data:bo/00015-00000001/3/44 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/44 ;
+  do:optionRank "163"^^xsd:int .
+
+data:bo/00015-00000001/3/35 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/35 ;
+  do:optionRank "164"^^xsd:int .
+
+data:bo/00015-00000001/3/20 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/20 ;
+  do:optionRank "165"^^xsd:int .
+
+data:bo/00015-00000001/3/174 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/174 ;
+  do:optionRank "166"^^xsd:int .
+
+data:bo/00015-00000001/3/103 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/103 ;
+  do:optionRank "167"^^xsd:int .
+
+data:bo/00015-00000001/3/154 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/154 ;
+  do:optionRank "168"^^xsd:int .
+
+data:bo/00015-00000001/3/147 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/147 ;
+  do:optionRank "169"^^xsd:int .
+
+data:bo/00015-00000001/3/51 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/51 ;
+  do:optionRank "170"^^xsd:int .
+
+data:bo/00015-00000001/3/67 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/67 ;
+  do:optionRank "171"^^xsd:int .
+
+data:bo/00015-00000001/3/135 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/135 ;
+  do:optionRank "172"^^xsd:int .
+
+data:bo/00015-00000001/3/191 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/191 ;
+  do:optionRank "173"^^xsd:int .
+
+data:bo/00015-00000001/3/47 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/47 ;
+  do:optionRank "174"^^xsd:int .
+
+data:bo/00015-00000001/3/2 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/2 ;
+  do:optionRank "175"^^xsd:int .
+
+data:bo/00015-00000001/3/48 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/48 ;
+  do:optionRank "176"^^xsd:int .
+
+data:bo/00015-00000001/3/214 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/214 ;
+  do:optionRank "177"^^xsd:int .
+
+data:bo/00015-00000001/3/136 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/136 ;
+  do:optionRank "178"^^xsd:int .
+
+data:bo/00015-00000001/3/197 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/197 ;
+  do:optionRank "179"^^xsd:int .
+
+data:bo/00015-00000001/3/226 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/226 ;
+  do:optionRank "180"^^xsd:int .
+
+data:bo/00015-00000001/3/100 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/100 ;
+  do:optionRank "181"^^xsd:int .
+
+data:bo/00015-00000001/3/112 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/112 ;
+  do:optionRank "182"^^xsd:int .
+
+data:bo/00015-00000001/3/134 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/134 ;
+  do:optionRank "183"^^xsd:int .
+
+data:bo/00015-00000001/3/116 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/116 ;
+  do:optionRank "184"^^xsd:int .
+
+data:bo/00015-00000001/3/208 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/208 ;
+  do:optionRank "185"^^xsd:int .
+
+data:bo/00015-00000001/3/55 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/55 ;
+  do:optionRank "186"^^xsd:int .
+
+data:bo/00015-00000001/3/187 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/187 ;
+  do:optionRank "187"^^xsd:int .
+
+data:bo/00015-00000001/3/144 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/144 ;
+  do:optionRank "188"^^xsd:int .
+
+data:bo/00015-00000001/3/3 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/3 ;
+  do:optionRank "189"^^xsd:int .
+
+data:bo/00015-00000001/3/142 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/142 ;
+  do:optionRank "190"^^xsd:int .
+
+data:bo/00015-00000001/3/1 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/1 ;
+  do:optionRank "191"^^xsd:int .
+
+data:bo/00015-00000001/3/84 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/84 ;
+  do:optionRank "192"^^xsd:int .
+
+data:bo/00015-00000001/3/15 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/15 ;
+  do:optionRank "193"^^xsd:int .
+
+data:bo/00015-00000001/3/203 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/203 ;
+  do:optionRank "194"^^xsd:int .
+
+data:bo/00015-00000001/3/123 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/123 ;
+  do:optionRank "195"^^xsd:int .
+
+data:bo/00015-00000001/3/65 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/65 ;
+  do:optionRank "196"^^xsd:int .
+
+data:bo/00015-00000001/3/186 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/186 ;
+  do:optionRank "197"^^xsd:int .
+
+data:bo/00015-00000001/3/130 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/130 ;
+  do:optionRank "198"^^xsd:int .
+
+data:bo/00015-00000001/3/46 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/46 ;
+  do:optionRank "199"^^xsd:int .
+
+data:bo/00015-00000001/3/59 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/59 ;
+  do:optionRank "200"^^xsd:int .
+
+data:bo/00015-00000001/3/36 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/36 ;
+  do:optionRank "201"^^xsd:int .
+
+data:bo/00015-00000001/3/62 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/62 ;
+  do:optionRank "202"^^xsd:int .
+
+data:bo/00015-00000001/3/18 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/18 ;
+  do:optionRank "203"^^xsd:int .
+
+data:bo/00015-00000001/3/22 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/22 ;
+  do:optionRank "204"^^xsd:int .
+
+data:bo/00015-00000001/3/81 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/81 ;
+  do:optionRank "205"^^xsd:int .
+
+data:bo/00015-00000001/3/193 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/193 ;
+  do:optionRank "206"^^xsd:int .
+
+data:bo/00015-00000001/3/169 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/169 ;
+  do:optionRank "207"^^xsd:int .
+
+data:bo/00015-00000001/3/45 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/45 ;
+  do:optionRank "208"^^xsd:int .
+
+data:bo/00015-00000001/3/206 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/206 ;
+  do:optionRank "209"^^xsd:int .
+
+data:bo/00015-00000001/3/31 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/31 ;
+  do:optionRank "210"^^xsd:int .
+
+data:bo/00015-00000001/3/105 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/105 ;
+  do:optionRank "211"^^xsd:int .
+
+data:bo/00015-00000001/3/91 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/91 ;
+  do:optionRank "212"^^xsd:int .
+
+data:bo/00015-00000001/3/132 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/132 ;
+  do:optionRank "213"^^xsd:int .
+
+data:bo/00015-00000001/3/90 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/90 ;
+  do:optionRank "214"^^xsd:int .
+
+data:bo/00015-00000001/3/178 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/178 ;
+  do:optionRank "215"^^xsd:int .
+
+data:bo/00015-00000001/3/230 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/230 ;
+  do:optionRank "216"^^xsd:int .
+
+data:bo/00015-00000001/3/146 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/146 ;
+  do:optionRank "217"^^xsd:int .
+
+data:bo/00015-00000001/3/199 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/199 ;
+  do:optionRank "218"^^xsd:int .
+
+data:bo/00015-00000001/3/66 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/66 ;
+  do:optionRank "219"^^xsd:int .
+
+data:bo/00015-00000001/3/86 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/86 ;
+  do:optionRank "220"^^xsd:int .
+
+data:bo/00015-00000001/3/121 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/121 ;
+  do:optionRank "221"^^xsd:int .
+
+data:bo/00015-00000001/3/54 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/54 ;
+  do:optionRank "222"^^xsd:int .
+
+data:bo/00015-00000001/3/74 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/74 ;
+  do:optionRank "223"^^xsd:int .
+
+data:bo/00015-00000001/3/5 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/5 ;
+  do:optionRank "224"^^xsd:int .
+
+data:bo/00015-00000001/3/108 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/108 ;
+  do:optionRank "225"^^xsd:int .
+
+data:bo/00015-00000001/3/195 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/195 ;
+  do:optionRank "226"^^xsd:int .
+
+data:bo/00015-00000001/3/188 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/188 ;
+  do:optionRank "227"^^xsd:int .
+
+data:bo/00015-00000001/3/207 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/207 ;
+  do:optionRank "228"^^xsd:int .
+
+data:bo/00015-00000001/3/167 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/167 ;
+  do:optionRank "229"^^xsd:int .
+
+data:bo/00015-00000001/3/113 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/113 ;
+  do:optionRank "230"^^xsd:int .
+
+data:bo/00015-00000001/3/93 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/93 ;
+  do:optionRank "231"^^xsd:int .
+
+data:bo/00015-00000001/3/38 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/38 ;
+  do:optionRank "232"^^xsd:int .
+
+data:bo/00015-00000001/3/111 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/111 ;
+  do:optionRank "233"^^xsd:int .
+
+data:bo/00015-00000001/3/139 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/139 ;
+  do:optionRank "234"^^xsd:int .
+
+data:bo/00015-00000001/3/220 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/220 ;
+  do:optionRank "235"^^xsd:int .
+
+data:bo/00015-00000001/3/181 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/181 ;
+  do:optionRank "236"^^xsd:int .
+
+data:bo/00015-00000001/3/196 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/196 ;
+  do:optionRank "237"^^xsd:int .
+
+data:bo/00015-00000001/3/124 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/124 ;
+  do:optionRank "238"^^xsd:int .
+
+data:bo/00015-00000001/3/166 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/166 ;
+  do:optionRank "239"^^xsd:int .
+
+data:bo/00015-00000001/3/240 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/240 ;
+  do:optionRank "240"^^xsd:int .
+
+data:agent/00015-00000001/3 a do:Agent ;
+  rdfs:label "Synthetic agent 3 (00015-00000001)" ;
+  do:hasExpressed data:ballot/00015-00000001/3 .
+
+data:ballot/00015-00000001/4 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00015-00000001 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00015-00000001/4/1, data:bo/00015-00000001/4/2, data:bo/00015-00000001/4/33, data:bo/00015-00000001/4/6, data:bo/00015-00000001/4/4, data:bo/00015-00000001/4/5, data:bo/00015-00000001/4/7, data:bo/00015-00000001/4/14, data:bo/00015-00000001/4/12, data:bo/00015-00000001/4/16, data:bo/00015-00000001/4/8, data:bo/00015-00000001/4/64, data:bo/00015-00000001/4/11, data:bo/00015-00000001/4/9, data:bo/00015-00000001/4/17, data:bo/00015-00000001/4/18, data:bo/00015-00000001/4/20, data:bo/00015-00000001/4/28, data:bo/00015-00000001/4/13, data:bo/00015-00000001/4/24, data:bo/00015-00000001/4/19, data:bo/00015-00000001/4/31, data:bo/00015-00000001/4/21, data:bo/00015-00000001/4/41, data:bo/00015-00000001/4/40, data:bo/00015-00000001/4/30, data:bo/00015-00000001/4/22, data:bo/00015-00000001/4/94, data:bo/00015-00000001/4/35, data:bo/00015-00000001/4/47, data:bo/00015-00000001/4/27, data:bo/00015-00000001/4/60, data:bo/00015-00000001/4/25, data:bo/00015-00000001/4/45, data:bo/00015-00000001/4/34, data:bo/00015-00000001/4/37, data:bo/00015-00000001/4/29, data:bo/00015-00000001/4/43, data:bo/00015-00000001/4/69, data:bo/00015-00000001/4/15, data:bo/00015-00000001/4/3, data:bo/00015-00000001/4/89, data:bo/00015-00000001/4/65, data:bo/00015-00000001/4/56, data:bo/00015-00000001/4/53, data:bo/00015-00000001/4/49, data:bo/00015-00000001/4/38, data:bo/00015-00000001/4/48, data:bo/00015-00000001/4/42, data:bo/00015-00000001/4/26, data:bo/00015-00000001/4/59, data:bo/00015-00000001/4/39, data:bo/00015-00000001/4/72, data:bo/00015-00000001/4/52, data:bo/00015-00000001/4/129, data:bo/00015-00000001/4/63, data:bo/00015-00000001/4/10, data:bo/00015-00000001/4/66, data:bo/00015-00000001/4/67, data:bo/00015-00000001/4/50, data:bo/00015-00000001/4/23, data:bo/00015-00000001/4/62, data:bo/00015-00000001/4/79, data:bo/00015-00000001/4/93, data:bo/00015-00000001/4/36, data:bo/00015-00000001/4/55, data:bo/00015-00000001/4/82, data:bo/00015-00000001/4/73, data:bo/00015-00000001/4/78, data:bo/00015-00000001/4/46, data:bo/00015-00000001/4/32, data:bo/00015-00000001/4/84, data:bo/00015-00000001/4/57, data:bo/00015-00000001/4/71, data:bo/00015-00000001/4/54, data:bo/00015-00000001/4/81, data:bo/00015-00000001/4/98, data:bo/00015-00000001/4/70, data:bo/00015-00000001/4/58, data:bo/00015-00000001/4/102, data:bo/00015-00000001/4/88, data:bo/00015-00000001/4/77, data:bo/00015-00000001/4/90, data:bo/00015-00000001/4/86, data:bo/00015-00000001/4/104, data:bo/00015-00000001/4/108, data:bo/00015-00000001/4/95, data:bo/00015-00000001/4/68, data:bo/00015-00000001/4/96, data:bo/00015-00000001/4/51, data:bo/00015-00000001/4/101, data:bo/00015-00000001/4/100, data:bo/00015-00000001/4/75, data:bo/00015-00000001/4/103, data:bo/00015-00000001/4/80, data:bo/00015-00000001/4/122, data:bo/00015-00000001/4/99, data:bo/00015-00000001/4/112, data:bo/00015-00000001/4/92, data:bo/00015-00000001/4/83, data:bo/00015-00000001/4/135, data:bo/00015-00000001/4/109, data:bo/00015-00000001/4/105, data:bo/00015-00000001/4/110, data:bo/00015-00000001/4/115, data:bo/00015-00000001/4/76, data:bo/00015-00000001/4/61, data:bo/00015-00000001/4/74, data:bo/00015-00000001/4/117, data:bo/00015-00000001/4/118, data:bo/00015-00000001/4/179, data:bo/00015-00000001/4/44, data:bo/00015-00000001/4/128, data:bo/00015-00000001/4/121, data:bo/00015-00000001/4/120, data:bo/00015-00000001/4/87, data:bo/00015-00000001/4/126, data:bo/00015-00000001/4/127, data:bo/00015-00000001/4/114, data:bo/00015-00000001/4/107, data:bo/00015-00000001/4/133, data:bo/00015-00000001/4/124, data:bo/00015-00000001/4/134, data:bo/00015-00000001/4/116, data:bo/00015-00000001/4/111, data:bo/00015-00000001/4/139, data:bo/00015-00000001/4/113, data:bo/00015-00000001/4/132, data:bo/00015-00000001/4/130, data:bo/00015-00000001/4/143, data:bo/00015-00000001/4/138, data:bo/00015-00000001/4/154, data:bo/00015-00000001/4/91, data:bo/00015-00000001/4/145, data:bo/00015-00000001/4/240, data:bo/00015-00000001/4/160, data:bo/00015-00000001/4/148, data:bo/00015-00000001/4/136, data:bo/00015-00000001/4/119, data:bo/00015-00000001/4/137, data:bo/00015-00000001/4/153, data:bo/00015-00000001/4/142, data:bo/00015-00000001/4/173, data:bo/00015-00000001/4/152, data:bo/00015-00000001/4/97, data:bo/00015-00000001/4/144, data:bo/00015-00000001/4/159, data:bo/00015-00000001/4/164, data:bo/00015-00000001/4/162, data:bo/00015-00000001/4/85, data:bo/00015-00000001/4/131, data:bo/00015-00000001/4/146, data:bo/00015-00000001/4/157, data:bo/00015-00000001/4/167, data:bo/00015-00000001/4/174, data:bo/00015-00000001/4/210, data:bo/00015-00000001/4/156, data:bo/00015-00000001/4/178, data:bo/00015-00000001/4/188, data:bo/00015-00000001/4/176, data:bo/00015-00000001/4/158, data:bo/00015-00000001/4/166, data:bo/00015-00000001/4/170, data:bo/00015-00000001/4/175, data:bo/00015-00000001/4/169, data:bo/00015-00000001/4/151, data:bo/00015-00000001/4/204, data:bo/00015-00000001/4/165, data:bo/00015-00000001/4/147, data:bo/00015-00000001/4/177, data:bo/00015-00000001/4/172, data:bo/00015-00000001/4/187, data:bo/00015-00000001/4/183, data:bo/00015-00000001/4/186, data:bo/00015-00000001/4/181, data:bo/00015-00000001/4/163, data:bo/00015-00000001/4/189, data:bo/00015-00000001/4/196, data:bo/00015-00000001/4/149, data:bo/00015-00000001/4/184, data:bo/00015-00000001/4/191, data:bo/00015-00000001/4/123, data:bo/00015-00000001/4/180, data:bo/00015-00000001/4/190, data:bo/00015-00000001/4/168, data:bo/00015-00000001/4/199, data:bo/00015-00000001/4/155, data:bo/00015-00000001/4/171, data:bo/00015-00000001/4/106, data:bo/00015-00000001/4/195, data:bo/00015-00000001/4/201, data:bo/00015-00000001/4/200, data:bo/00015-00000001/4/192, data:bo/00015-00000001/4/197, data:bo/00015-00000001/4/150, data:bo/00015-00000001/4/193, data:bo/00015-00000001/4/209, data:bo/00015-00000001/4/211, data:bo/00015-00000001/4/203, data:bo/00015-00000001/4/182, data:bo/00015-00000001/4/205, data:bo/00015-00000001/4/194, data:bo/00015-00000001/4/202, data:bo/00015-00000001/4/161, data:bo/00015-00000001/4/206, data:bo/00015-00000001/4/213, data:bo/00015-00000001/4/207, data:bo/00015-00000001/4/212, data:bo/00015-00000001/4/214, data:bo/00015-00000001/4/219, data:bo/00015-00000001/4/208, data:bo/00015-00000001/4/218, data:bo/00015-00000001/4/217, data:bo/00015-00000001/4/125, data:bo/00015-00000001/4/216, data:bo/00015-00000001/4/220, data:bo/00015-00000001/4/215, data:bo/00015-00000001/4/224, data:bo/00015-00000001/4/221, data:bo/00015-00000001/4/222, data:bo/00015-00000001/4/230, data:bo/00015-00000001/4/140, data:bo/00015-00000001/4/185, data:bo/00015-00000001/4/223, data:bo/00015-00000001/4/231, data:bo/00015-00000001/4/198, data:bo/00015-00000001/4/225, data:bo/00015-00000001/4/227, data:bo/00015-00000001/4/234, data:bo/00015-00000001/4/229, data:bo/00015-00000001/4/228, data:bo/00015-00000001/4/226, data:bo/00015-00000001/4/233, data:bo/00015-00000001/4/236, data:bo/00015-00000001/4/235, data:bo/00015-00000001/4/232, data:bo/00015-00000001/4/141, data:bo/00015-00000001/4/237, data:bo/00015-00000001/4/238, data:bo/00015-00000001/4/239 .
+
+data:bo/00015-00000001/4/1 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/1 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00015-00000001/4/2 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/2 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00015-00000001/4/33 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/33 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00015-00000001/4/6 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/6 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00015-00000001/4/4 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/4 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00015-00000001/4/5 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/5 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00015-00000001/4/7 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/7 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00015-00000001/4/14 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/14 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00015-00000001/4/12 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/12 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00015-00000001/4/16 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/16 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00015-00000001/4/8 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/8 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00015-00000001/4/64 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/64 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00015-00000001/4/11 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/11 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00015-00000001/4/9 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/9 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00015-00000001/4/17 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/17 ;
+  do:optionRank "15"^^xsd:int .
+
+data:bo/00015-00000001/4/18 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/18 ;
+  do:optionRank "16"^^xsd:int .
+
+data:bo/00015-00000001/4/20 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/20 ;
+  do:optionRank "17"^^xsd:int .
+
+data:bo/00015-00000001/4/28 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/28 ;
+  do:optionRank "18"^^xsd:int .
+
+data:bo/00015-00000001/4/13 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/13 ;
+  do:optionRank "19"^^xsd:int .
+
+data:bo/00015-00000001/4/24 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/24 ;
+  do:optionRank "20"^^xsd:int .
+
+data:bo/00015-00000001/4/19 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/19 ;
+  do:optionRank "21"^^xsd:int .
+
+data:bo/00015-00000001/4/31 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/31 ;
+  do:optionRank "22"^^xsd:int .
+
+data:bo/00015-00000001/4/21 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/21 ;
+  do:optionRank "23"^^xsd:int .
+
+data:bo/00015-00000001/4/41 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/41 ;
+  do:optionRank "24"^^xsd:int .
+
+data:bo/00015-00000001/4/40 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/40 ;
+  do:optionRank "25"^^xsd:int .
+
+data:bo/00015-00000001/4/30 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/30 ;
+  do:optionRank "26"^^xsd:int .
+
+data:bo/00015-00000001/4/22 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/22 ;
+  do:optionRank "27"^^xsd:int .
+
+data:bo/00015-00000001/4/94 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/94 ;
+  do:optionRank "28"^^xsd:int .
+
+data:bo/00015-00000001/4/35 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/35 ;
+  do:optionRank "29"^^xsd:int .
+
+data:bo/00015-00000001/4/47 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/47 ;
+  do:optionRank "30"^^xsd:int .
+
+data:bo/00015-00000001/4/27 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/27 ;
+  do:optionRank "31"^^xsd:int .
+
+data:bo/00015-00000001/4/60 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/60 ;
+  do:optionRank "32"^^xsd:int .
+
+data:bo/00015-00000001/4/25 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/25 ;
+  do:optionRank "33"^^xsd:int .
+
+data:bo/00015-00000001/4/45 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/45 ;
+  do:optionRank "34"^^xsd:int .
+
+data:bo/00015-00000001/4/34 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/34 ;
+  do:optionRank "35"^^xsd:int .
+
+data:bo/00015-00000001/4/37 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/37 ;
+  do:optionRank "36"^^xsd:int .
+
+data:bo/00015-00000001/4/29 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/29 ;
+  do:optionRank "37"^^xsd:int .
+
+data:bo/00015-00000001/4/43 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/43 ;
+  do:optionRank "38"^^xsd:int .
+
+data:bo/00015-00000001/4/69 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/69 ;
+  do:optionRank "39"^^xsd:int .
+
+data:bo/00015-00000001/4/15 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/15 ;
+  do:optionRank "40"^^xsd:int .
+
+data:bo/00015-00000001/4/3 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/3 ;
+  do:optionRank "41"^^xsd:int .
+
+data:bo/00015-00000001/4/89 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/89 ;
+  do:optionRank "42"^^xsd:int .
+
+data:bo/00015-00000001/4/65 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/65 ;
+  do:optionRank "43"^^xsd:int .
+
+data:bo/00015-00000001/4/56 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/56 ;
+  do:optionRank "44"^^xsd:int .
+
+data:bo/00015-00000001/4/53 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/53 ;
+  do:optionRank "45"^^xsd:int .
+
+data:bo/00015-00000001/4/49 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/49 ;
+  do:optionRank "46"^^xsd:int .
+
+data:bo/00015-00000001/4/38 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/38 ;
+  do:optionRank "47"^^xsd:int .
+
+data:bo/00015-00000001/4/48 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/48 ;
+  do:optionRank "48"^^xsd:int .
+
+data:bo/00015-00000001/4/42 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/42 ;
+  do:optionRank "49"^^xsd:int .
+
+data:bo/00015-00000001/4/26 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/26 ;
+  do:optionRank "50"^^xsd:int .
+
+data:bo/00015-00000001/4/59 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/59 ;
+  do:optionRank "51"^^xsd:int .
+
+data:bo/00015-00000001/4/39 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/39 ;
+  do:optionRank "52"^^xsd:int .
+
+data:bo/00015-00000001/4/72 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/72 ;
+  do:optionRank "53"^^xsd:int .
+
+data:bo/00015-00000001/4/52 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/52 ;
+  do:optionRank "54"^^xsd:int .
+
+data:bo/00015-00000001/4/129 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/129 ;
+  do:optionRank "55"^^xsd:int .
+
+data:bo/00015-00000001/4/63 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/63 ;
+  do:optionRank "56"^^xsd:int .
+
+data:bo/00015-00000001/4/10 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/10 ;
+  do:optionRank "57"^^xsd:int .
+
+data:bo/00015-00000001/4/66 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/66 ;
+  do:optionRank "58"^^xsd:int .
+
+data:bo/00015-00000001/4/67 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/67 ;
+  do:optionRank "59"^^xsd:int .
+
+data:bo/00015-00000001/4/50 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/50 ;
+  do:optionRank "60"^^xsd:int .
+
+data:bo/00015-00000001/4/23 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/23 ;
+  do:optionRank "61"^^xsd:int .
+
+data:bo/00015-00000001/4/62 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/62 ;
+  do:optionRank "62"^^xsd:int .
+
+data:bo/00015-00000001/4/79 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/79 ;
+  do:optionRank "63"^^xsd:int .
+
+data:bo/00015-00000001/4/93 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/93 ;
+  do:optionRank "64"^^xsd:int .
+
+data:bo/00015-00000001/4/36 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/36 ;
+  do:optionRank "65"^^xsd:int .
+
+data:bo/00015-00000001/4/55 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/55 ;
+  do:optionRank "66"^^xsd:int .
+
+data:bo/00015-00000001/4/82 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/82 ;
+  do:optionRank "67"^^xsd:int .
+
+data:bo/00015-00000001/4/73 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/73 ;
+  do:optionRank "68"^^xsd:int .
+
+data:bo/00015-00000001/4/78 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/78 ;
+  do:optionRank "69"^^xsd:int .
+
+data:bo/00015-00000001/4/46 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/46 ;
+  do:optionRank "70"^^xsd:int .
+
+data:bo/00015-00000001/4/32 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/32 ;
+  do:optionRank "71"^^xsd:int .
+
+data:bo/00015-00000001/4/84 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/84 ;
+  do:optionRank "72"^^xsd:int .
+
+data:bo/00015-00000001/4/57 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/57 ;
+  do:optionRank "73"^^xsd:int .
+
+data:bo/00015-00000001/4/71 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/71 ;
+  do:optionRank "74"^^xsd:int .
+
+data:bo/00015-00000001/4/54 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/54 ;
+  do:optionRank "75"^^xsd:int .
+
+data:bo/00015-00000001/4/81 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/81 ;
+  do:optionRank "76"^^xsd:int .
+
+data:bo/00015-00000001/4/98 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/98 ;
+  do:optionRank "77"^^xsd:int .
+
+data:bo/00015-00000001/4/70 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/70 ;
+  do:optionRank "78"^^xsd:int .
+
+data:bo/00015-00000001/4/58 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/58 ;
+  do:optionRank "79"^^xsd:int .
+
+data:bo/00015-00000001/4/102 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/102 ;
+  do:optionRank "80"^^xsd:int .
+
+data:bo/00015-00000001/4/88 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/88 ;
+  do:optionRank "81"^^xsd:int .
+
+data:bo/00015-00000001/4/77 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/77 ;
+  do:optionRank "82"^^xsd:int .
+
+data:bo/00015-00000001/4/90 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/90 ;
+  do:optionRank "83"^^xsd:int .
+
+data:bo/00015-00000001/4/86 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/86 ;
+  do:optionRank "84"^^xsd:int .
+
+data:bo/00015-00000001/4/104 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/104 ;
+  do:optionRank "85"^^xsd:int .
+
+data:bo/00015-00000001/4/108 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/108 ;
+  do:optionRank "86"^^xsd:int .
+
+data:bo/00015-00000001/4/95 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/95 ;
+  do:optionRank "87"^^xsd:int .
+
+data:bo/00015-00000001/4/68 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/68 ;
+  do:optionRank "88"^^xsd:int .
+
+data:bo/00015-00000001/4/96 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/96 ;
+  do:optionRank "89"^^xsd:int .
+
+data:bo/00015-00000001/4/51 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/51 ;
+  do:optionRank "90"^^xsd:int .
+
+data:bo/00015-00000001/4/101 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/101 ;
+  do:optionRank "91"^^xsd:int .
+
+data:bo/00015-00000001/4/100 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/100 ;
+  do:optionRank "92"^^xsd:int .
+
+data:bo/00015-00000001/4/75 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/75 ;
+  do:optionRank "93"^^xsd:int .
+
+data:bo/00015-00000001/4/103 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/103 ;
+  do:optionRank "94"^^xsd:int .
+
+data:bo/00015-00000001/4/80 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/80 ;
+  do:optionRank "95"^^xsd:int .
+
+data:bo/00015-00000001/4/122 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/122 ;
+  do:optionRank "96"^^xsd:int .
+
+data:bo/00015-00000001/4/99 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/99 ;
+  do:optionRank "97"^^xsd:int .
+
+data:bo/00015-00000001/4/112 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/112 ;
+  do:optionRank "98"^^xsd:int .
+
+data:bo/00015-00000001/4/92 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/92 ;
+  do:optionRank "99"^^xsd:int .
+
+data:bo/00015-00000001/4/83 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/83 ;
+  do:optionRank "100"^^xsd:int .
+
+data:bo/00015-00000001/4/135 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/135 ;
+  do:optionRank "101"^^xsd:int .
+
+data:bo/00015-00000001/4/109 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/109 ;
+  do:optionRank "102"^^xsd:int .
+
+data:bo/00015-00000001/4/105 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/105 ;
+  do:optionRank "103"^^xsd:int .
+
+data:bo/00015-00000001/4/110 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/110 ;
+  do:optionRank "104"^^xsd:int .
+
+data:bo/00015-00000001/4/115 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/115 ;
+  do:optionRank "105"^^xsd:int .
+
+data:bo/00015-00000001/4/76 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/76 ;
+  do:optionRank "106"^^xsd:int .
+
+data:bo/00015-00000001/4/61 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/61 ;
+  do:optionRank "107"^^xsd:int .
+
+data:bo/00015-00000001/4/74 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/74 ;
+  do:optionRank "108"^^xsd:int .
+
+data:bo/00015-00000001/4/117 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/117 ;
+  do:optionRank "109"^^xsd:int .
+
+data:bo/00015-00000001/4/118 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/118 ;
+  do:optionRank "110"^^xsd:int .
+
+data:bo/00015-00000001/4/179 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/179 ;
+  do:optionRank "111"^^xsd:int .
+
+data:bo/00015-00000001/4/44 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/44 ;
+  do:optionRank "112"^^xsd:int .
+
+data:bo/00015-00000001/4/128 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/128 ;
+  do:optionRank "113"^^xsd:int .
+
+data:bo/00015-00000001/4/121 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/121 ;
+  do:optionRank "114"^^xsd:int .
+
+data:bo/00015-00000001/4/120 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/120 ;
+  do:optionRank "115"^^xsd:int .
+
+data:bo/00015-00000001/4/87 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/87 ;
+  do:optionRank "116"^^xsd:int .
+
+data:bo/00015-00000001/4/126 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/126 ;
+  do:optionRank "117"^^xsd:int .
+
+data:bo/00015-00000001/4/127 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/127 ;
+  do:optionRank "118"^^xsd:int .
+
+data:bo/00015-00000001/4/114 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/114 ;
+  do:optionRank "119"^^xsd:int .
+
+data:bo/00015-00000001/4/107 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/107 ;
+  do:optionRank "120"^^xsd:int .
+
+data:bo/00015-00000001/4/133 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/133 ;
+  do:optionRank "121"^^xsd:int .
+
+data:bo/00015-00000001/4/124 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/124 ;
+  do:optionRank "122"^^xsd:int .
+
+data:bo/00015-00000001/4/134 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/134 ;
+  do:optionRank "123"^^xsd:int .
+
+data:bo/00015-00000001/4/116 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/116 ;
+  do:optionRank "124"^^xsd:int .
+
+data:bo/00015-00000001/4/111 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/111 ;
+  do:optionRank "125"^^xsd:int .
+
+data:bo/00015-00000001/4/139 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/139 ;
+  do:optionRank "126"^^xsd:int .
+
+data:bo/00015-00000001/4/113 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/113 ;
+  do:optionRank "127"^^xsd:int .
+
+data:bo/00015-00000001/4/132 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/132 ;
+  do:optionRank "128"^^xsd:int .
+
+data:bo/00015-00000001/4/130 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/130 ;
+  do:optionRank "129"^^xsd:int .
+
+data:bo/00015-00000001/4/143 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/143 ;
+  do:optionRank "130"^^xsd:int .
+
+data:bo/00015-00000001/4/138 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/138 ;
+  do:optionRank "131"^^xsd:int .
+
+data:bo/00015-00000001/4/154 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/154 ;
+  do:optionRank "132"^^xsd:int .
+
+data:bo/00015-00000001/4/91 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/91 ;
+  do:optionRank "133"^^xsd:int .
+
+data:bo/00015-00000001/4/145 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/145 ;
+  do:optionRank "134"^^xsd:int .
+
+data:bo/00015-00000001/4/240 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/240 ;
+  do:optionRank "135"^^xsd:int .
+
+data:bo/00015-00000001/4/160 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/160 ;
+  do:optionRank "136"^^xsd:int .
+
+data:bo/00015-00000001/4/148 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/148 ;
+  do:optionRank "137"^^xsd:int .
+
+data:bo/00015-00000001/4/136 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/136 ;
+  do:optionRank "138"^^xsd:int .
+
+data:bo/00015-00000001/4/119 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/119 ;
+  do:optionRank "139"^^xsd:int .
+
+data:bo/00015-00000001/4/137 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/137 ;
+  do:optionRank "140"^^xsd:int .
+
+data:bo/00015-00000001/4/153 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/153 ;
+  do:optionRank "141"^^xsd:int .
+
+data:bo/00015-00000001/4/142 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/142 ;
+  do:optionRank "142"^^xsd:int .
+
+data:bo/00015-00000001/4/173 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/173 ;
+  do:optionRank "143"^^xsd:int .
+
+data:bo/00015-00000001/4/152 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/152 ;
+  do:optionRank "144"^^xsd:int .
+
+data:bo/00015-00000001/4/97 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/97 ;
+  do:optionRank "145"^^xsd:int .
+
+data:bo/00015-00000001/4/144 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/144 ;
+  do:optionRank "146"^^xsd:int .
+
+data:bo/00015-00000001/4/159 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/159 ;
+  do:optionRank "147"^^xsd:int .
+
+data:bo/00015-00000001/4/164 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/164 ;
+  do:optionRank "148"^^xsd:int .
+
+data:bo/00015-00000001/4/162 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/162 ;
+  do:optionRank "149"^^xsd:int .
+
+data:bo/00015-00000001/4/85 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/85 ;
+  do:optionRank "150"^^xsd:int .
+
+data:bo/00015-00000001/4/131 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/131 ;
+  do:optionRank "151"^^xsd:int .
+
+data:bo/00015-00000001/4/146 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/146 ;
+  do:optionRank "152"^^xsd:int .
+
+data:bo/00015-00000001/4/157 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/157 ;
+  do:optionRank "153"^^xsd:int .
+
+data:bo/00015-00000001/4/167 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/167 ;
+  do:optionRank "154"^^xsd:int .
+
+data:bo/00015-00000001/4/174 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/174 ;
+  do:optionRank "155"^^xsd:int .
+
+data:bo/00015-00000001/4/210 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/210 ;
+  do:optionRank "156"^^xsd:int .
+
+data:bo/00015-00000001/4/156 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/156 ;
+  do:optionRank "157"^^xsd:int .
+
+data:bo/00015-00000001/4/178 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/178 ;
+  do:optionRank "158"^^xsd:int .
+
+data:bo/00015-00000001/4/188 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/188 ;
+  do:optionRank "159"^^xsd:int .
+
+data:bo/00015-00000001/4/176 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/176 ;
+  do:optionRank "160"^^xsd:int .
+
+data:bo/00015-00000001/4/158 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/158 ;
+  do:optionRank "161"^^xsd:int .
+
+data:bo/00015-00000001/4/166 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/166 ;
+  do:optionRank "162"^^xsd:int .
+
+data:bo/00015-00000001/4/170 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/170 ;
+  do:optionRank "163"^^xsd:int .
+
+data:bo/00015-00000001/4/175 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/175 ;
+  do:optionRank "164"^^xsd:int .
+
+data:bo/00015-00000001/4/169 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/169 ;
+  do:optionRank "165"^^xsd:int .
+
+data:bo/00015-00000001/4/151 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/151 ;
+  do:optionRank "166"^^xsd:int .
+
+data:bo/00015-00000001/4/204 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/204 ;
+  do:optionRank "167"^^xsd:int .
+
+data:bo/00015-00000001/4/165 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/165 ;
+  do:optionRank "168"^^xsd:int .
+
+data:bo/00015-00000001/4/147 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/147 ;
+  do:optionRank "169"^^xsd:int .
+
+data:bo/00015-00000001/4/177 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/177 ;
+  do:optionRank "170"^^xsd:int .
+
+data:bo/00015-00000001/4/172 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/172 ;
+  do:optionRank "171"^^xsd:int .
+
+data:bo/00015-00000001/4/187 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/187 ;
+  do:optionRank "172"^^xsd:int .
+
+data:bo/00015-00000001/4/183 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/183 ;
+  do:optionRank "173"^^xsd:int .
+
+data:bo/00015-00000001/4/186 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/186 ;
+  do:optionRank "174"^^xsd:int .
+
+data:bo/00015-00000001/4/181 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/181 ;
+  do:optionRank "175"^^xsd:int .
+
+data:bo/00015-00000001/4/163 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/163 ;
+  do:optionRank "176"^^xsd:int .
+
+data:bo/00015-00000001/4/189 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/189 ;
+  do:optionRank "177"^^xsd:int .
+
+data:bo/00015-00000001/4/196 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/196 ;
+  do:optionRank "178"^^xsd:int .
+
+data:bo/00015-00000001/4/149 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/149 ;
+  do:optionRank "179"^^xsd:int .
+
+data:bo/00015-00000001/4/184 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/184 ;
+  do:optionRank "180"^^xsd:int .
+
+data:bo/00015-00000001/4/191 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/191 ;
+  do:optionRank "181"^^xsd:int .
+
+data:bo/00015-00000001/4/123 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/123 ;
+  do:optionRank "182"^^xsd:int .
+
+data:bo/00015-00000001/4/180 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/180 ;
+  do:optionRank "183"^^xsd:int .
+
+data:bo/00015-00000001/4/190 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/190 ;
+  do:optionRank "184"^^xsd:int .
+
+data:bo/00015-00000001/4/168 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/168 ;
+  do:optionRank "185"^^xsd:int .
+
+data:bo/00015-00000001/4/199 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/199 ;
+  do:optionRank "186"^^xsd:int .
+
+data:bo/00015-00000001/4/155 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/155 ;
+  do:optionRank "187"^^xsd:int .
+
+data:bo/00015-00000001/4/171 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/171 ;
+  do:optionRank "188"^^xsd:int .
+
+data:bo/00015-00000001/4/106 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/106 ;
+  do:optionRank "189"^^xsd:int .
+
+data:bo/00015-00000001/4/195 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/195 ;
+  do:optionRank "190"^^xsd:int .
+
+data:bo/00015-00000001/4/201 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/201 ;
+  do:optionRank "191"^^xsd:int .
+
+data:bo/00015-00000001/4/200 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/200 ;
+  do:optionRank "192"^^xsd:int .
+
+data:bo/00015-00000001/4/192 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/192 ;
+  do:optionRank "193"^^xsd:int .
+
+data:bo/00015-00000001/4/197 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/197 ;
+  do:optionRank "194"^^xsd:int .
+
+data:bo/00015-00000001/4/150 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/150 ;
+  do:optionRank "195"^^xsd:int .
+
+data:bo/00015-00000001/4/193 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/193 ;
+  do:optionRank "196"^^xsd:int .
+
+data:bo/00015-00000001/4/209 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/209 ;
+  do:optionRank "197"^^xsd:int .
+
+data:bo/00015-00000001/4/211 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/211 ;
+  do:optionRank "198"^^xsd:int .
+
+data:bo/00015-00000001/4/203 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/203 ;
+  do:optionRank "199"^^xsd:int .
+
+data:bo/00015-00000001/4/182 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/182 ;
+  do:optionRank "200"^^xsd:int .
+
+data:bo/00015-00000001/4/205 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/205 ;
+  do:optionRank "201"^^xsd:int .
+
+data:bo/00015-00000001/4/194 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/194 ;
+  do:optionRank "202"^^xsd:int .
+
+data:bo/00015-00000001/4/202 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/202 ;
+  do:optionRank "203"^^xsd:int .
+
+data:bo/00015-00000001/4/161 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/161 ;
+  do:optionRank "204"^^xsd:int .
+
+data:bo/00015-00000001/4/206 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/206 ;
+  do:optionRank "205"^^xsd:int .
+
+data:bo/00015-00000001/4/213 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/213 ;
+  do:optionRank "206"^^xsd:int .
+
+data:bo/00015-00000001/4/207 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/207 ;
+  do:optionRank "207"^^xsd:int .
+
+data:bo/00015-00000001/4/212 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/212 ;
+  do:optionRank "208"^^xsd:int .
+
+data:bo/00015-00000001/4/214 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/214 ;
+  do:optionRank "209"^^xsd:int .
+
+data:bo/00015-00000001/4/219 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/219 ;
+  do:optionRank "210"^^xsd:int .
+
+data:bo/00015-00000001/4/208 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/208 ;
+  do:optionRank "211"^^xsd:int .
+
+data:bo/00015-00000001/4/218 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/218 ;
+  do:optionRank "212"^^xsd:int .
+
+data:bo/00015-00000001/4/217 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/217 ;
+  do:optionRank "213"^^xsd:int .
+
+data:bo/00015-00000001/4/125 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/125 ;
+  do:optionRank "214"^^xsd:int .
+
+data:bo/00015-00000001/4/216 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/216 ;
+  do:optionRank "215"^^xsd:int .
+
+data:bo/00015-00000001/4/220 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/220 ;
+  do:optionRank "216"^^xsd:int .
+
+data:bo/00015-00000001/4/215 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/215 ;
+  do:optionRank "217"^^xsd:int .
+
+data:bo/00015-00000001/4/224 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/224 ;
+  do:optionRank "218"^^xsd:int .
+
+data:bo/00015-00000001/4/221 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/221 ;
+  do:optionRank "219"^^xsd:int .
+
+data:bo/00015-00000001/4/222 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/222 ;
+  do:optionRank "220"^^xsd:int .
+
+data:bo/00015-00000001/4/230 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/230 ;
+  do:optionRank "221"^^xsd:int .
+
+data:bo/00015-00000001/4/140 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/140 ;
+  do:optionRank "222"^^xsd:int .
+
+data:bo/00015-00000001/4/185 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/185 ;
+  do:optionRank "223"^^xsd:int .
+
+data:bo/00015-00000001/4/223 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/223 ;
+  do:optionRank "224"^^xsd:int .
+
+data:bo/00015-00000001/4/231 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/231 ;
+  do:optionRank "225"^^xsd:int .
+
+data:bo/00015-00000001/4/198 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/198 ;
+  do:optionRank "226"^^xsd:int .
+
+data:bo/00015-00000001/4/225 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/225 ;
+  do:optionRank "227"^^xsd:int .
+
+data:bo/00015-00000001/4/227 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/227 ;
+  do:optionRank "228"^^xsd:int .
+
+data:bo/00015-00000001/4/234 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/234 ;
+  do:optionRank "229"^^xsd:int .
+
+data:bo/00015-00000001/4/229 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/229 ;
+  do:optionRank "230"^^xsd:int .
+
+data:bo/00015-00000001/4/228 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/228 ;
+  do:optionRank "231"^^xsd:int .
+
+data:bo/00015-00000001/4/226 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/226 ;
+  do:optionRank "232"^^xsd:int .
+
+data:bo/00015-00000001/4/233 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/233 ;
+  do:optionRank "233"^^xsd:int .
+
+data:bo/00015-00000001/4/236 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/236 ;
+  do:optionRank "234"^^xsd:int .
+
+data:bo/00015-00000001/4/235 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/235 ;
+  do:optionRank "235"^^xsd:int .
+
+data:bo/00015-00000001/4/232 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/232 ;
+  do:optionRank "236"^^xsd:int .
+
+data:bo/00015-00000001/4/141 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/141 ;
+  do:optionRank "237"^^xsd:int .
+
+data:bo/00015-00000001/4/237 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/237 ;
+  do:optionRank "238"^^xsd:int .
+
+data:bo/00015-00000001/4/238 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/238 ;
+  do:optionRank "239"^^xsd:int .
+
+data:bo/00015-00000001/4/239 a do:BallotOption ;
+  do:refersToOption data:option/00015-00000001/239 ;
+  do:optionRank "240"^^xsd:int .
+
+data:agent/00015-00000001/4 a do:Agent ;
+  rdfs:label "Synthetic agent 4 (00015-00000001)" ;
+  do:hasExpressed data:ballot/00015-00000001/4 .
+

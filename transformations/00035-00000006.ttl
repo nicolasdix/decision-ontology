@@ -1,0 +1,2856 @@
+@prefix do: <http://www.semanticweb.org/decision-ontology#> .
+@prefix data: <http://www.semanticweb.org/decision-ontology/data/preflib/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:context/00035-00000006 a do:Context ;
+  rdfs:label "Breakfast, with beverage only" .
+
+data:context/00035-00000006 do:hasAvailableOption data:option/00035-00000006/1, data:option/00035-00000006/2, data:option/00035-00000006/3, data:option/00035-00000006/4, data:option/00035-00000006/5, data:option/00035-00000006/6, data:option/00035-00000006/7, data:option/00035-00000006/8, data:option/00035-00000006/9, data:option/00035-00000006/10, data:option/00035-00000006/11, data:option/00035-00000006/12, data:option/00035-00000006/13, data:option/00035-00000006/14, data:option/00035-00000006/15 .
+
+data:option/00035-00000006/1 a do:Option ; rdfs:label "Toast pop-up" .
+data:option/00035-00000006/2 a do:Option ; rdfs:label "Buttered toast" .
+data:option/00035-00000006/3 a do:Option ; rdfs:label "English muffin and margarine EMM" .
+data:option/00035-00000006/4 a do:Option ; rdfs:label "Jelly donut" .
+data:option/00035-00000006/5 a do:Option ; rdfs:label "Cinnamon toast" .
+data:option/00035-00000006/6 a do:Option ; rdfs:label "Blueberry muffin and margarine" .
+data:option/00035-00000006/7 a do:Option ; rdfs:label "Hard rolls and butter" .
+data:option/00035-00000006/8 a do:Option ; rdfs:label "Toast and marmalade" .
+data:option/00035-00000006/9 a do:Option ; rdfs:label "Buttered toast and jelly" .
+data:option/00035-00000006/10 a do:Option ; rdfs:label "Toast and margarine" .
+data:option/00035-00000006/11 a do:Option ; rdfs:label "Cinnamon bun" .
+data:option/00035-00000006/12 a do:Option ; rdfs:label "Danish pastry" .
+data:option/00035-00000006/13 a do:Option ; rdfs:label "Glazed donut" .
+data:option/00035-00000006/14 a do:Option ; rdfs:label "Coffee cake" .
+data:option/00035-00000006/15 a do:Option ; rdfs:label "Corn muffin and butter" .
+
+data:ballot/00035-00000006/1 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/1/12, data:bo/00035-00000006/1/14, data:bo/00035-00000006/1/11, data:bo/00035-00000006/1/4, data:bo/00035-00000006/1/13, data:bo/00035-00000006/1/6, data:bo/00035-00000006/1/7, data:bo/00035-00000006/1/3, data:bo/00035-00000006/1/5, data:bo/00035-00000006/1/1, data:bo/00035-00000006/1/15, data:bo/00035-00000006/1/2, data:bo/00035-00000006/1/10, data:bo/00035-00000006/1/9, data:bo/00035-00000006/1/8 .
+
+data:bo/00035-00000006/1/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/1/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/1/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/1/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/1/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/1/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/1/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/1/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/1/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/1/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/1/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/1/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/1/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/1/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/1/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/1 a do:Agent ;
+  rdfs:label "Synthetic agent 1 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/1 .
+
+data:ballot/00035-00000006/2 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/2/12, data:bo/00035-00000006/2/14, data:bo/00035-00000006/2/4, data:bo/00035-00000006/2/13, data:bo/00035-00000006/2/6, data:bo/00035-00000006/2/3, data:bo/00035-00000006/2/15, data:bo/00035-00000006/2/8, data:bo/00035-00000006/2/9, data:bo/00035-00000006/2/11, data:bo/00035-00000006/2/5, data:bo/00035-00000006/2/7, data:bo/00035-00000006/2/2, data:bo/00035-00000006/2/10, data:bo/00035-00000006/2/1 .
+
+data:bo/00035-00000006/2/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/2/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/2/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/2/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/2/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/2/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/2/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/2/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/2/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/2/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/2/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/2/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/2/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/2/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/2/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/2 a do:Agent ;
+  rdfs:label "Synthetic agent 2 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/2 .
+
+data:ballot/00035-00000006/3 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/3/11, data:bo/00035-00000006/3/12, data:bo/00035-00000006/3/13, data:bo/00035-00000006/3/14, data:bo/00035-00000006/3/3, data:bo/00035-00000006/3/6, data:bo/00035-00000006/3/1, data:bo/00035-00000006/3/8, data:bo/00035-00000006/3/9, data:bo/00035-00000006/3/2, data:bo/00035-00000006/3/4, data:bo/00035-00000006/3/10, data:bo/00035-00000006/3/5, data:bo/00035-00000006/3/7, data:bo/00035-00000006/3/15 .
+
+data:bo/00035-00000006/3/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/3/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/3/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/3/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/3/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/3/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/3/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/3/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/3/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/3/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/3/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/3/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/3/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/3/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/3/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/3 a do:Agent ;
+  rdfs:label "Synthetic agent 3 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/3 .
+
+data:ballot/00035-00000006/4 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/4/11, data:bo/00035-00000006/4/12, data:bo/00035-00000006/4/13, data:bo/00035-00000006/4/4, data:bo/00035-00000006/4/14, data:bo/00035-00000006/4/1, data:bo/00035-00000006/4/2, data:bo/00035-00000006/4/10, data:bo/00035-00000006/4/9, data:bo/00035-00000006/4/8, data:bo/00035-00000006/4/6, data:bo/00035-00000006/4/5, data:bo/00035-00000006/4/3, data:bo/00035-00000006/4/7, data:bo/00035-00000006/4/15 .
+
+data:bo/00035-00000006/4/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/4/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/4/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/4/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/4/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/4/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/4/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/4/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/4/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/4/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/4/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/4/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/4/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/4/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/4/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/4 a do:Agent ;
+  rdfs:label "Synthetic agent 4 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/4 .
+
+data:ballot/00035-00000006/5 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/5/12, data:bo/00035-00000006/5/6, data:bo/00035-00000006/5/14, data:bo/00035-00000006/5/13, data:bo/00035-00000006/5/15, data:bo/00035-00000006/5/3, data:bo/00035-00000006/5/9, data:bo/00035-00000006/5/8, data:bo/00035-00000006/5/2, data:bo/00035-00000006/5/10, data:bo/00035-00000006/5/11, data:bo/00035-00000006/5/7, data:bo/00035-00000006/5/5, data:bo/00035-00000006/5/4, data:bo/00035-00000006/5/1 .
+
+data:bo/00035-00000006/5/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/5/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/5/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/5/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/5/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/5/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/5/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/5/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/5/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/5/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/5/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/5/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/5/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/5/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/5/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/5 a do:Agent ;
+  rdfs:label "Synthetic agent 5 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/5 .
+
+data:ballot/00035-00000006/6 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/6/14, data:bo/00035-00000006/6/11, data:bo/00035-00000006/6/12, data:bo/00035-00000006/6/13, data:bo/00035-00000006/6/4, data:bo/00035-00000006/6/6, data:bo/00035-00000006/6/5, data:bo/00035-00000006/6/9, data:bo/00035-00000006/6/1, data:bo/00035-00000006/6/8, data:bo/00035-00000006/6/2, data:bo/00035-00000006/6/10, data:bo/00035-00000006/6/15, data:bo/00035-00000006/6/3, data:bo/00035-00000006/6/7 .
+
+data:bo/00035-00000006/6/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/6/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/6/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/6/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/6/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/6/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/6/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/6/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/6/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/6/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/6/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/6/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/6/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/6/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/6/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/6 a do:Agent ;
+  rdfs:label "Synthetic agent 6 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/6 .
+
+data:ballot/00035-00000006/7 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/7/13, data:bo/00035-00000006/7/12, data:bo/00035-00000006/7/14, data:bo/00035-00000006/7/6, data:bo/00035-00000006/7/3, data:bo/00035-00000006/7/4, data:bo/00035-00000006/7/11, data:bo/00035-00000006/7/5, data:bo/00035-00000006/7/1, data:bo/00035-00000006/7/15, data:bo/00035-00000006/7/8, data:bo/00035-00000006/7/9, data:bo/00035-00000006/7/7, data:bo/00035-00000006/7/2, data:bo/00035-00000006/7/10 .
+
+data:bo/00035-00000006/7/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/7/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/7/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/7/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/7/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/7/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/7/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/7/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/7/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/7/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/7/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/7/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/7/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/7/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/7/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/7 a do:Agent ;
+  rdfs:label "Synthetic agent 7 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/7 .
+
+data:ballot/00035-00000006/8 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/8/12, data:bo/00035-00000006/8/6, data:bo/00035-00000006/8/11, data:bo/00035-00000006/8/14, data:bo/00035-00000006/8/13, data:bo/00035-00000006/8/4, data:bo/00035-00000006/8/9, data:bo/00035-00000006/8/8, data:bo/00035-00000006/8/5, data:bo/00035-00000006/8/2, data:bo/00035-00000006/8/10, data:bo/00035-00000006/8/3, data:bo/00035-00000006/8/7, data:bo/00035-00000006/8/15, data:bo/00035-00000006/8/1 .
+
+data:bo/00035-00000006/8/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/8/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/8/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/8/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/8/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/8/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/8/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/8/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/8/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/8/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/8/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/8/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/8/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/8/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/8/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/8 a do:Agent ;
+  rdfs:label "Synthetic agent 8 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/8 .
+
+data:ballot/00035-00000006/9 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/9/14, data:bo/00035-00000006/9/12, data:bo/00035-00000006/9/11, data:bo/00035-00000006/9/3, data:bo/00035-00000006/9/5, data:bo/00035-00000006/9/6, data:bo/00035-00000006/9/9, data:bo/00035-00000006/9/7, data:bo/00035-00000006/9/15, data:bo/00035-00000006/9/4, data:bo/00035-00000006/9/13, data:bo/00035-00000006/9/8, data:bo/00035-00000006/9/2, data:bo/00035-00000006/9/10, data:bo/00035-00000006/9/1 .
+
+data:bo/00035-00000006/9/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/9/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/9/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/9/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/9/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/9/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/9/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/9/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/9/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/9/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/9/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/9/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/9/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/9/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/9/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/9 a do:Agent ;
+  rdfs:label "Synthetic agent 9 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/9 .
+
+data:ballot/00035-00000006/10 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/10/14, data:bo/00035-00000006/10/12, data:bo/00035-00000006/10/15, data:bo/00035-00000006/10/6, data:bo/00035-00000006/10/7, data:bo/00035-00000006/10/11, data:bo/00035-00000006/10/4, data:bo/00035-00000006/10/13, data:bo/00035-00000006/10/5, data:bo/00035-00000006/10/9, data:bo/00035-00000006/10/3, data:bo/00035-00000006/10/2, data:bo/00035-00000006/10/10, data:bo/00035-00000006/10/8, data:bo/00035-00000006/10/1 .
+
+data:bo/00035-00000006/10/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/10/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/10/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/10/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/10/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/10/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/10/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/10/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/10/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/10/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/10/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/10/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/10/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/10/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/10/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/10 a do:Agent ;
+  rdfs:label "Synthetic agent 10 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/10 .
+
+data:ballot/00035-00000006/11 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/11/7, data:bo/00035-00000006/11/2, data:bo/00035-00000006/11/10, data:bo/00035-00000006/11/15, data:bo/00035-00000006/11/3, data:bo/00035-00000006/11/6, data:bo/00035-00000006/11/9, data:bo/00035-00000006/11/5, data:bo/00035-00000006/11/1, data:bo/00035-00000006/11/11, data:bo/00035-00000006/11/14, data:bo/00035-00000006/11/8, data:bo/00035-00000006/11/12, data:bo/00035-00000006/11/13, data:bo/00035-00000006/11/4 .
+
+data:bo/00035-00000006/11/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/11/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/11/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/11/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/11/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/11/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/11/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/11/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/11/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/11/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/11/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/11/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/11/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/11/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/11/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/11 a do:Agent ;
+  rdfs:label "Synthetic agent 11 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/11 .
+
+data:ballot/00035-00000006/12 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/12/7, data:bo/00035-00000006/12/2, data:bo/00035-00000006/12/10, data:bo/00035-00000006/12/9, data:bo/00035-00000006/12/3, data:bo/00035-00000006/12/15, data:bo/00035-00000006/12/6, data:bo/00035-00000006/12/5, data:bo/00035-00000006/12/1, data:bo/00035-00000006/12/14, data:bo/00035-00000006/12/11, data:bo/00035-00000006/12/12, data:bo/00035-00000006/12/13, data:bo/00035-00000006/12/8, data:bo/00035-00000006/12/4 .
+
+data:bo/00035-00000006/12/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/12/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/12/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/12/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/12/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/12/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/12/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/12/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/12/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/12/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/12/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/12/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/12/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/12/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/12/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/12 a do:Agent ;
+  rdfs:label "Synthetic agent 12 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/12 .
+
+data:ballot/00035-00000006/13 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/13/2, data:bo/00035-00000006/13/10, data:bo/00035-00000006/13/9, data:bo/00035-00000006/13/3, data:bo/00035-00000006/13/4, data:bo/00035-00000006/13/12, data:bo/00035-00000006/13/6, data:bo/00035-00000006/13/15, data:bo/00035-00000006/13/7, data:bo/00035-00000006/13/14, data:bo/00035-00000006/13/5, data:bo/00035-00000006/13/11, data:bo/00035-00000006/13/13, data:bo/00035-00000006/13/8, data:bo/00035-00000006/13/1 .
+
+data:bo/00035-00000006/13/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/13/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/13/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/13/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/13/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/13/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/13/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/13/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/13/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/13/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/13/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/13/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/13/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/13/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/13/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/13 a do:Agent ;
+  rdfs:label "Synthetic agent 13 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/13 .
+
+data:ballot/00035-00000006/14 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/14/14, data:bo/00035-00000006/14/12, data:bo/00035-00000006/14/13, data:bo/00035-00000006/14/11, data:bo/00035-00000006/14/4, data:bo/00035-00000006/14/5, data:bo/00035-00000006/14/8, data:bo/00035-00000006/14/9, data:bo/00035-00000006/14/7, data:bo/00035-00000006/14/15, data:bo/00035-00000006/14/2, data:bo/00035-00000006/14/6, data:bo/00035-00000006/14/1, data:bo/00035-00000006/14/3, data:bo/00035-00000006/14/10 .
+
+data:bo/00035-00000006/14/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/14/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/14/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/14/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/14/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/14/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/14/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/14/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/14/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/14/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/14/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/14/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/14/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/14/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/14/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/14 a do:Agent ;
+  rdfs:label "Synthetic agent 14 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/14 .
+
+data:ballot/00035-00000006/15 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/15/14, data:bo/00035-00000006/15/12, data:bo/00035-00000006/15/4, data:bo/00035-00000006/15/11, data:bo/00035-00000006/15/5, data:bo/00035-00000006/15/8, data:bo/00035-00000006/15/9, data:bo/00035-00000006/15/1, data:bo/00035-00000006/15/6, data:bo/00035-00000006/15/13, data:bo/00035-00000006/15/3, data:bo/00035-00000006/15/2, data:bo/00035-00000006/15/10, data:bo/00035-00000006/15/15, data:bo/00035-00000006/15/7 .
+
+data:bo/00035-00000006/15/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/15/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/15/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/15/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/15/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/15/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/15/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/15/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/15/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/15/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/15/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/15/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/15/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/15/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/15/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/15 a do:Agent ;
+  rdfs:label "Synthetic agent 15 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/15 .
+
+data:ballot/00035-00000006/16 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/16/6, data:bo/00035-00000006/16/3, data:bo/00035-00000006/16/14, data:bo/00035-00000006/16/9, data:bo/00035-00000006/16/8, data:bo/00035-00000006/16/13, data:bo/00035-00000006/16/11, data:bo/00035-00000006/16/5, data:bo/00035-00000006/16/12, data:bo/00035-00000006/16/15, data:bo/00035-00000006/16/7, data:bo/00035-00000006/16/2, data:bo/00035-00000006/16/10, data:bo/00035-00000006/16/4, data:bo/00035-00000006/16/1 .
+
+data:bo/00035-00000006/16/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/16/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/16/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/16/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/16/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/16/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/16/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/16/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/16/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/16/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/16/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/16/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/16/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/16/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/16/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/16 a do:Agent ;
+  rdfs:label "Synthetic agent 16 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/16 .
+
+data:ballot/00035-00000006/17 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/17/12, data:bo/00035-00000006/17/14, data:bo/00035-00000006/17/4, data:bo/00035-00000006/17/13, data:bo/00035-00000006/17/11, data:bo/00035-00000006/17/6, data:bo/00035-00000006/17/1, data:bo/00035-00000006/17/3, data:bo/00035-00000006/17/10, data:bo/00035-00000006/17/2, data:bo/00035-00000006/17/9, data:bo/00035-00000006/17/8, data:bo/00035-00000006/17/5, data:bo/00035-00000006/17/15, data:bo/00035-00000006/17/7 .
+
+data:bo/00035-00000006/17/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/17/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/17/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/17/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/17/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/17/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/17/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/17/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/17/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/17/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/17/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/17/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/17/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/17/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/17/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/17 a do:Agent ;
+  rdfs:label "Synthetic agent 17 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/17 .
+
+data:ballot/00035-00000006/18 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/18/6, data:bo/00035-00000006/18/14, data:bo/00035-00000006/18/12, data:bo/00035-00000006/18/4, data:bo/00035-00000006/18/11, data:bo/00035-00000006/18/3, data:bo/00035-00000006/18/1, data:bo/00035-00000006/18/9, data:bo/00035-00000006/18/8, data:bo/00035-00000006/18/5, data:bo/00035-00000006/18/15, data:bo/00035-00000006/18/2, data:bo/00035-00000006/18/10, data:bo/00035-00000006/18/13, data:bo/00035-00000006/18/7 .
+
+data:bo/00035-00000006/18/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/18/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/18/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/18/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/18/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/18/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/18/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/18/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/18/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/18/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/18/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/18/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/18/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/18/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/18/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/18 a do:Agent ;
+  rdfs:label "Synthetic agent 18 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/18 .
+
+data:ballot/00035-00000006/19 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/19/12, data:bo/00035-00000006/19/11, data:bo/00035-00000006/19/13, data:bo/00035-00000006/19/4, data:bo/00035-00000006/19/1, data:bo/00035-00000006/19/14, data:bo/00035-00000006/19/9, data:bo/00035-00000006/19/8, data:bo/00035-00000006/19/6, data:bo/00035-00000006/19/7, data:bo/00035-00000006/19/2, data:bo/00035-00000006/19/3, data:bo/00035-00000006/19/10, data:bo/00035-00000006/19/5, data:bo/00035-00000006/19/15 .
+
+data:bo/00035-00000006/19/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/19/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/19/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/19/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/19/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/19/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/19/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/19/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/19/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/19/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/19/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/19/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/19/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/19/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/19/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/19 a do:Agent ;
+  rdfs:label "Synthetic agent 19 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/19 .
+
+data:ballot/00035-00000006/20 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/20/12, data:bo/00035-00000006/20/13, data:bo/00035-00000006/20/6, data:bo/00035-00000006/20/5, data:bo/00035-00000006/20/14, data:bo/00035-00000006/20/11, data:bo/00035-00000006/20/15, data:bo/00035-00000006/20/3, data:bo/00035-00000006/20/4, data:bo/00035-00000006/20/7, data:bo/00035-00000006/20/8, data:bo/00035-00000006/20/9, data:bo/00035-00000006/20/10, data:bo/00035-00000006/20/2, data:bo/00035-00000006/20/1 .
+
+data:bo/00035-00000006/20/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/20/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/20/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/20/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/20/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/20/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/20/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/20/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/20/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/20/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/20/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/20/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/20/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/20/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/20/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/20 a do:Agent ;
+  rdfs:label "Synthetic agent 20 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/20 .
+
+data:ballot/00035-00000006/21 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/21/1, data:bo/00035-00000006/21/12, data:bo/00035-00000006/21/14, data:bo/00035-00000006/21/11, data:bo/00035-00000006/21/5, data:bo/00035-00000006/21/4, data:bo/00035-00000006/21/13, data:bo/00035-00000006/21/6, data:bo/00035-00000006/21/15, data:bo/00035-00000006/21/3, data:bo/00035-00000006/21/10, data:bo/00035-00000006/21/9, data:bo/00035-00000006/21/8, data:bo/00035-00000006/21/7, data:bo/00035-00000006/21/2 .
+
+data:bo/00035-00000006/21/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/21/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/21/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/21/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/21/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/21/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/21/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/21/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/21/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/21/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/21/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/21/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/21/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/21/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/21/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/21 a do:Agent ;
+  rdfs:label "Synthetic agent 21 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/21 .
+
+data:ballot/00035-00000006/22 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/22/9, data:bo/00035-00000006/22/8, data:bo/00035-00000006/22/6, data:bo/00035-00000006/22/5, data:bo/00035-00000006/22/13, data:bo/00035-00000006/22/4, data:bo/00035-00000006/22/2, data:bo/00035-00000006/22/10, data:bo/00035-00000006/22/3, data:bo/00035-00000006/22/11, data:bo/00035-00000006/22/15, data:bo/00035-00000006/22/14, data:bo/00035-00000006/22/12, data:bo/00035-00000006/22/1, data:bo/00035-00000006/22/7 .
+
+data:bo/00035-00000006/22/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/22/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/22/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/22/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/22/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/22/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/22/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/22/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/22/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/22/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/22/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/22/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/22/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/22/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/22/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/22 a do:Agent ;
+  rdfs:label "Synthetic agent 22 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/22 .
+
+data:ballot/00035-00000006/23 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/23/6, data:bo/00035-00000006/23/3, data:bo/00035-00000006/23/8, data:bo/00035-00000006/23/11, data:bo/00035-00000006/23/9, data:bo/00035-00000006/23/4, data:bo/00035-00000006/23/5, data:bo/00035-00000006/23/2, data:bo/00035-00000006/23/7, data:bo/00035-00000006/23/15, data:bo/00035-00000006/23/14, data:bo/00035-00000006/23/1, data:bo/00035-00000006/23/10, data:bo/00035-00000006/23/12, data:bo/00035-00000006/23/13 .
+
+data:bo/00035-00000006/23/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/23/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/23/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/23/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/23/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/23/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/23/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/23/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/23/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/23/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/23/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/23/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/23/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/23/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/23/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/23 a do:Agent ;
+  rdfs:label "Synthetic agent 23 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/23 .
+
+data:ballot/00035-00000006/24 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/24/8, data:bo/00035-00000006/24/12, data:bo/00035-00000006/24/14, data:bo/00035-00000006/24/9, data:bo/00035-00000006/24/7, data:bo/00035-00000006/24/15, data:bo/00035-00000006/24/3, data:bo/00035-00000006/24/2, data:bo/00035-00000006/24/10, data:bo/00035-00000006/24/6, data:bo/00035-00000006/24/1, data:bo/00035-00000006/24/11, data:bo/00035-00000006/24/4, data:bo/00035-00000006/24/13, data:bo/00035-00000006/24/5 .
+
+data:bo/00035-00000006/24/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/24/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/24/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/24/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/24/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/24/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/24/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/24/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/24/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/24/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/24/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/24/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/24/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/24/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/24/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/24 a do:Agent ;
+  rdfs:label "Synthetic agent 24 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/24 .
+
+data:ballot/00035-00000006/25 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/25/12, data:bo/00035-00000006/25/11, data:bo/00035-00000006/25/13, data:bo/00035-00000006/25/14, data:bo/00035-00000006/25/4, data:bo/00035-00000006/25/9, data:bo/00035-00000006/25/10, data:bo/00035-00000006/25/8, data:bo/00035-00000006/25/2, data:bo/00035-00000006/25/3, data:bo/00035-00000006/25/5, data:bo/00035-00000006/25/6, data:bo/00035-00000006/25/1, data:bo/00035-00000006/25/7, data:bo/00035-00000006/25/15 .
+
+data:bo/00035-00000006/25/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/25/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/25/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/25/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/25/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/25/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/25/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/25/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/25/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/25/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/25/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/25/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/25/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/25/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/25/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/25 a do:Agent ;
+  rdfs:label "Synthetic agent 25 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/25 .
+
+data:ballot/00035-00000006/26 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/26/12, data:bo/00035-00000006/26/14, data:bo/00035-00000006/26/13, data:bo/00035-00000006/26/11, data:bo/00035-00000006/26/4, data:bo/00035-00000006/26/6, data:bo/00035-00000006/26/3, data:bo/00035-00000006/26/10, data:bo/00035-00000006/26/15, data:bo/00035-00000006/26/5, data:bo/00035-00000006/26/9, data:bo/00035-00000006/26/8, data:bo/00035-00000006/26/2, data:bo/00035-00000006/26/7, data:bo/00035-00000006/26/1 .
+
+data:bo/00035-00000006/26/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/26/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/26/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/26/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/26/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/26/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/26/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/26/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/26/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/26/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/26/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/26/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/26/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/26/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/26/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/26 a do:Agent ;
+  rdfs:label "Synthetic agent 26 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/26 .
+
+data:ballot/00035-00000006/27 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/27/5, data:bo/00035-00000006/27/11, data:bo/00035-00000006/27/2, data:bo/00035-00000006/27/9, data:bo/00035-00000006/27/8, data:bo/00035-00000006/27/10, data:bo/00035-00000006/27/3, data:bo/00035-00000006/27/6, data:bo/00035-00000006/27/15, data:bo/00035-00000006/27/7, data:bo/00035-00000006/27/1, data:bo/00035-00000006/27/14, data:bo/00035-00000006/27/13, data:bo/00035-00000006/27/4, data:bo/00035-00000006/27/12 .
+
+data:bo/00035-00000006/27/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/27/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/27/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/27/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/27/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/27/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/27/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/27/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/27/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/27/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/27/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/27/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/27/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/27/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/27/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/27 a do:Agent ;
+  rdfs:label "Synthetic agent 27 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/27 .
+
+data:ballot/00035-00000006/28 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/28/12, data:bo/00035-00000006/28/14, data:bo/00035-00000006/28/1, data:bo/00035-00000006/28/11, data:bo/00035-00000006/28/6, data:bo/00035-00000006/28/5, data:bo/00035-00000006/28/3, data:bo/00035-00000006/28/15, data:bo/00035-00000006/28/8, data:bo/00035-00000006/28/9, data:bo/00035-00000006/28/4, data:bo/00035-00000006/28/13, data:bo/00035-00000006/28/10, data:bo/00035-00000006/28/2, data:bo/00035-00000006/28/7 .
+
+data:bo/00035-00000006/28/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/28/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/28/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/28/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/28/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/28/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/28/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/28/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/28/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/28/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/28/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/28/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/28/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/28/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/28/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/28 a do:Agent ;
+  rdfs:label "Synthetic agent 28 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/28 .
+
+data:ballot/00035-00000006/29 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/29/12, data:bo/00035-00000006/29/4, data:bo/00035-00000006/29/13, data:bo/00035-00000006/29/14, data:bo/00035-00000006/29/9, data:bo/00035-00000006/29/10, data:bo/00035-00000006/29/2, data:bo/00035-00000006/29/8, data:bo/00035-00000006/29/6, data:bo/00035-00000006/29/3, data:bo/00035-00000006/29/11, data:bo/00035-00000006/29/5, data:bo/00035-00000006/29/7, data:bo/00035-00000006/29/15, data:bo/00035-00000006/29/1 .
+
+data:bo/00035-00000006/29/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/29/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/29/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/29/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/29/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/29/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/29/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/29/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/29/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/29/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/29/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/29/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/29/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/29/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/29/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/29 a do:Agent ;
+  rdfs:label "Synthetic agent 29 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/29 .
+
+data:ballot/00035-00000006/30 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/30/13, data:bo/00035-00000006/30/4, data:bo/00035-00000006/30/14, data:bo/00035-00000006/30/12, data:bo/00035-00000006/30/11, data:bo/00035-00000006/30/3, data:bo/00035-00000006/30/6, data:bo/00035-00000006/30/15, data:bo/00035-00000006/30/9, data:bo/00035-00000006/30/2, data:bo/00035-00000006/30/10, data:bo/00035-00000006/30/5, data:bo/00035-00000006/30/8, data:bo/00035-00000006/30/7, data:bo/00035-00000006/30/1 .
+
+data:bo/00035-00000006/30/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/30/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/30/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/30/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/30/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/30/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/30/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/30/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/30/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/30/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/30/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/30/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/30/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/30/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/30/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/30 a do:Agent ;
+  rdfs:label "Synthetic agent 30 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/30 .
+
+data:ballot/00035-00000006/31 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/31/9, data:bo/00035-00000006/31/12, data:bo/00035-00000006/31/14, data:bo/00035-00000006/31/2, data:bo/00035-00000006/31/8, data:bo/00035-00000006/31/4, data:bo/00035-00000006/31/6, data:bo/00035-00000006/31/15, data:bo/00035-00000006/31/3, data:bo/00035-00000006/31/13, data:bo/00035-00000006/31/1, data:bo/00035-00000006/31/7, data:bo/00035-00000006/31/5, data:bo/00035-00000006/31/10, data:bo/00035-00000006/31/11 .
+
+data:bo/00035-00000006/31/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/31/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/31/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/31/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/31/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/31/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/31/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/31/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/31/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/31/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/31/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/31/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/31/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/31/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/31/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/31 a do:Agent ;
+  rdfs:label "Synthetic agent 31 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/31 .
+
+data:ballot/00035-00000006/32 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "2"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/32/7, data:bo/00035-00000006/32/8, data:bo/00035-00000006/32/2, data:bo/00035-00000006/32/9, data:bo/00035-00000006/32/10, data:bo/00035-00000006/32/12, data:bo/00035-00000006/32/13, data:bo/00035-00000006/32/14, data:bo/00035-00000006/32/1, data:bo/00035-00000006/32/3, data:bo/00035-00000006/32/6, data:bo/00035-00000006/32/15, data:bo/00035-00000006/32/4, data:bo/00035-00000006/32/5, data:bo/00035-00000006/32/11 .
+
+data:bo/00035-00000006/32/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/32/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/32/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/32/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/32/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/32/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/32/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/32/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/32/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/32/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/32/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/32/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/32/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/32/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/32/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/32 a do:Agent ;
+  rdfs:label "Synthetic agent 32 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/32 .
+
+data:ballot/00035-00000006/33 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/33/14, data:bo/00035-00000006/33/12, data:bo/00035-00000006/33/11, data:bo/00035-00000006/33/6, data:bo/00035-00000006/33/5, data:bo/00035-00000006/33/13, data:bo/00035-00000006/33/4, data:bo/00035-00000006/33/3, data:bo/00035-00000006/33/15, data:bo/00035-00000006/33/2, data:bo/00035-00000006/33/10, data:bo/00035-00000006/33/7, data:bo/00035-00000006/33/8, data:bo/00035-00000006/33/9, data:bo/00035-00000006/33/1 .
+
+data:bo/00035-00000006/33/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/33/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/33/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/33/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/33/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/33/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/33/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/33/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/33/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/33/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/33/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/33/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/33/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/33/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/33/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/33 a do:Agent ;
+  rdfs:label "Synthetic agent 33 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/33 .
+
+data:ballot/00035-00000006/34 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/34/12, data:bo/00035-00000006/34/6, data:bo/00035-00000006/34/15, data:bo/00035-00000006/34/3, data:bo/00035-00000006/34/7, data:bo/00035-00000006/34/11, data:bo/00035-00000006/34/14, data:bo/00035-00000006/34/9, data:bo/00035-00000006/34/8, data:bo/00035-00000006/34/2, data:bo/00035-00000006/34/10, data:bo/00035-00000006/34/5, data:bo/00035-00000006/34/4, data:bo/00035-00000006/34/13, data:bo/00035-00000006/34/1 .
+
+data:bo/00035-00000006/34/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/34/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/34/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/34/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/34/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/34/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/34/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/34/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/34/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/34/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/34/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/34/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/34/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/34/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/34/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/34 a do:Agent ;
+  rdfs:label "Synthetic agent 34 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/34 .
+
+data:ballot/00035-00000006/35 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/35/8, data:bo/00035-00000006/35/14, data:bo/00035-00000006/35/11, data:bo/00035-00000006/35/9, data:bo/00035-00000006/35/12, data:bo/00035-00000006/35/5, data:bo/00035-00000006/35/13, data:bo/00035-00000006/35/4, data:bo/00035-00000006/35/10, data:bo/00035-00000006/35/6, data:bo/00035-00000006/35/2, data:bo/00035-00000006/35/1, data:bo/00035-00000006/35/7, data:bo/00035-00000006/35/15, data:bo/00035-00000006/35/3 .
+
+data:bo/00035-00000006/35/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/35/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/35/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/35/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/35/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/35/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/35/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/35/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/35/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/35/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/35/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/35/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/35/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/35/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/35/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/35 a do:Agent ;
+  rdfs:label "Synthetic agent 35 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/35 .
+
+data:ballot/00035-00000006/36 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/36/2, data:bo/00035-00000006/36/10, data:bo/00035-00000006/36/9, data:bo/00035-00000006/36/8, data:bo/00035-00000006/36/1, data:bo/00035-00000006/36/3, data:bo/00035-00000006/36/12, data:bo/00035-00000006/36/4, data:bo/00035-00000006/36/13, data:bo/00035-00000006/36/7, data:bo/00035-00000006/36/6, data:bo/00035-00000006/36/15, data:bo/00035-00000006/36/14, data:bo/00035-00000006/36/11, data:bo/00035-00000006/36/5 .
+
+data:bo/00035-00000006/36/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/36/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/36/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/36/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/36/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/36/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/36/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/36/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/36/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/36/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/36/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/36/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/36/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/36/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/36/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/36 a do:Agent ;
+  rdfs:label "Synthetic agent 36 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/36 .
+
+data:ballot/00035-00000006/37 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/37/11, data:bo/00035-00000006/37/14, data:bo/00035-00000006/37/13, data:bo/00035-00000006/37/12, data:bo/00035-00000006/37/6, data:bo/00035-00000006/37/5, data:bo/00035-00000006/37/9, data:bo/00035-00000006/37/8, data:bo/00035-00000006/37/2, data:bo/00035-00000006/37/10, data:bo/00035-00000006/37/15, data:bo/00035-00000006/37/4, data:bo/00035-00000006/37/3, data:bo/00035-00000006/37/1, data:bo/00035-00000006/37/7 .
+
+data:bo/00035-00000006/37/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/37/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/37/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/37/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/37/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/37/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/37/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/37/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/37/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/37/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/37/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/37/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/37/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/37/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/37/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/37 a do:Agent ;
+  rdfs:label "Synthetic agent 37 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/37 .
+
+data:ballot/00035-00000006/38 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/38/6, data:bo/00035-00000006/38/8, data:bo/00035-00000006/38/10, data:bo/00035-00000006/38/12, data:bo/00035-00000006/38/1, data:bo/00035-00000006/38/4, data:bo/00035-00000006/38/13, data:bo/00035-00000006/38/2, data:bo/00035-00000006/38/9, data:bo/00035-00000006/38/5, data:bo/00035-00000006/38/15, data:bo/00035-00000006/38/11, data:bo/00035-00000006/38/7, data:bo/00035-00000006/38/3, data:bo/00035-00000006/38/14 .
+
+data:bo/00035-00000006/38/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/38/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/38/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/38/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/38/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/38/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/38/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/38/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/38/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/38/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/38/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/38/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/38/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/38/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/38/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/38 a do:Agent ;
+  rdfs:label "Synthetic agent 38 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/38 .
+
+data:ballot/00035-00000006/39 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/39/14, data:bo/00035-00000006/39/2, data:bo/00035-00000006/39/7, data:bo/00035-00000006/39/8, data:bo/00035-00000006/39/9, data:bo/00035-00000006/39/10, data:bo/00035-00000006/39/15, data:bo/00035-00000006/39/3, data:bo/00035-00000006/39/6, data:bo/00035-00000006/39/5, data:bo/00035-00000006/39/12, data:bo/00035-00000006/39/13, data:bo/00035-00000006/39/11, data:bo/00035-00000006/39/4, data:bo/00035-00000006/39/1 .
+
+data:bo/00035-00000006/39/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/39/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/39/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/39/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/39/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/39/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/39/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/39/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/39/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/39/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/39/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/39/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/39/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/39/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/39/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/39 a do:Agent ;
+  rdfs:label "Synthetic agent 39 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/39 .
+
+data:ballot/00035-00000006/40 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/40/2, data:bo/00035-00000006/40/10, data:bo/00035-00000006/40/3, data:bo/00035-00000006/40/14, data:bo/00035-00000006/40/12, data:bo/00035-00000006/40/6, data:bo/00035-00000006/40/15, data:bo/00035-00000006/40/7, data:bo/00035-00000006/40/5, data:bo/00035-00000006/40/1, data:bo/00035-00000006/40/11, data:bo/00035-00000006/40/8, data:bo/00035-00000006/40/9, data:bo/00035-00000006/40/4, data:bo/00035-00000006/40/13 .
+
+data:bo/00035-00000006/40/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/40/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/40/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/40/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/40/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/40/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/40/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/40/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/40/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/40/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/40/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/40/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/40/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/40/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/40/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/40 a do:Agent ;
+  rdfs:label "Synthetic agent 40 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/40 .
+
+data:ballot/00035-00000006/41 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00035-00000006 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00035-00000006/41/3, data:bo/00035-00000006/41/10, data:bo/00035-00000006/41/2, data:bo/00035-00000006/41/5, data:bo/00035-00000006/41/7, data:bo/00035-00000006/41/9, data:bo/00035-00000006/41/12, data:bo/00035-00000006/41/14, data:bo/00035-00000006/41/15, data:bo/00035-00000006/41/6, data:bo/00035-00000006/41/11, data:bo/00035-00000006/41/13, data:bo/00035-00000006/41/1, data:bo/00035-00000006/41/4, data:bo/00035-00000006/41/8 .
+
+data:bo/00035-00000006/41/3 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/3 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00035-00000006/41/10 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/10 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00035-00000006/41/2 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/2 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00035-00000006/41/5 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/5 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00035-00000006/41/7 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/7 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00035-00000006/41/9 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/9 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00035-00000006/41/12 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/12 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00035-00000006/41/14 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/14 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00035-00000006/41/15 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/15 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00035-00000006/41/6 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/6 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00035-00000006/41/11 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/11 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00035-00000006/41/13 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/13 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00035-00000006/41/1 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/1 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00035-00000006/41/4 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/4 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00035-00000006/41/8 a do:BallotOption ;
+  do:refersToOption data:option/00035-00000006/8 ;
+  do:optionRank "15"^^xsd:int .
+
+data:agent/00035-00000006/41 a do:Agent ;
+  rdfs:label "Synthetic agent 41 (00035-00000006)" ;
+  do:hasExpressed data:ballot/00035-00000006/41 .
+
