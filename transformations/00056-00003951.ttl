@@ -1,0 +1,1729 @@
+@prefix do: <http://www.semanticweb.org/decision-ontology#> .
+@prefix data: <http://www.semanticweb.org/decision-ontology/data/preflib/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:context/00056-00003951 a do:Context ;
+  rdfs:label "Football 2019 Kelly Ford" .
+
+data:context/00056-00003951 do:hasAvailableOption data:option/00056-00003951/1, data:option/00056-00003951/2, data:option/00056-00003951/3, data:option/00056-00003951/4, data:option/00056-00003951/5, data:option/00056-00003951/6, data:option/00056-00003951/7, data:option/00056-00003951/8, data:option/00056-00003951/9, data:option/00056-00003951/10, data:option/00056-00003951/11, data:option/00056-00003951/12, data:option/00056-00003951/13, data:option/00056-00003951/14, data:option/00056-00003951/15, data:option/00056-00003951/16, data:option/00056-00003951/17, data:option/00056-00003951/18, data:option/00056-00003951/19, data:option/00056-00003951/20, data:option/00056-00003951/21, data:option/00056-00003951/22, data:option/00056-00003951/23, data:option/00056-00003951/24, data:option/00056-00003951/25, data:option/00056-00003951/26, data:option/00056-00003951/27, data:option/00056-00003951/28, data:option/00056-00003951/29, data:option/00056-00003951/30, data:option/00056-00003951/31, data:option/00056-00003951/32, data:option/00056-00003951/33, data:option/00056-00003951/34, data:option/00056-00003951/35, data:option/00056-00003951/36, data:option/00056-00003951/37, data:option/00056-00003951/38, data:option/00056-00003951/39, data:option/00056-00003951/40, data:option/00056-00003951/41, data:option/00056-00003951/42, data:option/00056-00003951/43, data:option/00056-00003951/44, data:option/00056-00003951/45, data:option/00056-00003951/46, data:option/00056-00003951/47, data:option/00056-00003951/48, data:option/00056-00003951/49, data:option/00056-00003951/50, data:option/00056-00003951/51, data:option/00056-00003951/52, data:option/00056-00003951/53, data:option/00056-00003951/54, data:option/00056-00003951/55, data:option/00056-00003951/56, data:option/00056-00003951/57, data:option/00056-00003951/58, data:option/00056-00003951/59, data:option/00056-00003951/60, data:option/00056-00003951/61, data:option/00056-00003951/62, data:option/00056-00003951/63, data:option/00056-00003951/64, data:option/00056-00003951/65, data:option/00056-00003951/66, data:option/00056-00003951/67, data:option/00056-00003951/68, data:option/00056-00003951/69, data:option/00056-00003951/70, data:option/00056-00003951/71, data:option/00056-00003951/72, data:option/00056-00003951/73, data:option/00056-00003951/74, data:option/00056-00003951/75, data:option/00056-00003951/76, data:option/00056-00003951/77, data:option/00056-00003951/78, data:option/00056-00003951/79, data:option/00056-00003951/80, data:option/00056-00003951/81, data:option/00056-00003951/82, data:option/00056-00003951/83, data:option/00056-00003951/84, data:option/00056-00003951/85, data:option/00056-00003951/86, data:option/00056-00003951/87, data:option/00056-00003951/88, data:option/00056-00003951/89, data:option/00056-00003951/90, data:option/00056-00003951/91, data:option/00056-00003951/92, data:option/00056-00003951/93, data:option/00056-00003951/94, data:option/00056-00003951/95, data:option/00056-00003951/96, data:option/00056-00003951/97, data:option/00056-00003951/98, data:option/00056-00003951/99, data:option/00056-00003951/100, data:option/00056-00003951/101, data:option/00056-00003951/102, data:option/00056-00003951/103, data:option/00056-00003951/104, data:option/00056-00003951/105, data:option/00056-00003951/106, data:option/00056-00003951/107, data:option/00056-00003951/108, data:option/00056-00003951/109, data:option/00056-00003951/110, data:option/00056-00003951/111, data:option/00056-00003951/112, data:option/00056-00003951/113, data:option/00056-00003951/114, data:option/00056-00003951/115, data:option/00056-00003951/116, data:option/00056-00003951/117, data:option/00056-00003951/118, data:option/00056-00003951/119, data:option/00056-00003951/120, data:option/00056-00003951/121, data:option/00056-00003951/122, data:option/00056-00003951/123, data:option/00056-00003951/124, data:option/00056-00003951/125, data:option/00056-00003951/126, data:option/00056-00003951/127, data:option/00056-00003951/128, data:option/00056-00003951/129, data:option/00056-00003951/130 .
+
+data:option/00056-00003951/1 a do:Option ; rdfs:label "Tulane" .
+data:option/00056-00003951/2 a do:Option ; rdfs:label "North Texas" .
+data:option/00056-00003951/3 a do:Option ; rdfs:label "Texas St" .
+data:option/00056-00003951/4 a do:Option ; rdfs:label "UT San Antonio" .
+data:option/00056-00003951/5 a do:Option ; rdfs:label "Georgia St" .
+data:option/00056-00003951/6 a do:Option ; rdfs:label "Missouri" .
+data:option/00056-00003951/7 a do:Option ; rdfs:label "Notre Dame" .
+data:option/00056-00003951/8 a do:Option ; rdfs:label "WKU" .
+data:option/00056-00003951/9 a do:Option ; rdfs:label "Ball St" .
+data:option/00056-00003951/10 a do:Option ; rdfs:label "Tulsa" .
+data:option/00056-00003951/11 a do:Option ; rdfs:label "Arizona St" .
+data:option/00056-00003951/12 a do:Option ; rdfs:label "Florida St" .
+data:option/00056-00003951/13 a do:Option ; rdfs:label "Texas Tech" .
+data:option/00056-00003951/14 a do:Option ; rdfs:label "Indiana" .
+data:option/00056-00003951/15 a do:Option ; rdfs:label "UAB" .
+data:option/00056-00003951/16 a do:Option ; rdfs:label "Nevada" .
+data:option/00056-00003951/17 a do:Option ; rdfs:label "New Mexico" .
+data:option/00056-00003951/18 a do:Option ; rdfs:label "Mississippi St" .
+data:option/00056-00003951/19 a do:Option ; rdfs:label "Memphis" .
+data:option/00056-00003951/20 a do:Option ; rdfs:label "Fresno St" .
+data:option/00056-00003951/21 a do:Option ; rdfs:label "E Michigan" .
+data:option/00056-00003951/22 a do:Option ; rdfs:label "Louisville" .
+data:option/00056-00003951/23 a do:Option ; rdfs:label "Alabama" .
+data:option/00056-00003951/24 a do:Option ; rdfs:label "Georgia" .
+data:option/00056-00003951/25 a do:Option ; rdfs:label "Kentucky" .
+data:option/00056-00003951/26 a do:Option ; rdfs:label "Georgia Tech" .
+data:option/00056-00003951/27 a do:Option ; rdfs:label "Houston" .
+data:option/00056-00003951/28 a do:Option ; rdfs:label "Charlotte" .
+data:option/00056-00003951/29 a do:Option ; rdfs:label "Akron" .
+data:option/00056-00003951/30 a do:Option ; rdfs:label "Miami FL" .
+data:option/00056-00003951/31 a do:Option ; rdfs:label "Colorado St" .
+data:option/00056-00003951/32 a do:Option ; rdfs:label "Mississippi" .
+data:option/00056-00003951/33 a do:Option ; rdfs:label "Boston College" .
+data:option/00056-00003951/34 a do:Option ; rdfs:label "Texas" .
+data:option/00056-00003951/35 a do:Option ; rdfs:label "Ohio" .
+data:option/00056-00003951/36 a do:Option ; rdfs:label "BYU" .
+data:option/00056-00003951/37 a do:Option ; rdfs:label "ULM" .
+data:option/00056-00003951/38 a do:Option ; rdfs:label "Florida Intl" .
+data:option/00056-00003951/39 a do:Option ; rdfs:label "Pittsburgh" .
+data:option/00056-00003951/40 a do:Option ; rdfs:label "Wisconsin" .
+data:option/00056-00003951/41 a do:Option ; rdfs:label "California" .
+data:option/00056-00003951/42 a do:Option ; rdfs:label "Utah St" .
+data:option/00056-00003951/43 a do:Option ; rdfs:label "Oklahoma St" .
+data:option/00056-00003951/44 a do:Option ; rdfs:label "Kansas St" .
+data:option/00056-00003951/45 a do:Option ; rdfs:label "Ga Southern" .
+data:option/00056-00003951/46 a do:Option ; rdfs:label "Liberty" .
+data:option/00056-00003951/47 a do:Option ; rdfs:label "Old Dominion" .
+data:option/00056-00003951/48 a do:Option ; rdfs:label "Appalachian St" .
+data:option/00056-00003951/49 a do:Option ; rdfs:label "Iowa St" .
+data:option/00056-00003951/50 a do:Option ; rdfs:label "N Illinois" .
+data:option/00056-00003951/51 a do:Option ; rdfs:label "Boise St" .
+data:option/00056-00003951/52 a do:Option ; rdfs:label "Coastal Car" .
+data:option/00056-00003951/53 a do:Option ; rdfs:label "Clemson" .
+data:option/00056-00003951/54 a do:Option ; rdfs:label "W Michigan" .
+data:option/00056-00003951/55 a do:Option ; rdfs:label "UCLA" .
+data:option/00056-00003951/56 a do:Option ; rdfs:label "Baylor" .
+data:option/00056-00003951/57 a do:Option ; rdfs:label "San Jose St" .
+data:option/00056-00003951/58 a do:Option ; rdfs:label "West Virginia" .
+data:option/00056-00003951/59 a do:Option ; rdfs:label "Michigan St" .
+data:option/00056-00003951/60 a do:Option ; rdfs:label "Kansas" .
+data:option/00056-00003951/61 a do:Option ; rdfs:label "MTSU" .
+data:option/00056-00003951/62 a do:Option ; rdfs:label "Temple" .
+data:option/00056-00003951/63 a do:Option ; rdfs:label "Syracuse" .
+data:option/00056-00003951/64 a do:Option ; rdfs:label "Navy" .
+data:option/00056-00003951/65 a do:Option ; rdfs:label "Purdue" .
+data:option/00056-00003951/66 a do:Option ; rdfs:label "NC State" .
+data:option/00056-00003951/67 a do:Option ; rdfs:label "Air Force" .
+data:option/00056-00003951/68 a do:Option ; rdfs:label "Florida" .
+data:option/00056-00003951/69 a do:Option ; rdfs:label "Oklahoma" .
+data:option/00056-00003951/70 a do:Option ; rdfs:label "Oregon St" .
+data:option/00056-00003951/71 a do:Option ; rdfs:label "Louisiana" .
+data:option/00056-00003951/72 a do:Option ; rdfs:label "Louisiana Tech" .
+data:option/00056-00003951/73 a do:Option ; rdfs:label "LSU" .
+data:option/00056-00003951/74 a do:Option ; rdfs:label "Nebraska" .
+data:option/00056-00003951/75 a do:Option ; rdfs:label "Hawaii" .
+data:option/00056-00003951/76 a do:Option ; rdfs:label "Connecticut" .
+data:option/00056-00003951/77 a do:Option ; rdfs:label "SMU" .
+data:option/00056-00003951/78 a do:Option ; rdfs:label "South Alabama" .
+data:option/00056-00003951/79 a do:Option ; rdfs:label "Wake Forest" .
+data:option/00056-00003951/80 a do:Option ; rdfs:label "Stanford" .
+data:option/00056-00003951/81 a do:Option ; rdfs:label "Duke" .
+data:option/00056-00003951/82 a do:Option ; rdfs:label "Buffalo" .
+data:option/00056-00003951/83 a do:Option ; rdfs:label "Ohio St" .
+data:option/00056-00003951/84 a do:Option ; rdfs:label "San Diego St" .
+data:option/00056-00003951/85 a do:Option ; rdfs:label "Miami OH" .
+data:option/00056-00003951/86 a do:Option ; rdfs:label "Bowling Green" .
+data:option/00056-00003951/87 a do:Option ; rdfs:label "Penn St" .
+data:option/00056-00003951/88 a do:Option ; rdfs:label "South Carolina" .
+data:option/00056-00003951/89 a do:Option ; rdfs:label "Michigan" .
+data:option/00056-00003951/90 a do:Option ; rdfs:label "Army" .
+data:option/00056-00003951/91 a do:Option ; rdfs:label "Northwestern" .
+data:option/00056-00003951/92 a do:Option ; rdfs:label "Washington St" .
+data:option/00056-00003951/93 a do:Option ; rdfs:label "Arkansas St" .
+data:option/00056-00003951/94 a do:Option ; rdfs:label "Minnesota" .
+data:option/00056-00003951/95 a do:Option ; rdfs:label "Iowa" .
+data:option/00056-00003951/96 a do:Option ; rdfs:label "Wyoming" .
+data:option/00056-00003951/97 a do:Option ; rdfs:label "Oregon" .
+data:option/00056-00003951/98 a do:Option ; rdfs:label "UNLV" .
+data:option/00056-00003951/99 a do:Option ; rdfs:label "Massachusetts" .
+data:option/00056-00003951/100 a do:Option ; rdfs:label "North Carolina" .
+data:option/00056-00003951/101 a do:Option ; rdfs:label "Colorado" .
+data:option/00056-00003951/102 a do:Option ; rdfs:label "Rutgers" .
+data:option/00056-00003951/103 a do:Option ; rdfs:label "Southern Miss" .
+data:option/00056-00003951/104 a do:Option ; rdfs:label "Virginia Tech" .
+data:option/00056-00003951/105 a do:Option ; rdfs:label "FL Atlantic" .
+data:option/00056-00003951/106 a do:Option ; rdfs:label "East Carolina" .
+data:option/00056-00003951/107 a do:Option ; rdfs:label "USC" .
+data:option/00056-00003951/108 a do:Option ; rdfs:label "Maryland" .
+data:option/00056-00003951/109 a do:Option ; rdfs:label "South Florida" .
+data:option/00056-00003951/110 a do:Option ; rdfs:label "Washington" .
+data:option/00056-00003951/111 a do:Option ; rdfs:label "UCF" .
+data:option/00056-00003951/112 a do:Option ; rdfs:label "Virginia" .
+data:option/00056-00003951/113 a do:Option ; rdfs:label "Illinois" .
+data:option/00056-00003951/114 a do:Option ; rdfs:label "Marshall" .
+data:option/00056-00003951/115 a do:Option ; rdfs:label "Kent" .
+data:option/00056-00003951/116 a do:Option ; rdfs:label "Cincinnati" .
+data:option/00056-00003951/117 a do:Option ; rdfs:label "Arkansas" .
+data:option/00056-00003951/118 a do:Option ; rdfs:label "C Michigan" .
+data:option/00056-00003951/119 a do:Option ; rdfs:label "Utah" .
+data:option/00056-00003951/120 a do:Option ; rdfs:label "Toledo" .
+data:option/00056-00003951/121 a do:Option ; rdfs:label "UTEP" .
+data:option/00056-00003951/122 a do:Option ; rdfs:label "Arizona" .
+data:option/00056-00003951/123 a do:Option ; rdfs:label "Troy" .
+data:option/00056-00003951/124 a do:Option ; rdfs:label "New Mexico St" .
+data:option/00056-00003951/125 a do:Option ; rdfs:label "Auburn" .
+data:option/00056-00003951/126 a do:Option ; rdfs:label "Rice" .
+data:option/00056-00003951/127 a do:Option ; rdfs:label "TCU" .
+data:option/00056-00003951/128 a do:Option ; rdfs:label "Texas A&M" .
+data:option/00056-00003951/129 a do:Option ; rdfs:label "Vanderbilt" .
+data:option/00056-00003951/130 a do:Option ; rdfs:label "Tennessee" .
+
+data:ballot/00056-00003951/1 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00056-00003951 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00056-00003951/1/83, data:bo/00056-00003951/1/53, data:bo/00056-00003951/1/23, data:bo/00056-00003951/1/73, data:bo/00056-00003951/1/24, data:bo/00056-00003951/1/119, data:bo/00056-00003951/1/87, data:bo/00056-00003951/1/69, data:bo/00056-00003951/1/40, data:bo/00056-00003951/1/89, data:bo/00056-00003951/1/125, data:bo/00056-00003951/1/68, data:bo/00056-00003951/1/7, data:bo/00056-00003951/1/97, data:bo/00056-00003951/1/94, data:bo/00056-00003951/1/56, data:bo/00056-00003951/1/95, data:bo/00056-00003951/1/128, data:bo/00056-00003951/1/19, data:bo/00056-00003951/1/111, data:bo/00056-00003951/1/107, data:bo/00056-00003951/1/49, data:bo/00056-00003951/1/43, data:bo/00056-00003951/1/110, data:bo/00056-00003951/1/48, data:bo/00056-00003951/1/51, data:bo/00056-00003951/1/64, data:bo/00056-00003951/1/116, data:bo/00056-00003951/1/67, data:bo/00056-00003951/1/34, data:bo/00056-00003951/1/44, data:bo/00056-00003951/1/14, data:bo/00056-00003951/1/71, data:bo/00056-00003951/1/77, data:bo/00056-00003951/1/112, data:bo/00056-00003951/1/92, data:bo/00056-00003951/1/130, data:bo/00056-00003951/1/59, data:bo/00056-00003951/1/104, data:bo/00056-00003951/1/127, data:bo/00056-00003951/1/18, data:bo/00056-00003951/1/25, data:bo/00056-00003951/1/22, data:bo/00056-00003951/1/30, data:bo/00056-00003951/1/88, data:bo/00056-00003951/1/11, data:bo/00056-00003951/1/6, data:bo/00056-00003951/1/12, data:bo/00056-00003951/1/79, data:bo/00056-00003951/1/105, data:bo/00056-00003951/1/36, data:bo/00056-00003951/1/100, data:bo/00056-00003951/1/39, data:bo/00056-00003951/1/41, data:bo/00056-00003951/1/13, data:bo/00056-00003951/1/1, data:bo/00056-00003951/1/113, data:bo/00056-00003951/1/32, data:bo/00056-00003951/1/74, data:bo/00056-00003951/1/62, data:bo/00056-00003951/1/70, data:bo/00056-00003951/1/96, data:bo/00056-00003951/1/55, data:bo/00056-00003951/1/33, data:bo/00056-00003951/1/8, data:bo/00056-00003951/1/101, data:bo/00056-00003951/1/84, data:bo/00056-00003951/1/80, data:bo/00056-00003951/1/54, data:bo/00056-00003951/1/65, data:bo/00056-00003951/1/42, data:bo/00056-00003951/1/81, data:bo/00056-00003951/1/114, data:bo/00056-00003951/1/27, data:bo/00056-00003951/1/103, data:bo/00056-00003951/1/75, data:bo/00056-00003951/1/82, data:bo/00056-00003951/1/93, data:bo/00056-00003951/1/72, data:bo/00056-00003951/1/58, data:bo/00056-00003951/1/85, data:bo/00056-00003951/1/45, data:bo/00056-00003951/1/118, data:bo/00056-00003951/1/15, data:bo/00056-00003951/1/90, data:bo/00056-00003951/1/20, data:bo/00056-00003951/1/122, data:bo/00056-00003951/1/5, data:bo/00056-00003951/1/10, data:bo/00056-00003951/1/63, data:bo/00056-00003951/1/35, data:bo/00056-00003951/1/91, data:bo/00056-00003951/1/21, data:bo/00056-00003951/1/46, data:bo/00056-00003951/1/60, data:bo/00056-00003951/1/123, data:bo/00056-00003951/1/38, data:bo/00056-00003951/1/66, data:bo/00056-00003951/1/9, data:bo/00056-00003951/1/109, data:bo/00056-00003951/1/108, data:bo/00056-00003951/1/120, data:bo/00056-00003951/1/129, data:bo/00056-00003951/1/37, data:bo/00056-00003951/1/28, data:bo/00056-00003951/1/57, data:bo/00056-00003951/1/16, data:bo/00056-00003951/1/26, data:bo/00056-00003951/1/61, data:bo/00056-00003951/1/117, data:bo/00056-00003951/1/31, data:bo/00056-00003951/1/115, data:bo/00056-00003951/1/50, data:bo/00056-00003951/1/2, data:bo/00056-00003951/1/52, data:bo/00056-00003951/1/106, data:bo/00056-00003951/1/126, data:bo/00056-00003951/1/3, data:bo/00056-00003951/1/98, data:bo/00056-00003951/1/102, data:bo/00056-00003951/1/78, data:bo/00056-00003951/1/17, data:bo/00056-00003951/1/4, data:bo/00056-00003951/1/47, data:bo/00056-00003951/1/124, data:bo/00056-00003951/1/76, data:bo/00056-00003951/1/86, data:bo/00056-00003951/1/121, data:bo/00056-00003951/1/29, data:bo/00056-00003951/1/99 .
+
+data:bo/00056-00003951/1/83 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/83 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00056-00003951/1/53 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/53 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00056-00003951/1/23 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/23 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00056-00003951/1/73 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/73 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00056-00003951/1/24 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/24 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00056-00003951/1/119 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/119 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00056-00003951/1/87 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/87 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00056-00003951/1/69 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/69 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00056-00003951/1/40 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/40 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00056-00003951/1/89 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/89 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00056-00003951/1/125 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/125 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00056-00003951/1/68 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/68 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00056-00003951/1/7 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/7 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00056-00003951/1/97 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/97 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00056-00003951/1/94 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/94 ;
+  do:optionRank "15"^^xsd:int .
+
+data:bo/00056-00003951/1/56 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/56 ;
+  do:optionRank "16"^^xsd:int .
+
+data:bo/00056-00003951/1/95 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/95 ;
+  do:optionRank "17"^^xsd:int .
+
+data:bo/00056-00003951/1/128 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/128 ;
+  do:optionRank "18"^^xsd:int .
+
+data:bo/00056-00003951/1/19 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/19 ;
+  do:optionRank "19"^^xsd:int .
+
+data:bo/00056-00003951/1/111 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/111 ;
+  do:optionRank "20"^^xsd:int .
+
+data:bo/00056-00003951/1/107 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/107 ;
+  do:optionRank "21"^^xsd:int .
+
+data:bo/00056-00003951/1/49 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/49 ;
+  do:optionRank "22"^^xsd:int .
+
+data:bo/00056-00003951/1/43 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/43 ;
+  do:optionRank "23"^^xsd:int .
+
+data:bo/00056-00003951/1/110 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/110 ;
+  do:optionRank "24"^^xsd:int .
+
+data:bo/00056-00003951/1/48 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/48 ;
+  do:optionRank "25"^^xsd:int .
+
+data:bo/00056-00003951/1/51 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/51 ;
+  do:optionRank "26"^^xsd:int .
+
+data:bo/00056-00003951/1/64 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/64 ;
+  do:optionRank "27"^^xsd:int .
+
+data:bo/00056-00003951/1/116 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/116 ;
+  do:optionRank "28"^^xsd:int .
+
+data:bo/00056-00003951/1/67 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/67 ;
+  do:optionRank "29"^^xsd:int .
+
+data:bo/00056-00003951/1/34 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/34 ;
+  do:optionRank "30"^^xsd:int .
+
+data:bo/00056-00003951/1/44 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/44 ;
+  do:optionRank "31"^^xsd:int .
+
+data:bo/00056-00003951/1/14 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/14 ;
+  do:optionRank "32"^^xsd:int .
+
+data:bo/00056-00003951/1/71 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/71 ;
+  do:optionRank "33"^^xsd:int .
+
+data:bo/00056-00003951/1/77 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/77 ;
+  do:optionRank "34"^^xsd:int .
+
+data:bo/00056-00003951/1/112 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/112 ;
+  do:optionRank "35"^^xsd:int .
+
+data:bo/00056-00003951/1/92 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/92 ;
+  do:optionRank "36"^^xsd:int .
+
+data:bo/00056-00003951/1/130 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/130 ;
+  do:optionRank "37"^^xsd:int .
+
+data:bo/00056-00003951/1/59 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/59 ;
+  do:optionRank "38"^^xsd:int .
+
+data:bo/00056-00003951/1/104 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/104 ;
+  do:optionRank "39"^^xsd:int .
+
+data:bo/00056-00003951/1/127 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/127 ;
+  do:optionRank "40"^^xsd:int .
+
+data:bo/00056-00003951/1/18 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/18 ;
+  do:optionRank "41"^^xsd:int .
+
+data:bo/00056-00003951/1/25 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/25 ;
+  do:optionRank "42"^^xsd:int .
+
+data:bo/00056-00003951/1/22 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/22 ;
+  do:optionRank "43"^^xsd:int .
+
+data:bo/00056-00003951/1/30 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/30 ;
+  do:optionRank "44"^^xsd:int .
+
+data:bo/00056-00003951/1/88 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/88 ;
+  do:optionRank "45"^^xsd:int .
+
+data:bo/00056-00003951/1/11 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/11 ;
+  do:optionRank "46"^^xsd:int .
+
+data:bo/00056-00003951/1/6 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/6 ;
+  do:optionRank "47"^^xsd:int .
+
+data:bo/00056-00003951/1/12 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/12 ;
+  do:optionRank "48"^^xsd:int .
+
+data:bo/00056-00003951/1/79 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/79 ;
+  do:optionRank "49"^^xsd:int .
+
+data:bo/00056-00003951/1/105 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/105 ;
+  do:optionRank "50"^^xsd:int .
+
+data:bo/00056-00003951/1/36 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/36 ;
+  do:optionRank "51"^^xsd:int .
+
+data:bo/00056-00003951/1/100 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/100 ;
+  do:optionRank "52"^^xsd:int .
+
+data:bo/00056-00003951/1/39 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/39 ;
+  do:optionRank "53"^^xsd:int .
+
+data:bo/00056-00003951/1/41 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/41 ;
+  do:optionRank "54"^^xsd:int .
+
+data:bo/00056-00003951/1/13 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/13 ;
+  do:optionRank "55"^^xsd:int .
+
+data:bo/00056-00003951/1/1 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/1 ;
+  do:optionRank "56"^^xsd:int .
+
+data:bo/00056-00003951/1/113 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/113 ;
+  do:optionRank "57"^^xsd:int .
+
+data:bo/00056-00003951/1/32 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/32 ;
+  do:optionRank "58"^^xsd:int .
+
+data:bo/00056-00003951/1/74 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/74 ;
+  do:optionRank "59"^^xsd:int .
+
+data:bo/00056-00003951/1/62 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/62 ;
+  do:optionRank "60"^^xsd:int .
+
+data:bo/00056-00003951/1/70 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/70 ;
+  do:optionRank "61"^^xsd:int .
+
+data:bo/00056-00003951/1/96 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/96 ;
+  do:optionRank "62"^^xsd:int .
+
+data:bo/00056-00003951/1/55 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/55 ;
+  do:optionRank "63"^^xsd:int .
+
+data:bo/00056-00003951/1/33 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/33 ;
+  do:optionRank "64"^^xsd:int .
+
+data:bo/00056-00003951/1/8 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/8 ;
+  do:optionRank "65"^^xsd:int .
+
+data:bo/00056-00003951/1/101 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/101 ;
+  do:optionRank "66"^^xsd:int .
+
+data:bo/00056-00003951/1/84 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/84 ;
+  do:optionRank "67"^^xsd:int .
+
+data:bo/00056-00003951/1/80 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/80 ;
+  do:optionRank "68"^^xsd:int .
+
+data:bo/00056-00003951/1/54 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/54 ;
+  do:optionRank "69"^^xsd:int .
+
+data:bo/00056-00003951/1/65 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/65 ;
+  do:optionRank "70"^^xsd:int .
+
+data:bo/00056-00003951/1/42 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/42 ;
+  do:optionRank "71"^^xsd:int .
+
+data:bo/00056-00003951/1/81 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/81 ;
+  do:optionRank "72"^^xsd:int .
+
+data:bo/00056-00003951/1/114 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/114 ;
+  do:optionRank "73"^^xsd:int .
+
+data:bo/00056-00003951/1/27 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/27 ;
+  do:optionRank "74"^^xsd:int .
+
+data:bo/00056-00003951/1/103 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/103 ;
+  do:optionRank "75"^^xsd:int .
+
+data:bo/00056-00003951/1/75 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/75 ;
+  do:optionRank "76"^^xsd:int .
+
+data:bo/00056-00003951/1/82 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/82 ;
+  do:optionRank "77"^^xsd:int .
+
+data:bo/00056-00003951/1/93 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/93 ;
+  do:optionRank "78"^^xsd:int .
+
+data:bo/00056-00003951/1/72 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/72 ;
+  do:optionRank "79"^^xsd:int .
+
+data:bo/00056-00003951/1/58 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/58 ;
+  do:optionRank "80"^^xsd:int .
+
+data:bo/00056-00003951/1/85 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/85 ;
+  do:optionRank "81"^^xsd:int .
+
+data:bo/00056-00003951/1/45 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/45 ;
+  do:optionRank "82"^^xsd:int .
+
+data:bo/00056-00003951/1/118 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/118 ;
+  do:optionRank "83"^^xsd:int .
+
+data:bo/00056-00003951/1/15 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/15 ;
+  do:optionRank "84"^^xsd:int .
+
+data:bo/00056-00003951/1/90 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/90 ;
+  do:optionRank "85"^^xsd:int .
+
+data:bo/00056-00003951/1/20 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/20 ;
+  do:optionRank "86"^^xsd:int .
+
+data:bo/00056-00003951/1/122 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/122 ;
+  do:optionRank "87"^^xsd:int .
+
+data:bo/00056-00003951/1/5 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/5 ;
+  do:optionRank "88"^^xsd:int .
+
+data:bo/00056-00003951/1/10 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/10 ;
+  do:optionRank "89"^^xsd:int .
+
+data:bo/00056-00003951/1/63 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/63 ;
+  do:optionRank "90"^^xsd:int .
+
+data:bo/00056-00003951/1/35 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/35 ;
+  do:optionRank "91"^^xsd:int .
+
+data:bo/00056-00003951/1/91 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/91 ;
+  do:optionRank "92"^^xsd:int .
+
+data:bo/00056-00003951/1/21 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/21 ;
+  do:optionRank "93"^^xsd:int .
+
+data:bo/00056-00003951/1/46 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/46 ;
+  do:optionRank "94"^^xsd:int .
+
+data:bo/00056-00003951/1/60 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/60 ;
+  do:optionRank "95"^^xsd:int .
+
+data:bo/00056-00003951/1/123 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/123 ;
+  do:optionRank "96"^^xsd:int .
+
+data:bo/00056-00003951/1/38 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/38 ;
+  do:optionRank "97"^^xsd:int .
+
+data:bo/00056-00003951/1/66 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/66 ;
+  do:optionRank "98"^^xsd:int .
+
+data:bo/00056-00003951/1/9 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/9 ;
+  do:optionRank "99"^^xsd:int .
+
+data:bo/00056-00003951/1/109 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/109 ;
+  do:optionRank "100"^^xsd:int .
+
+data:bo/00056-00003951/1/108 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/108 ;
+  do:optionRank "101"^^xsd:int .
+
+data:bo/00056-00003951/1/120 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/120 ;
+  do:optionRank "102"^^xsd:int .
+
+data:bo/00056-00003951/1/129 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/129 ;
+  do:optionRank "103"^^xsd:int .
+
+data:bo/00056-00003951/1/37 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/37 ;
+  do:optionRank "104"^^xsd:int .
+
+data:bo/00056-00003951/1/28 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/28 ;
+  do:optionRank "105"^^xsd:int .
+
+data:bo/00056-00003951/1/57 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/57 ;
+  do:optionRank "106"^^xsd:int .
+
+data:bo/00056-00003951/1/16 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/16 ;
+  do:optionRank "107"^^xsd:int .
+
+data:bo/00056-00003951/1/26 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/26 ;
+  do:optionRank "108"^^xsd:int .
+
+data:bo/00056-00003951/1/61 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/61 ;
+  do:optionRank "109"^^xsd:int .
+
+data:bo/00056-00003951/1/117 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/117 ;
+  do:optionRank "110"^^xsd:int .
+
+data:bo/00056-00003951/1/31 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/31 ;
+  do:optionRank "111"^^xsd:int .
+
+data:bo/00056-00003951/1/115 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/115 ;
+  do:optionRank "112"^^xsd:int .
+
+data:bo/00056-00003951/1/50 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/50 ;
+  do:optionRank "113"^^xsd:int .
+
+data:bo/00056-00003951/1/2 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/2 ;
+  do:optionRank "114"^^xsd:int .
+
+data:bo/00056-00003951/1/52 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/52 ;
+  do:optionRank "115"^^xsd:int .
+
+data:bo/00056-00003951/1/106 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/106 ;
+  do:optionRank "116"^^xsd:int .
+
+data:bo/00056-00003951/1/126 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/126 ;
+  do:optionRank "117"^^xsd:int .
+
+data:bo/00056-00003951/1/3 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/3 ;
+  do:optionRank "118"^^xsd:int .
+
+data:bo/00056-00003951/1/98 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/98 ;
+  do:optionRank "119"^^xsd:int .
+
+data:bo/00056-00003951/1/102 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/102 ;
+  do:optionRank "120"^^xsd:int .
+
+data:bo/00056-00003951/1/78 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/78 ;
+  do:optionRank "121"^^xsd:int .
+
+data:bo/00056-00003951/1/17 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/17 ;
+  do:optionRank "122"^^xsd:int .
+
+data:bo/00056-00003951/1/4 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/4 ;
+  do:optionRank "123"^^xsd:int .
+
+data:bo/00056-00003951/1/47 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/47 ;
+  do:optionRank "124"^^xsd:int .
+
+data:bo/00056-00003951/1/124 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/124 ;
+  do:optionRank "125"^^xsd:int .
+
+data:bo/00056-00003951/1/76 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/76 ;
+  do:optionRank "126"^^xsd:int .
+
+data:bo/00056-00003951/1/86 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/86 ;
+  do:optionRank "127"^^xsd:int .
+
+data:bo/00056-00003951/1/121 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/121 ;
+  do:optionRank "128"^^xsd:int .
+
+data:bo/00056-00003951/1/29 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/29 ;
+  do:optionRank "129"^^xsd:int .
+
+data:bo/00056-00003951/1/99 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/99 ;
+  do:optionRank "130"^^xsd:int .
+
+data:agent/00056-00003951/1 a do:Agent ;
+  rdfs:label "Synthetic agent 1 (00056-00003951)" ;
+  do:hasExpressed data:ballot/00056-00003951/1 .
+
+data:ballot/00056-00003951/2 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00056-00003951 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00056-00003951/2/83, data:bo/00056-00003951/2/73, data:bo/00056-00003951/2/53, data:bo/00056-00003951/2/23, data:bo/00056-00003951/2/24, data:bo/00056-00003951/2/69, data:bo/00056-00003951/2/119, data:bo/00056-00003951/2/40, data:bo/00056-00003951/2/125, data:bo/00056-00003951/2/68, data:bo/00056-00003951/2/87, data:bo/00056-00003951/2/89, data:bo/00056-00003951/2/7, data:bo/00056-00003951/2/56, data:bo/00056-00003951/2/97, data:bo/00056-00003951/2/94, data:bo/00056-00003951/2/95, data:bo/00056-00003951/2/19, data:bo/00056-00003951/2/128, data:bo/00056-00003951/2/107, data:bo/00056-00003951/2/48, data:bo/00056-00003951/2/111, data:bo/00056-00003951/2/51, data:bo/00056-00003951/2/110, data:bo/00056-00003951/2/49, data:bo/00056-00003951/2/64, data:bo/00056-00003951/2/43, data:bo/00056-00003951/2/34, data:bo/00056-00003951/2/67, data:bo/00056-00003951/2/44, data:bo/00056-00003951/2/116, data:bo/00056-00003951/2/77, data:bo/00056-00003951/2/14, data:bo/00056-00003951/2/112, data:bo/00056-00003951/2/71, data:bo/00056-00003951/2/130, data:bo/00056-00003951/2/18, data:bo/00056-00003951/2/25, data:bo/00056-00003951/2/104, data:bo/00056-00003951/2/59, data:bo/00056-00003951/2/92, data:bo/00056-00003951/2/11, data:bo/00056-00003951/2/105, data:bo/00056-00003951/2/127, data:bo/00056-00003951/2/41, data:bo/00056-00003951/2/88, data:bo/00056-00003951/2/100, data:bo/00056-00003951/2/6, data:bo/00056-00003951/2/79, data:bo/00056-00003951/2/30, data:bo/00056-00003951/2/22, data:bo/00056-00003951/2/12, data:bo/00056-00003951/2/39, data:bo/00056-00003951/2/36, data:bo/00056-00003951/2/62, data:bo/00056-00003951/2/1, data:bo/00056-00003951/2/74, data:bo/00056-00003951/2/32, data:bo/00056-00003951/2/13, data:bo/00056-00003951/2/70, data:bo/00056-00003951/2/84, data:bo/00056-00003951/2/113, data:bo/00056-00003951/2/75, data:bo/00056-00003951/2/58, data:bo/00056-00003951/2/33, data:bo/00056-00003951/2/101, data:bo/00056-00003951/2/8, data:bo/00056-00003951/2/81, data:bo/00056-00003951/2/42, data:bo/00056-00003951/2/96, data:bo/00056-00003951/2/55, data:bo/00056-00003951/2/80, data:bo/00056-00003951/2/114, data:bo/00056-00003951/2/45, data:bo/00056-00003951/2/118, data:bo/00056-00003951/2/65, data:bo/00056-00003951/2/72, data:bo/00056-00003951/2/82, data:bo/00056-00003951/2/15, data:bo/00056-00003951/2/54, data:bo/00056-00003951/2/10, data:bo/00056-00003951/2/103, data:bo/00056-00003951/2/27, data:bo/00056-00003951/2/63, data:bo/00056-00003951/2/93, data:bo/00056-00003951/2/122, data:bo/00056-00003951/2/91, data:bo/00056-00003951/2/35, data:bo/00056-00003951/2/85, data:bo/00056-00003951/2/90, data:bo/00056-00003951/2/20, data:bo/00056-00003951/2/5, data:bo/00056-00003951/2/28, data:bo/00056-00003951/2/46, data:bo/00056-00003951/2/9, data:bo/00056-00003951/2/108, data:bo/00056-00003951/2/37, data:bo/00056-00003951/2/38, data:bo/00056-00003951/2/60, data:bo/00056-00003951/2/21, data:bo/00056-00003951/2/109, data:bo/00056-00003951/2/115, data:bo/00056-00003951/2/123, data:bo/00056-00003951/2/57, data:bo/00056-00003951/2/66, data:bo/00056-00003951/2/129, data:bo/00056-00003951/2/16, data:bo/00056-00003951/2/50, data:bo/00056-00003951/2/31, data:bo/00056-00003951/2/61, data:bo/00056-00003951/2/26, data:bo/00056-00003951/2/117, data:bo/00056-00003951/2/120, data:bo/00056-00003951/2/52, data:bo/00056-00003951/2/2, data:bo/00056-00003951/2/106, data:bo/00056-00003951/2/98, data:bo/00056-00003951/2/126, data:bo/00056-00003951/2/102, data:bo/00056-00003951/2/3, data:bo/00056-00003951/2/78, data:bo/00056-00003951/2/17, data:bo/00056-00003951/2/4, data:bo/00056-00003951/2/47, data:bo/00056-00003951/2/124, data:bo/00056-00003951/2/76, data:bo/00056-00003951/2/86, data:bo/00056-00003951/2/121, data:bo/00056-00003951/2/29, data:bo/00056-00003951/2/99 .
+
+data:bo/00056-00003951/2/83 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/83 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00056-00003951/2/73 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/73 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00056-00003951/2/53 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/53 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00056-00003951/2/23 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/23 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00056-00003951/2/24 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/24 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00056-00003951/2/69 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/69 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00056-00003951/2/119 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/119 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00056-00003951/2/40 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/40 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00056-00003951/2/125 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/125 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00056-00003951/2/68 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/68 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00056-00003951/2/87 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/87 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00056-00003951/2/89 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/89 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00056-00003951/2/7 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/7 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00056-00003951/2/56 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/56 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00056-00003951/2/97 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/97 ;
+  do:optionRank "15"^^xsd:int .
+
+data:bo/00056-00003951/2/94 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/94 ;
+  do:optionRank "16"^^xsd:int .
+
+data:bo/00056-00003951/2/95 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/95 ;
+  do:optionRank "17"^^xsd:int .
+
+data:bo/00056-00003951/2/19 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/19 ;
+  do:optionRank "18"^^xsd:int .
+
+data:bo/00056-00003951/2/128 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/128 ;
+  do:optionRank "19"^^xsd:int .
+
+data:bo/00056-00003951/2/107 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/107 ;
+  do:optionRank "20"^^xsd:int .
+
+data:bo/00056-00003951/2/48 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/48 ;
+  do:optionRank "21"^^xsd:int .
+
+data:bo/00056-00003951/2/111 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/111 ;
+  do:optionRank "22"^^xsd:int .
+
+data:bo/00056-00003951/2/51 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/51 ;
+  do:optionRank "23"^^xsd:int .
+
+data:bo/00056-00003951/2/110 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/110 ;
+  do:optionRank "24"^^xsd:int .
+
+data:bo/00056-00003951/2/49 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/49 ;
+  do:optionRank "25"^^xsd:int .
+
+data:bo/00056-00003951/2/64 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/64 ;
+  do:optionRank "26"^^xsd:int .
+
+data:bo/00056-00003951/2/43 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/43 ;
+  do:optionRank "27"^^xsd:int .
+
+data:bo/00056-00003951/2/34 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/34 ;
+  do:optionRank "28"^^xsd:int .
+
+data:bo/00056-00003951/2/67 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/67 ;
+  do:optionRank "29"^^xsd:int .
+
+data:bo/00056-00003951/2/44 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/44 ;
+  do:optionRank "30"^^xsd:int .
+
+data:bo/00056-00003951/2/116 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/116 ;
+  do:optionRank "31"^^xsd:int .
+
+data:bo/00056-00003951/2/77 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/77 ;
+  do:optionRank "32"^^xsd:int .
+
+data:bo/00056-00003951/2/14 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/14 ;
+  do:optionRank "33"^^xsd:int .
+
+data:bo/00056-00003951/2/112 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/112 ;
+  do:optionRank "34"^^xsd:int .
+
+data:bo/00056-00003951/2/71 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/71 ;
+  do:optionRank "35"^^xsd:int .
+
+data:bo/00056-00003951/2/130 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/130 ;
+  do:optionRank "36"^^xsd:int .
+
+data:bo/00056-00003951/2/18 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/18 ;
+  do:optionRank "37"^^xsd:int .
+
+data:bo/00056-00003951/2/25 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/25 ;
+  do:optionRank "38"^^xsd:int .
+
+data:bo/00056-00003951/2/104 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/104 ;
+  do:optionRank "39"^^xsd:int .
+
+data:bo/00056-00003951/2/59 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/59 ;
+  do:optionRank "40"^^xsd:int .
+
+data:bo/00056-00003951/2/92 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/92 ;
+  do:optionRank "41"^^xsd:int .
+
+data:bo/00056-00003951/2/11 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/11 ;
+  do:optionRank "42"^^xsd:int .
+
+data:bo/00056-00003951/2/105 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/105 ;
+  do:optionRank "43"^^xsd:int .
+
+data:bo/00056-00003951/2/127 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/127 ;
+  do:optionRank "44"^^xsd:int .
+
+data:bo/00056-00003951/2/41 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/41 ;
+  do:optionRank "45"^^xsd:int .
+
+data:bo/00056-00003951/2/88 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/88 ;
+  do:optionRank "46"^^xsd:int .
+
+data:bo/00056-00003951/2/100 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/100 ;
+  do:optionRank "47"^^xsd:int .
+
+data:bo/00056-00003951/2/6 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/6 ;
+  do:optionRank "48"^^xsd:int .
+
+data:bo/00056-00003951/2/79 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/79 ;
+  do:optionRank "49"^^xsd:int .
+
+data:bo/00056-00003951/2/30 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/30 ;
+  do:optionRank "50"^^xsd:int .
+
+data:bo/00056-00003951/2/22 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/22 ;
+  do:optionRank "51"^^xsd:int .
+
+data:bo/00056-00003951/2/12 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/12 ;
+  do:optionRank "52"^^xsd:int .
+
+data:bo/00056-00003951/2/39 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/39 ;
+  do:optionRank "53"^^xsd:int .
+
+data:bo/00056-00003951/2/36 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/36 ;
+  do:optionRank "54"^^xsd:int .
+
+data:bo/00056-00003951/2/62 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/62 ;
+  do:optionRank "55"^^xsd:int .
+
+data:bo/00056-00003951/2/1 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/1 ;
+  do:optionRank "56"^^xsd:int .
+
+data:bo/00056-00003951/2/74 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/74 ;
+  do:optionRank "57"^^xsd:int .
+
+data:bo/00056-00003951/2/32 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/32 ;
+  do:optionRank "58"^^xsd:int .
+
+data:bo/00056-00003951/2/13 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/13 ;
+  do:optionRank "59"^^xsd:int .
+
+data:bo/00056-00003951/2/70 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/70 ;
+  do:optionRank "60"^^xsd:int .
+
+data:bo/00056-00003951/2/84 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/84 ;
+  do:optionRank "61"^^xsd:int .
+
+data:bo/00056-00003951/2/113 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/113 ;
+  do:optionRank "62"^^xsd:int .
+
+data:bo/00056-00003951/2/75 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/75 ;
+  do:optionRank "63"^^xsd:int .
+
+data:bo/00056-00003951/2/58 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/58 ;
+  do:optionRank "64"^^xsd:int .
+
+data:bo/00056-00003951/2/33 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/33 ;
+  do:optionRank "65"^^xsd:int .
+
+data:bo/00056-00003951/2/101 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/101 ;
+  do:optionRank "66"^^xsd:int .
+
+data:bo/00056-00003951/2/8 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/8 ;
+  do:optionRank "67"^^xsd:int .
+
+data:bo/00056-00003951/2/81 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/81 ;
+  do:optionRank "68"^^xsd:int .
+
+data:bo/00056-00003951/2/42 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/42 ;
+  do:optionRank "69"^^xsd:int .
+
+data:bo/00056-00003951/2/96 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/96 ;
+  do:optionRank "70"^^xsd:int .
+
+data:bo/00056-00003951/2/55 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/55 ;
+  do:optionRank "71"^^xsd:int .
+
+data:bo/00056-00003951/2/80 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/80 ;
+  do:optionRank "72"^^xsd:int .
+
+data:bo/00056-00003951/2/114 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/114 ;
+  do:optionRank "73"^^xsd:int .
+
+data:bo/00056-00003951/2/45 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/45 ;
+  do:optionRank "74"^^xsd:int .
+
+data:bo/00056-00003951/2/118 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/118 ;
+  do:optionRank "75"^^xsd:int .
+
+data:bo/00056-00003951/2/65 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/65 ;
+  do:optionRank "76"^^xsd:int .
+
+data:bo/00056-00003951/2/72 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/72 ;
+  do:optionRank "77"^^xsd:int .
+
+data:bo/00056-00003951/2/82 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/82 ;
+  do:optionRank "78"^^xsd:int .
+
+data:bo/00056-00003951/2/15 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/15 ;
+  do:optionRank "79"^^xsd:int .
+
+data:bo/00056-00003951/2/54 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/54 ;
+  do:optionRank "80"^^xsd:int .
+
+data:bo/00056-00003951/2/10 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/10 ;
+  do:optionRank "81"^^xsd:int .
+
+data:bo/00056-00003951/2/103 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/103 ;
+  do:optionRank "82"^^xsd:int .
+
+data:bo/00056-00003951/2/27 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/27 ;
+  do:optionRank "83"^^xsd:int .
+
+data:bo/00056-00003951/2/63 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/63 ;
+  do:optionRank "84"^^xsd:int .
+
+data:bo/00056-00003951/2/93 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/93 ;
+  do:optionRank "85"^^xsd:int .
+
+data:bo/00056-00003951/2/122 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/122 ;
+  do:optionRank "86"^^xsd:int .
+
+data:bo/00056-00003951/2/91 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/91 ;
+  do:optionRank "87"^^xsd:int .
+
+data:bo/00056-00003951/2/35 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/35 ;
+  do:optionRank "88"^^xsd:int .
+
+data:bo/00056-00003951/2/85 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/85 ;
+  do:optionRank "89"^^xsd:int .
+
+data:bo/00056-00003951/2/90 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/90 ;
+  do:optionRank "90"^^xsd:int .
+
+data:bo/00056-00003951/2/20 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/20 ;
+  do:optionRank "91"^^xsd:int .
+
+data:bo/00056-00003951/2/5 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/5 ;
+  do:optionRank "92"^^xsd:int .
+
+data:bo/00056-00003951/2/28 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/28 ;
+  do:optionRank "93"^^xsd:int .
+
+data:bo/00056-00003951/2/46 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/46 ;
+  do:optionRank "94"^^xsd:int .
+
+data:bo/00056-00003951/2/9 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/9 ;
+  do:optionRank "95"^^xsd:int .
+
+data:bo/00056-00003951/2/108 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/108 ;
+  do:optionRank "96"^^xsd:int .
+
+data:bo/00056-00003951/2/37 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/37 ;
+  do:optionRank "97"^^xsd:int .
+
+data:bo/00056-00003951/2/38 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/38 ;
+  do:optionRank "98"^^xsd:int .
+
+data:bo/00056-00003951/2/60 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/60 ;
+  do:optionRank "99"^^xsd:int .
+
+data:bo/00056-00003951/2/21 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/21 ;
+  do:optionRank "100"^^xsd:int .
+
+data:bo/00056-00003951/2/109 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/109 ;
+  do:optionRank "101"^^xsd:int .
+
+data:bo/00056-00003951/2/115 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/115 ;
+  do:optionRank "102"^^xsd:int .
+
+data:bo/00056-00003951/2/123 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/123 ;
+  do:optionRank "103"^^xsd:int .
+
+data:bo/00056-00003951/2/57 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/57 ;
+  do:optionRank "104"^^xsd:int .
+
+data:bo/00056-00003951/2/66 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/66 ;
+  do:optionRank "105"^^xsd:int .
+
+data:bo/00056-00003951/2/129 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/129 ;
+  do:optionRank "106"^^xsd:int .
+
+data:bo/00056-00003951/2/16 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/16 ;
+  do:optionRank "107"^^xsd:int .
+
+data:bo/00056-00003951/2/50 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/50 ;
+  do:optionRank "108"^^xsd:int .
+
+data:bo/00056-00003951/2/31 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/31 ;
+  do:optionRank "109"^^xsd:int .
+
+data:bo/00056-00003951/2/61 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/61 ;
+  do:optionRank "110"^^xsd:int .
+
+data:bo/00056-00003951/2/26 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/26 ;
+  do:optionRank "111"^^xsd:int .
+
+data:bo/00056-00003951/2/117 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/117 ;
+  do:optionRank "112"^^xsd:int .
+
+data:bo/00056-00003951/2/120 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/120 ;
+  do:optionRank "113"^^xsd:int .
+
+data:bo/00056-00003951/2/52 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/52 ;
+  do:optionRank "114"^^xsd:int .
+
+data:bo/00056-00003951/2/2 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/2 ;
+  do:optionRank "115"^^xsd:int .
+
+data:bo/00056-00003951/2/106 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/106 ;
+  do:optionRank "116"^^xsd:int .
+
+data:bo/00056-00003951/2/98 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/98 ;
+  do:optionRank "117"^^xsd:int .
+
+data:bo/00056-00003951/2/126 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/126 ;
+  do:optionRank "118"^^xsd:int .
+
+data:bo/00056-00003951/2/102 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/102 ;
+  do:optionRank "119"^^xsd:int .
+
+data:bo/00056-00003951/2/3 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/3 ;
+  do:optionRank "120"^^xsd:int .
+
+data:bo/00056-00003951/2/78 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/78 ;
+  do:optionRank "121"^^xsd:int .
+
+data:bo/00056-00003951/2/17 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/17 ;
+  do:optionRank "122"^^xsd:int .
+
+data:bo/00056-00003951/2/4 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/4 ;
+  do:optionRank "123"^^xsd:int .
+
+data:bo/00056-00003951/2/47 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/47 ;
+  do:optionRank "124"^^xsd:int .
+
+data:bo/00056-00003951/2/124 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/124 ;
+  do:optionRank "125"^^xsd:int .
+
+data:bo/00056-00003951/2/76 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/76 ;
+  do:optionRank "126"^^xsd:int .
+
+data:bo/00056-00003951/2/86 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/86 ;
+  do:optionRank "127"^^xsd:int .
+
+data:bo/00056-00003951/2/121 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/121 ;
+  do:optionRank "128"^^xsd:int .
+
+data:bo/00056-00003951/2/29 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/29 ;
+  do:optionRank "129"^^xsd:int .
+
+data:bo/00056-00003951/2/99 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/99 ;
+  do:optionRank "130"^^xsd:int .
+
+data:agent/00056-00003951/2 a do:Agent ;
+  rdfs:label "Synthetic agent 2 (00056-00003951)" ;
+  do:hasExpressed data:ballot/00056-00003951/2 .
+
+data:ballot/00056-00003951/3 a do:Ballot, do:RankedBallot, do:CompleteBallot, do:AggregatedBallot ;
+  do:hasContext data:context/00056-00003951 ;
+  do:hasMultiplicity "1"^^xsd:int ;
+  do:hasBallotOption data:bo/00056-00003951/3/83, data:bo/00056-00003951/3/73, data:bo/00056-00003951/3/53, data:bo/00056-00003951/3/23, data:bo/00056-00003951/3/24, data:bo/00056-00003951/3/69, data:bo/00056-00003951/3/40, data:bo/00056-00003951/3/125, data:bo/00056-00003951/3/68, data:bo/00056-00003951/3/87, data:bo/00056-00003951/3/97, data:bo/00056-00003951/3/119, data:bo/00056-00003951/3/89, data:bo/00056-00003951/3/7, data:bo/00056-00003951/3/56, data:bo/00056-00003951/3/94, data:bo/00056-00003951/3/95, data:bo/00056-00003951/3/19, data:bo/00056-00003951/3/48, data:bo/00056-00003951/3/128, data:bo/00056-00003951/3/107, data:bo/00056-00003951/3/51, data:bo/00056-00003951/3/111, data:bo/00056-00003951/3/64, data:bo/00056-00003951/3/49, data:bo/00056-00003951/3/43, data:bo/00056-00003951/3/110, data:bo/00056-00003951/3/67, data:bo/00056-00003951/3/34, data:bo/00056-00003951/3/44, data:bo/00056-00003951/3/116, data:bo/00056-00003951/3/77, data:bo/00056-00003951/3/14, data:bo/00056-00003951/3/130, data:bo/00056-00003951/3/112, data:bo/00056-00003951/3/71, data:bo/00056-00003951/3/105, data:bo/00056-00003951/3/18, data:bo/00056-00003951/3/25, data:bo/00056-00003951/3/104, data:bo/00056-00003951/3/59, data:bo/00056-00003951/3/11, data:bo/00056-00003951/3/92, data:bo/00056-00003951/3/41, data:bo/00056-00003951/3/127, data:bo/00056-00003951/3/100, data:bo/00056-00003951/3/88, data:bo/00056-00003951/3/6, data:bo/00056-00003951/3/79, data:bo/00056-00003951/3/22, data:bo/00056-00003951/3/30, data:bo/00056-00003951/3/12, data:bo/00056-00003951/3/39, data:bo/00056-00003951/3/62, data:bo/00056-00003951/3/36, data:bo/00056-00003951/3/1, data:bo/00056-00003951/3/32, data:bo/00056-00003951/3/74, data:bo/00056-00003951/3/84, data:bo/00056-00003951/3/113, data:bo/00056-00003951/3/70, data:bo/00056-00003951/3/13, data:bo/00056-00003951/3/58, data:bo/00056-00003951/3/33, data:bo/00056-00003951/3/101, data:bo/00056-00003951/3/42, data:bo/00056-00003951/3/8, data:bo/00056-00003951/3/75, data:bo/00056-00003951/3/114, data:bo/00056-00003951/3/96, data:bo/00056-00003951/3/81, data:bo/00056-00003951/3/80, data:bo/00056-00003951/3/45, data:bo/00056-00003951/3/72, data:bo/00056-00003951/3/55, data:bo/00056-00003951/3/65, data:bo/00056-00003951/3/82, data:bo/00056-00003951/3/54, data:bo/00056-00003951/3/103, data:bo/00056-00003951/3/118, data:bo/00056-00003951/3/85, data:bo/00056-00003951/3/10, data:bo/00056-00003951/3/27, data:bo/00056-00003951/3/93, data:bo/00056-00003951/3/63, data:bo/00056-00003951/3/122, data:bo/00056-00003951/3/15, data:bo/00056-00003951/3/35, data:bo/00056-00003951/3/91, data:bo/00056-00003951/3/90, data:bo/00056-00003951/3/28, data:bo/00056-00003951/3/5, data:bo/00056-00003951/3/20, data:bo/00056-00003951/3/46, data:bo/00056-00003951/3/9, data:bo/00056-00003951/3/108, data:bo/00056-00003951/3/38, data:bo/00056-00003951/3/37, data:bo/00056-00003951/3/115, data:bo/00056-00003951/3/21, data:bo/00056-00003951/3/60, data:bo/00056-00003951/3/109, data:bo/00056-00003951/3/16, data:bo/00056-00003951/3/66, data:bo/00056-00003951/3/57, data:bo/00056-00003951/3/129, data:bo/00056-00003951/3/123, data:bo/00056-00003951/3/50, data:bo/00056-00003951/3/61, data:bo/00056-00003951/3/117, data:bo/00056-00003951/3/31, data:bo/00056-00003951/3/26, data:bo/00056-00003951/3/120, data:bo/00056-00003951/3/52, data:bo/00056-00003951/3/2, data:bo/00056-00003951/3/106, data:bo/00056-00003951/3/98, data:bo/00056-00003951/3/102, data:bo/00056-00003951/3/126, data:bo/00056-00003951/3/3, data:bo/00056-00003951/3/78, data:bo/00056-00003951/3/17, data:bo/00056-00003951/3/4, data:bo/00056-00003951/3/47, data:bo/00056-00003951/3/124, data:bo/00056-00003951/3/76, data:bo/00056-00003951/3/86, data:bo/00056-00003951/3/121, data:bo/00056-00003951/3/29, data:bo/00056-00003951/3/99 .
+
+data:bo/00056-00003951/3/83 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/83 ;
+  do:optionRank "1"^^xsd:int .
+
+data:bo/00056-00003951/3/73 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/73 ;
+  do:optionRank "2"^^xsd:int .
+
+data:bo/00056-00003951/3/53 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/53 ;
+  do:optionRank "3"^^xsd:int .
+
+data:bo/00056-00003951/3/23 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/23 ;
+  do:optionRank "4"^^xsd:int .
+
+data:bo/00056-00003951/3/24 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/24 ;
+  do:optionRank "5"^^xsd:int .
+
+data:bo/00056-00003951/3/69 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/69 ;
+  do:optionRank "6"^^xsd:int .
+
+data:bo/00056-00003951/3/40 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/40 ;
+  do:optionRank "7"^^xsd:int .
+
+data:bo/00056-00003951/3/125 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/125 ;
+  do:optionRank "8"^^xsd:int .
+
+data:bo/00056-00003951/3/68 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/68 ;
+  do:optionRank "9"^^xsd:int .
+
+data:bo/00056-00003951/3/87 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/87 ;
+  do:optionRank "10"^^xsd:int .
+
+data:bo/00056-00003951/3/97 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/97 ;
+  do:optionRank "11"^^xsd:int .
+
+data:bo/00056-00003951/3/119 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/119 ;
+  do:optionRank "12"^^xsd:int .
+
+data:bo/00056-00003951/3/89 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/89 ;
+  do:optionRank "13"^^xsd:int .
+
+data:bo/00056-00003951/3/7 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/7 ;
+  do:optionRank "14"^^xsd:int .
+
+data:bo/00056-00003951/3/56 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/56 ;
+  do:optionRank "15"^^xsd:int .
+
+data:bo/00056-00003951/3/94 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/94 ;
+  do:optionRank "16"^^xsd:int .
+
+data:bo/00056-00003951/3/95 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/95 ;
+  do:optionRank "17"^^xsd:int .
+
+data:bo/00056-00003951/3/19 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/19 ;
+  do:optionRank "18"^^xsd:int .
+
+data:bo/00056-00003951/3/48 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/48 ;
+  do:optionRank "19"^^xsd:int .
+
+data:bo/00056-00003951/3/128 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/128 ;
+  do:optionRank "20"^^xsd:int .
+
+data:bo/00056-00003951/3/107 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/107 ;
+  do:optionRank "21"^^xsd:int .
+
+data:bo/00056-00003951/3/51 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/51 ;
+  do:optionRank "22"^^xsd:int .
+
+data:bo/00056-00003951/3/111 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/111 ;
+  do:optionRank "23"^^xsd:int .
+
+data:bo/00056-00003951/3/64 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/64 ;
+  do:optionRank "24"^^xsd:int .
+
+data:bo/00056-00003951/3/49 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/49 ;
+  do:optionRank "25"^^xsd:int .
+
+data:bo/00056-00003951/3/43 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/43 ;
+  do:optionRank "26"^^xsd:int .
+
+data:bo/00056-00003951/3/110 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/110 ;
+  do:optionRank "27"^^xsd:int .
+
+data:bo/00056-00003951/3/67 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/67 ;
+  do:optionRank "28"^^xsd:int .
+
+data:bo/00056-00003951/3/34 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/34 ;
+  do:optionRank "29"^^xsd:int .
+
+data:bo/00056-00003951/3/44 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/44 ;
+  do:optionRank "30"^^xsd:int .
+
+data:bo/00056-00003951/3/116 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/116 ;
+  do:optionRank "31"^^xsd:int .
+
+data:bo/00056-00003951/3/77 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/77 ;
+  do:optionRank "32"^^xsd:int .
+
+data:bo/00056-00003951/3/14 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/14 ;
+  do:optionRank "33"^^xsd:int .
+
+data:bo/00056-00003951/3/130 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/130 ;
+  do:optionRank "34"^^xsd:int .
+
+data:bo/00056-00003951/3/112 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/112 ;
+  do:optionRank "35"^^xsd:int .
+
+data:bo/00056-00003951/3/71 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/71 ;
+  do:optionRank "36"^^xsd:int .
+
+data:bo/00056-00003951/3/105 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/105 ;
+  do:optionRank "37"^^xsd:int .
+
+data:bo/00056-00003951/3/18 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/18 ;
+  do:optionRank "38"^^xsd:int .
+
+data:bo/00056-00003951/3/25 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/25 ;
+  do:optionRank "39"^^xsd:int .
+
+data:bo/00056-00003951/3/104 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/104 ;
+  do:optionRank "40"^^xsd:int .
+
+data:bo/00056-00003951/3/59 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/59 ;
+  do:optionRank "41"^^xsd:int .
+
+data:bo/00056-00003951/3/11 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/11 ;
+  do:optionRank "42"^^xsd:int .
+
+data:bo/00056-00003951/3/92 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/92 ;
+  do:optionRank "43"^^xsd:int .
+
+data:bo/00056-00003951/3/41 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/41 ;
+  do:optionRank "44"^^xsd:int .
+
+data:bo/00056-00003951/3/127 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/127 ;
+  do:optionRank "45"^^xsd:int .
+
+data:bo/00056-00003951/3/100 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/100 ;
+  do:optionRank "46"^^xsd:int .
+
+data:bo/00056-00003951/3/88 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/88 ;
+  do:optionRank "47"^^xsd:int .
+
+data:bo/00056-00003951/3/6 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/6 ;
+  do:optionRank "48"^^xsd:int .
+
+data:bo/00056-00003951/3/79 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/79 ;
+  do:optionRank "49"^^xsd:int .
+
+data:bo/00056-00003951/3/22 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/22 ;
+  do:optionRank "50"^^xsd:int .
+
+data:bo/00056-00003951/3/30 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/30 ;
+  do:optionRank "51"^^xsd:int .
+
+data:bo/00056-00003951/3/12 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/12 ;
+  do:optionRank "52"^^xsd:int .
+
+data:bo/00056-00003951/3/39 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/39 ;
+  do:optionRank "53"^^xsd:int .
+
+data:bo/00056-00003951/3/62 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/62 ;
+  do:optionRank "54"^^xsd:int .
+
+data:bo/00056-00003951/3/36 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/36 ;
+  do:optionRank "55"^^xsd:int .
+
+data:bo/00056-00003951/3/1 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/1 ;
+  do:optionRank "56"^^xsd:int .
+
+data:bo/00056-00003951/3/32 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/32 ;
+  do:optionRank "57"^^xsd:int .
+
+data:bo/00056-00003951/3/74 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/74 ;
+  do:optionRank "58"^^xsd:int .
+
+data:bo/00056-00003951/3/84 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/84 ;
+  do:optionRank "59"^^xsd:int .
+
+data:bo/00056-00003951/3/113 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/113 ;
+  do:optionRank "60"^^xsd:int .
+
+data:bo/00056-00003951/3/70 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/70 ;
+  do:optionRank "61"^^xsd:int .
+
+data:bo/00056-00003951/3/13 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/13 ;
+  do:optionRank "62"^^xsd:int .
+
+data:bo/00056-00003951/3/58 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/58 ;
+  do:optionRank "63"^^xsd:int .
+
+data:bo/00056-00003951/3/33 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/33 ;
+  do:optionRank "64"^^xsd:int .
+
+data:bo/00056-00003951/3/101 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/101 ;
+  do:optionRank "65"^^xsd:int .
+
+data:bo/00056-00003951/3/42 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/42 ;
+  do:optionRank "66"^^xsd:int .
+
+data:bo/00056-00003951/3/8 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/8 ;
+  do:optionRank "67"^^xsd:int .
+
+data:bo/00056-00003951/3/75 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/75 ;
+  do:optionRank "68"^^xsd:int .
+
+data:bo/00056-00003951/3/114 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/114 ;
+  do:optionRank "69"^^xsd:int .
+
+data:bo/00056-00003951/3/96 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/96 ;
+  do:optionRank "70"^^xsd:int .
+
+data:bo/00056-00003951/3/81 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/81 ;
+  do:optionRank "71"^^xsd:int .
+
+data:bo/00056-00003951/3/80 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/80 ;
+  do:optionRank "72"^^xsd:int .
+
+data:bo/00056-00003951/3/45 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/45 ;
+  do:optionRank "73"^^xsd:int .
+
+data:bo/00056-00003951/3/72 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/72 ;
+  do:optionRank "74"^^xsd:int .
+
+data:bo/00056-00003951/3/55 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/55 ;
+  do:optionRank "75"^^xsd:int .
+
+data:bo/00056-00003951/3/65 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/65 ;
+  do:optionRank "76"^^xsd:int .
+
+data:bo/00056-00003951/3/82 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/82 ;
+  do:optionRank "77"^^xsd:int .
+
+data:bo/00056-00003951/3/54 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/54 ;
+  do:optionRank "78"^^xsd:int .
+
+data:bo/00056-00003951/3/103 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/103 ;
+  do:optionRank "79"^^xsd:int .
+
+data:bo/00056-00003951/3/118 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/118 ;
+  do:optionRank "80"^^xsd:int .
+
+data:bo/00056-00003951/3/85 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/85 ;
+  do:optionRank "81"^^xsd:int .
+
+data:bo/00056-00003951/3/10 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/10 ;
+  do:optionRank "82"^^xsd:int .
+
+data:bo/00056-00003951/3/27 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/27 ;
+  do:optionRank "83"^^xsd:int .
+
+data:bo/00056-00003951/3/93 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/93 ;
+  do:optionRank "84"^^xsd:int .
+
+data:bo/00056-00003951/3/63 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/63 ;
+  do:optionRank "85"^^xsd:int .
+
+data:bo/00056-00003951/3/122 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/122 ;
+  do:optionRank "86"^^xsd:int .
+
+data:bo/00056-00003951/3/15 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/15 ;
+  do:optionRank "87"^^xsd:int .
+
+data:bo/00056-00003951/3/35 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/35 ;
+  do:optionRank "88"^^xsd:int .
+
+data:bo/00056-00003951/3/91 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/91 ;
+  do:optionRank "89"^^xsd:int .
+
+data:bo/00056-00003951/3/90 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/90 ;
+  do:optionRank "90"^^xsd:int .
+
+data:bo/00056-00003951/3/28 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/28 ;
+  do:optionRank "91"^^xsd:int .
+
+data:bo/00056-00003951/3/5 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/5 ;
+  do:optionRank "92"^^xsd:int .
+
+data:bo/00056-00003951/3/20 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/20 ;
+  do:optionRank "93"^^xsd:int .
+
+data:bo/00056-00003951/3/46 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/46 ;
+  do:optionRank "94"^^xsd:int .
+
+data:bo/00056-00003951/3/9 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/9 ;
+  do:optionRank "95"^^xsd:int .
+
+data:bo/00056-00003951/3/108 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/108 ;
+  do:optionRank "96"^^xsd:int .
+
+data:bo/00056-00003951/3/38 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/38 ;
+  do:optionRank "97"^^xsd:int .
+
+data:bo/00056-00003951/3/37 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/37 ;
+  do:optionRank "98"^^xsd:int .
+
+data:bo/00056-00003951/3/115 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/115 ;
+  do:optionRank "99"^^xsd:int .
+
+data:bo/00056-00003951/3/21 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/21 ;
+  do:optionRank "100"^^xsd:int .
+
+data:bo/00056-00003951/3/60 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/60 ;
+  do:optionRank "101"^^xsd:int .
+
+data:bo/00056-00003951/3/109 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/109 ;
+  do:optionRank "102"^^xsd:int .
+
+data:bo/00056-00003951/3/16 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/16 ;
+  do:optionRank "103"^^xsd:int .
+
+data:bo/00056-00003951/3/66 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/66 ;
+  do:optionRank "104"^^xsd:int .
+
+data:bo/00056-00003951/3/57 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/57 ;
+  do:optionRank "105"^^xsd:int .
+
+data:bo/00056-00003951/3/129 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/129 ;
+  do:optionRank "106"^^xsd:int .
+
+data:bo/00056-00003951/3/123 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/123 ;
+  do:optionRank "107"^^xsd:int .
+
+data:bo/00056-00003951/3/50 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/50 ;
+  do:optionRank "108"^^xsd:int .
+
+data:bo/00056-00003951/3/61 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/61 ;
+  do:optionRank "109"^^xsd:int .
+
+data:bo/00056-00003951/3/117 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/117 ;
+  do:optionRank "110"^^xsd:int .
+
+data:bo/00056-00003951/3/31 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/31 ;
+  do:optionRank "111"^^xsd:int .
+
+data:bo/00056-00003951/3/26 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/26 ;
+  do:optionRank "112"^^xsd:int .
+
+data:bo/00056-00003951/3/120 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/120 ;
+  do:optionRank "113"^^xsd:int .
+
+data:bo/00056-00003951/3/52 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/52 ;
+  do:optionRank "114"^^xsd:int .
+
+data:bo/00056-00003951/3/2 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/2 ;
+  do:optionRank "115"^^xsd:int .
+
+data:bo/00056-00003951/3/106 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/106 ;
+  do:optionRank "116"^^xsd:int .
+
+data:bo/00056-00003951/3/98 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/98 ;
+  do:optionRank "117"^^xsd:int .
+
+data:bo/00056-00003951/3/102 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/102 ;
+  do:optionRank "118"^^xsd:int .
+
+data:bo/00056-00003951/3/126 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/126 ;
+  do:optionRank "119"^^xsd:int .
+
+data:bo/00056-00003951/3/3 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/3 ;
+  do:optionRank "120"^^xsd:int .
+
+data:bo/00056-00003951/3/78 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/78 ;
+  do:optionRank "121"^^xsd:int .
+
+data:bo/00056-00003951/3/17 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/17 ;
+  do:optionRank "122"^^xsd:int .
+
+data:bo/00056-00003951/3/4 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/4 ;
+  do:optionRank "123"^^xsd:int .
+
+data:bo/00056-00003951/3/47 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/47 ;
+  do:optionRank "124"^^xsd:int .
+
+data:bo/00056-00003951/3/124 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/124 ;
+  do:optionRank "125"^^xsd:int .
+
+data:bo/00056-00003951/3/76 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/76 ;
+  do:optionRank "126"^^xsd:int .
+
+data:bo/00056-00003951/3/86 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/86 ;
+  do:optionRank "127"^^xsd:int .
+
+data:bo/00056-00003951/3/121 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/121 ;
+  do:optionRank "128"^^xsd:int .
+
+data:bo/00056-00003951/3/29 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/29 ;
+  do:optionRank "129"^^xsd:int .
+
+data:bo/00056-00003951/3/99 a do:BallotOption ;
+  do:refersToOption data:option/00056-00003951/99 ;
+  do:optionRank "130"^^xsd:int .
+
+data:agent/00056-00003951/3 a do:Agent ;
+  rdfs:label "Synthetic agent 3 (00056-00003951)" ;
+  do:hasExpressed data:ballot/00056-00003951/3 .
+
