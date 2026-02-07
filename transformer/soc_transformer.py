@@ -90,10 +90,10 @@ def main() -> int:
     g.add((context_iri, RDFS.label, Literal(title)))
 
     # Define Options
-    option_uris = {}
+    options = {}
     for alt_id in sorted(alternatives):
         opt_iri = URIRef(DATA_NS + f"option/{dataset_id}/{alt_id}")
-        option_uris[alt_id] = opt_iri
+        options[alt_id] = opt_iri
         
         g.add((opt_iri, RDF.type, DO_NS.Option))
         g.add((opt_iri, RDFS.label, Literal(alternatives[alt_id])))
@@ -121,7 +121,7 @@ def main() -> int:
 
         # Ballot Options (Ranking positions)
         for rank_pos, alt_id in enumerate(order, start=1):
-            if alt_id not in option_uris:
+            if alt_id not in options:
                 continue # Skip if ID mentioned in ranking but not defined in header
 
             bo_iri = URIRef(DATA_NS + f"bo/{dataset_id}/{ballot_index}/{alt_id}")
@@ -131,7 +131,7 @@ def main() -> int:
             
             # Define BallotOption
             g.add((bo_iri, RDF.type, DO_NS.BallotOption))
-            g.add((bo_iri, DO_NS.refersToOption, option_uris[alt_id]))
+            g.add((bo_iri, DO_NS.refersToOption, options[alt_id]))
             g.add((bo_iri, DO_NS.optionRank, Literal(rank_pos, datatype=XSD.int)))
     
     # Provenance
