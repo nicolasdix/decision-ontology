@@ -1,4 +1,4 @@
-# Decision Data Ontology
+# A Data Model for Collective Decision Making
 
 This repository contains all artifacts produced during my bachelor's thesis on data modeling for collective decision-making.
 
