@@ -1,0 +1,118 @@
+@prefix do: <http://www.semanticweb.org/decision-ontology#> .
+@prefix data: <http://www.semanticweb.org/decision-ontology/data/sushi/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+data:sushi_preference_survey
+    a do:Context, prov:Entity ;
+    prov:wasDerivedFrom data:dataset0007.order ;
+    rdfs:label "Sushi Preference Survey" ;
+    do:hasAvailableOption data:ebi ;
+    do:hasAvailableOption data:anago ;
+    do:hasAvailableOption data:maguro ;
+    do:hasAvailableOption data:ika ;
+    do:hasAvailableOption data:uni ;
+    do:hasAvailableOption data:ikura ;
+    do:hasAvailableOption data:tamago ;
+    do:hasAvailableOption data:toro ;
+    do:hasAvailableOption data:tekkaMaki ;
+    do:hasAvailableOption data:kappaMaki ;
+    do:producesResult data:result .
+
+data:dataset0007.order a prov:Entity ;
+    dc:format "order" ;
+    dc:issued "2015-12-29"^^xsd:date ;
+    dc:license "Individual" ;
+    dc:source "https://www.kamishima.net/sushi/" .
+
+data:mapping_run_sushi a prov:Activity ;
+    prov:generated data:sushi_ttl_export.ttl ;
+    prov:endedAtTime "2026-02-01T18:11:00"^^xsd:dateTime ;
+    prov:used data:dataset0007.order .
+
+data:sushi_rdf_export.ttl a prov:Entity ;
+    dc:format "turtle" ;
+    prov:wasDerivedFrom data:dataset0007.order ;
+    prov:wasGeneratedBy data:mapping_run_sushi .
+
+data:result
+    a do:Result ;
+    rdfs:label "Result" ;
+    rdfs:comment "No explicit outcome is provided in the dataset; results can be derived from ballots using a chosen aggregation rule."@en .
+
+data:ebi a do:Option ; rdfs:label "Ebi" .
+data:anago a do:Option ; rdfs:label "Anago" .
+data:maguro a do:Option ; rdfs:label "Maguro" .
+data:ika a do:Option ; rdfs:label "Ika" .
+data:uni a do:Option ; rdfs:label "Uni" .
+data:ikura a do:Option ; rdfs:label "Ikura" .
+data:tamago a do:Option ; rdfs:label "Tamago" .
+data:toro a do:Option ; rdfs:label "Toro" .
+data:tekkaMaki a do:Option ; rdfs:label "Tekka Maki" .
+data:kappaMaki a do:Option ; rdfs:label "Kappa Maki" .
+
+data:agent_r1
+    a do:Agent ;
+    rdfs:label "Respondent 1" ;
+    do:hasExpressed data:ballot_r1 .
+
+data:ballot_r1
+    a do:Ballot, do:RankedBallot, do:CompleteBallot ;
+    do:hasContext data:sushi_preference_survey ;
+    do:hasBallotEntry data:r1-ikura , data:r1-ebi , data:r1-ika , data:r1-uni , data:r1-tamago , data:r1-kappaMaki , data:r1-tekkaMaki , data:r1-anago , data:r1-toro , data:r1-maguro .
+
+data:r1-ikura
+    a do:BallotEntry ;
+    do:refersToOption data:ikura ;
+    do:hasRank 1 .
+
+data:r1-ebi
+    a do:BallotEntry ;
+    do:refersToOption data:ebi ;
+    do:hasRank 2 .
+
+data:r1-ika
+    a do:BallotEntry ;
+    do:refersToOption data:ika ;
+    do:hasRank 3 .
+
+data:r1-uni
+    a do:BallotEntry ;
+    do:refersToOption data:uni ;
+    do:hasRank 4 .
+
+data:r1-tamago
+    a do:BallotEntry ;
+    do:refersToOption data:tamago ;
+    do:hasRank 5 .
+
+data:r1-kappaMaki
+    a do:BallotEntry ;
+    do:refersToOption data:kappaMaki ;
+    do:hasRank 6 .
+
+data:r1-tekkaMaki
+    a do:BallotEntry ;
+    do:refersToOption data:tekkaMaki ;
+    do:hasRank 7 .
+
+data:r1-anago
+    a do:BallotEntry ;
+    do:refersToOption data:anago ;
+    do:hasRank 8 .
+
+data:r1-toro
+    a do:BallotEntry ;
+    do:refersToOption data:toro ;
+    do:hasRank 9 .
+
+data:r1-maguro
+    a do:BallotEntry ;
+    do:refersToOption data:maguro ;
+    do:hasRank 10 .
