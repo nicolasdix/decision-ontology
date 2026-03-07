@@ -14,4 +14,4 @@ pip install rdflib
 
 ## Usage
 ```bash
-python soc_transformer.py path/to/file.soc
+python soc_converter.py path/to/file.soc
