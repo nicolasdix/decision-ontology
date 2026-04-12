@@ -14,5 +14,7 @@ This repository contains all artifacts produced during my bachelor's thesis on d
 ## Thesis Abstract
 Preference and election datasets are increasingly published as open data, yet their interoperability remains limited due to inconsistent formats and the absence of explicit semantics. Prior work provides syntactic specifications but fails to support semantic integration and machine-queryable context. By analyzing ten heterogeneous datasets, from political elections to human-AI preference data, this thesis investigates recurring semantic concepts and structural differences in the respective data models. Based on the analysis, an ontology for preference data is developed to formalize agents, ballots, options, context and results independently of file-level encodings. The ontology is evaluated through manual and tool-supported data mappings, knowledge queries driven by competency questions and a prototype automation. The findings demonstrate that separating preference semantics from representation formats improves interoperability and query expressiveness. The results highlight the limitations of format-centric approaches and underline the potential of ontology-based standards for collective decision making data.
 
+**Keywords**: `Preference Data`, `Knowledge Engineering`, `Ontology Development`, `Linked Data`, `RDF Validation`, `Automation`
+
 ## License
 Apache License Version 2.0
