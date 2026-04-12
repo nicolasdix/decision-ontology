@@ -1,7 +1,7 @@
 # SOC to Turtle Converter
 
 This script converts PrefLib Strict Orders Complete (`.soc`) files into
-Turtle format using SOAP [a link](https://github.com/nicolasdix/decision-ontology/tree/main/ontology).
+Turtle format using [SOAP](https://github.com/nicolasdix/decision-ontology/tree/main/ontology).
 
 ## Requirements
 - Python 3.11
