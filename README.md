@@ -1,6 +1,6 @@
 # A Data Model for Collective Decision Making
 
-This repository contains all artifacts produced during my bachelor's thesis on data modeling for collective decision-making. Please read about licensing conditions under [License](##License).
+This repository contains all artifacts produced during my bachelor's thesis on data modeling for collective decision-making. Please read about licensing conditions under [License](#License).
 
 ## Structure
 - `data/` – datasets (raw, cleaned, metadata)
