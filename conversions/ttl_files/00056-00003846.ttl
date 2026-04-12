@@ -1,0 +1,1179 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix soap: <http://www.semanticweb.org/soap#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/agent/00056-00003846/1> a soap:Agent ;
+    rdfs:label "Synthetic agent 1 (00056-00003846)" ;
+    soap:hasExpressed <http://www.semanticweb.org/soap/data/00056-00003846/ballot/00056-00003846/1> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/ballot/00056-00003846/1> a soap:AggregatedBallot,
+        soap:Ballot,
+        soap:CompleteBallot,
+        soap:RankedBallot ;
+    soap:hasBallotOption <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/1>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/10>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/100>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/101>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/102>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/103>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/104>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/105>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/106>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/107>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/108>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/109>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/11>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/110>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/111>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/112>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/113>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/114>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/115>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/116>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/117>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/118>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/119>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/12>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/120>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/121>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/122>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/123>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/124>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/125>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/126>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/127>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/128>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/129>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/13>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/14>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/15>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/16>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/17>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/18>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/19>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/2>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/20>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/21>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/22>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/23>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/24>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/25>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/26>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/27>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/28>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/29>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/3>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/30>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/31>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/32>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/33>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/34>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/35>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/36>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/37>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/38>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/39>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/4>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/40>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/41>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/42>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/43>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/44>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/45>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/46>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/47>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/48>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/49>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/5>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/50>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/51>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/52>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/53>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/54>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/55>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/56>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/57>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/58>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/59>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/6>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/60>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/61>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/62>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/63>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/64>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/65>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/66>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/67>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/68>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/69>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/7>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/70>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/71>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/72>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/73>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/74>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/75>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/76>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/77>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/78>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/79>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/8>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/80>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/81>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/82>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/83>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/84>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/85>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/86>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/87>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/88>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/89>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/9>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/90>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/91>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/92>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/93>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/94>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/95>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/96>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/97>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/98>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/99> ;
+    soap:hasContext <http://www.semanticweb.org/soap/data/00056-00003846/context/00056-00003846> ;
+    soap:hasMultiplicity "1"^^xsd:int .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/1> a soap:BallotOption ;
+    soap:hasRank "109"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/1> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/10> a soap:BallotOption ;
+    soap:hasRank "118"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/10> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/100> a soap:BallotOption ;
+    soap:hasRank "76"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/100> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/101> a soap:BallotOption ;
+    soap:hasRank "96"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/101> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/102> a soap:BallotOption ;
+    soap:hasRank "64"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/102> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/103> a soap:BallotOption ;
+    soap:hasRank "57"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/103> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/104> a soap:BallotOption ;
+    soap:hasRank "17"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/104> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/105> a soap:BallotOption ;
+    soap:hasRank "120"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/105> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/106> a soap:BallotOption ;
+    soap:hasRank "22"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/106> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/107> a soap:BallotOption ;
+    soap:hasRank "45"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/107> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/108> a soap:BallotOption ;
+    soap:hasRank "66"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/108> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/109> a soap:BallotOption ;
+    soap:hasRank "7"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/109> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/11> a soap:BallotOption ;
+    soap:hasRank "41"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/11> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/110> a soap:BallotOption ;
+    soap:hasRank "25"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/110> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/111> a soap:BallotOption ;
+    soap:hasRank "102"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/111> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/112> a soap:BallotOption ;
+    soap:hasRank "75"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/112> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/113> a soap:BallotOption ;
+    soap:hasRank "49"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/113> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/114> a soap:BallotOption ;
+    soap:hasRank "127"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/114> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/115> a soap:BallotOption ;
+    soap:hasRank "47"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/115> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/116> a soap:BallotOption ;
+    soap:hasRank "94"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/116> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/117> a soap:BallotOption ;
+    soap:hasRank "73"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/117> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/118> a soap:BallotOption ;
+    soap:hasRank "33"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/118> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/119> a soap:BallotOption ;
+    soap:hasRank "58"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/119> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/12> a soap:BallotOption ;
+    soap:hasRank "31"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/12> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/120> a soap:BallotOption ;
+    soap:hasRank "121"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/120> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/121> a soap:BallotOption ;
+    soap:hasRank "30"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/121> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/122> a soap:BallotOption ;
+    soap:hasRank "70"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/122> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/123> a soap:BallotOption ;
+    soap:hasRank "81"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/123> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/124> a soap:BallotOption ;
+    soap:hasRank "6"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/124> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/125> a soap:BallotOption ;
+    soap:hasRank "107"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/125> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/126> a soap:BallotOption ;
+    soap:hasRank "19"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/126> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/127> a soap:BallotOption ;
+    soap:hasRank "28"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/127> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/128> a soap:BallotOption ;
+    soap:hasRank "38"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/128> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/129> a soap:BallotOption ;
+    soap:hasRank "65"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/129> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/13> a soap:BallotOption ;
+    soap:hasRank "53"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/13> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/14> a soap:BallotOption ;
+    soap:hasRank "51"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/14> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/15> a soap:BallotOption ;
+    soap:hasRank "86"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/15> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/16> a soap:BallotOption ;
+    soap:hasRank "106"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/16> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/17> a soap:BallotOption ;
+    soap:hasRank "108"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/17> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/18> a soap:BallotOption ;
+    soap:hasRank "23"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/18> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/19> a soap:BallotOption ;
+    soap:hasRank "32"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/19> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/2> a soap:BallotOption ;
+    soap:hasRank "85"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/2> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/20> a soap:BallotOption ;
+    soap:hasRank "36"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/20> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/21> a soap:BallotOption ;
+    soap:hasRank "103"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/21> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/22> a soap:BallotOption ;
+    soap:hasRank "20"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/22> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/23> a soap:BallotOption ;
+    soap:hasRank "2"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/23> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/24> a soap:BallotOption ;
+    soap:hasRank "1"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/24> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/25> a soap:BallotOption ;
+    soap:hasRank "39"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/25> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/26> a soap:BallotOption ;
+    soap:hasRank "60"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/26> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/27> a soap:BallotOption ;
+    soap:hasRank "56"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/27> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/28> a soap:BallotOption ;
+    soap:hasRank "105"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/28> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/29> a soap:BallotOption ;
+    soap:hasRank "125"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/29> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/3> a soap:BallotOption ;
+    soap:hasRank "126"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/3> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/30> a soap:BallotOption ;
+    soap:hasRank "16"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/30> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/31> a soap:BallotOption ;
+    soap:hasRank "80"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/31> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/32> a soap:BallotOption ;
+    soap:hasRank "24"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/32> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/33> a soap:BallotOption ;
+    soap:hasRank "68"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/33> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/34> a soap:BallotOption ;
+    soap:hasRank "55"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/34> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/35> a soap:BallotOption ;
+    soap:hasRank "67"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/35> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/36> a soap:BallotOption ;
+    soap:hasRank "69"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/36> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/37> a soap:BallotOption ;
+    soap:hasRank "112"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/37> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/38> a soap:BallotOption ;
+    soap:hasRank "88"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/38> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/39> a soap:BallotOption ;
+    soap:hasRank "74"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/39> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/4> a soap:BallotOption ;
+    soap:hasRank "84"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/4> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/40> a soap:BallotOption ;
+    soap:hasRank "4"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/40> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/41> a soap:BallotOption ;
+    soap:hasRank "59"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/41> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/42> a soap:BallotOption ;
+    soap:hasRank "50"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/42> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/43> a soap:BallotOption ;
+    soap:hasRank "18"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/43> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/44> a soap:BallotOption ;
+    soap:hasRank "34"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/44> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/45> a soap:BallotOption ;
+    soap:hasRank "128"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/45> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/46> a soap:BallotOption ;
+    soap:hasRank "98"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/46> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/47> a soap:BallotOption ;
+    soap:hasRank "63"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/47> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/48> a soap:BallotOption ;
+    soap:hasRank "43"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/48> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/49> a soap:BallotOption ;
+    soap:hasRank "87"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/49> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/5> a soap:BallotOption ;
+    soap:hasRank "113"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/5> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/50> a soap:BallotOption ;
+    soap:hasRank "21"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/50> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/51> a soap:BallotOption ;
+    soap:hasRank "111"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/51> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/52> a soap:BallotOption ;
+    soap:hasRank "10"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/52> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/53> a soap:BallotOption ;
+    soap:hasRank "116"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/53> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/54> a soap:BallotOption ;
+    soap:hasRank "40"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/54> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/55> a soap:BallotOption ;
+    soap:hasRank "97"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/55> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/56> a soap:BallotOption ;
+    soap:hasRank "122"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/56> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/57> a soap:BallotOption ;
+    soap:hasRank "46"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/57> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/58> a soap:BallotOption ;
+    soap:hasRank "52"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/58> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/59> a soap:BallotOption ;
+    soap:hasRank "114"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/59> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/6> a soap:BallotOption ;
+    soap:hasRank "8"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/6> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/60> a soap:BallotOption ;
+    soap:hasRank "61"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/60> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/61> a soap:BallotOption ;
+    soap:hasRank "71"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/61> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/62> a soap:BallotOption ;
+    soap:hasRank "95"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/62> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/63> a soap:BallotOption ;
+    soap:hasRank "79"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/63> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/64> a soap:BallotOption ;
+    soap:hasRank "35"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/64> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/65> a soap:BallotOption ;
+    soap:hasRank "44"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/65> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/66> a soap:BallotOption ;
+    soap:hasRank "123"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/66> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/67> a soap:BallotOption ;
+    soap:hasRank "37"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/67> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/68> a soap:BallotOption ;
+    soap:hasRank "3"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/68> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/69> a soap:BallotOption ;
+    soap:hasRank "77"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/69> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/7> a soap:BallotOption ;
+    soap:hasRank "12"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/7> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/70> a soap:BallotOption ;
+    soap:hasRank "119"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/70> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/71> a soap:BallotOption ;
+    soap:hasRank "90"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/71> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/72> a soap:BallotOption ;
+    soap:hasRank "15"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/72> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/73> a soap:BallotOption ;
+    soap:hasRank "62"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/73> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/74> a soap:BallotOption ;
+    soap:hasRank "101"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/74> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/75> a soap:BallotOption ;
+    soap:hasRank "110"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/75> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/76> a soap:BallotOption ;
+    soap:hasRank "93"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/76> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/77> a soap:BallotOption ;
+    soap:hasRank "124"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/77> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/78> a soap:BallotOption ;
+    soap:hasRank "26"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/78> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/79> a soap:BallotOption ;
+    soap:hasRank "14"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/79> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/8> a soap:BallotOption ;
+    soap:hasRank "91"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/8> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/80> a soap:BallotOption ;
+    soap:hasRank "104"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/80> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/81> a soap:BallotOption ;
+    soap:hasRank "82"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/81> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/82> a soap:BallotOption ;
+    soap:hasRank "5"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/82> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/83> a soap:BallotOption ;
+    soap:hasRank "42"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/83> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/84> a soap:BallotOption ;
+    soap:hasRank "92"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/84> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/85> a soap:BallotOption ;
+    soap:hasRank "117"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/85> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/86> a soap:BallotOption ;
+    soap:hasRank "9"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/86> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/87> a soap:BallotOption ;
+    soap:hasRank "13"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/87> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/88> a soap:BallotOption ;
+    soap:hasRank "27"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/88> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/89> a soap:BallotOption ;
+    soap:hasRank "115"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/89> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/9> a soap:BallotOption ;
+    soap:hasRank "129"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/9> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/90> a soap:BallotOption ;
+    soap:hasRank "48"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/90> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/91> a soap:BallotOption ;
+    soap:hasRank "54"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/91> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/92> a soap:BallotOption ;
+    soap:hasRank "83"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/92> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/93> a soap:BallotOption ;
+    soap:hasRank "72"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/93> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/94> a soap:BallotOption ;
+    soap:hasRank "29"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/94> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/95> a soap:BallotOption ;
+    soap:hasRank "78"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/95> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/96> a soap:BallotOption ;
+    soap:hasRank "11"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/96> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/97> a soap:BallotOption ;
+    soap:hasRank "89"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/97> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/98> a soap:BallotOption ;
+    soap:hasRank "100"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/98> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/bo/00056-00003846/1/99> a soap:BallotOption ;
+    soap:hasRank "99"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/99> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/context/00056-00003846> a soap:Context ;
+    rdfs:label "Football 2018 Ncaa Game Sim" ;
+    soap:hasAvailableOption <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/1>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/10>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/100>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/101>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/102>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/103>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/104>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/105>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/106>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/107>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/108>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/109>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/11>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/110>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/111>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/112>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/113>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/114>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/115>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/116>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/117>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/118>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/119>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/12>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/120>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/121>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/122>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/123>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/124>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/125>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/126>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/127>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/128>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/129>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/13>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/14>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/15>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/16>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/17>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/18>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/19>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/2>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/20>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/21>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/22>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/23>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/24>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/25>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/26>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/27>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/28>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/29>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/3>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/30>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/31>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/32>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/33>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/34>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/35>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/36>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/37>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/38>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/39>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/4>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/40>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/41>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/42>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/43>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/44>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/45>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/46>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/47>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/48>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/49>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/5>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/50>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/51>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/52>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/53>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/54>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/55>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/56>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/57>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/58>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/59>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/6>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/60>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/61>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/62>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/63>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/64>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/65>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/66>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/67>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/68>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/69>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/7>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/70>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/71>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/72>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/73>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/74>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/75>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/76>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/77>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/78>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/79>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/8>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/80>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/81>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/82>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/83>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/84>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/85>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/86>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/87>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/88>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/89>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/9>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/90>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/91>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/92>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/93>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/94>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/95>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/96>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/97>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/98>,
+        <http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/99> .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/1> a soap:Option ;
+    rdfs:label "Tulane" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/10> a soap:Option ;
+    rdfs:label "Tulsa" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/100> a soap:Option ;
+    rdfs:label "Colorado" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/101> a soap:Option ;
+    rdfs:label "Rutgers" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/102> a soap:Option ;
+    rdfs:label "Southern Miss" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/103> a soap:Option ;
+    rdfs:label "Virginia Tech" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/104> a soap:Option ;
+    rdfs:label "FL Atlantic" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/105> a soap:Option ;
+    rdfs:label "East Carolina" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/106> a soap:Option ;
+    rdfs:label "USC" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/107> a soap:Option ;
+    rdfs:label "Maryland" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/108> a soap:Option ;
+    rdfs:label "South Florida" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/109> a soap:Option ;
+    rdfs:label "Washington" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/11> a soap:Option ;
+    rdfs:label "Texas Tech" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/110> a soap:Option ;
+    rdfs:label "UCF" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/111> a soap:Option ;
+    rdfs:label "Virginia" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/112> a soap:Option ;
+    rdfs:label "Illinois" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/113> a soap:Option ;
+    rdfs:label "Marshall" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/114> a soap:Option ;
+    rdfs:label "Kent" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/115> a soap:Option ;
+    rdfs:label "Arkansas" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/116> a soap:Option ;
+    rdfs:label "Cincinnati" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/117> a soap:Option ;
+    rdfs:label "C Michigan" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/118> a soap:Option ;
+    rdfs:label "Utah" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/119> a soap:Option ;
+    rdfs:label "Toledo" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/12> a soap:Option ;
+    rdfs:label "Florida St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/120> a soap:Option ;
+    rdfs:label "UTEP" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/121> a soap:Option ;
+    rdfs:label "Arizona" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/122> a soap:Option ;
+    rdfs:label "Troy" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/123> a soap:Option ;
+    rdfs:label "New Mexico St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/124> a soap:Option ;
+    rdfs:label "Auburn" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/125> a soap:Option ;
+    rdfs:label "Rice" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/126> a soap:Option ;
+    rdfs:label "TCU" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/127> a soap:Option ;
+    rdfs:label "Texas A&M" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/128> a soap:Option ;
+    rdfs:label "Vanderbilt" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/129> a soap:Option ;
+    rdfs:label "Tennessee" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/13> a soap:Option ;
+    rdfs:label "Arizona St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/14> a soap:Option ;
+    rdfs:label "Indiana" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/15> a soap:Option ;
+    rdfs:label "Nevada" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/16> a soap:Option ;
+    rdfs:label "UAB" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/17> a soap:Option ;
+    rdfs:label "New Mexico" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/18> a soap:Option ;
+    rdfs:label "Mississippi St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/19> a soap:Option ;
+    rdfs:label "Memphis" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/2> a soap:Option ;
+    rdfs:label "North Texas" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/20> a soap:Option ;
+    rdfs:label "Fresno St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/21> a soap:Option ;
+    rdfs:label "E Michigan" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/22> a soap:Option ;
+    rdfs:label "Louisville" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/23> a soap:Option ;
+    rdfs:label "Alabama" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/24> a soap:Option ;
+    rdfs:label "Georgia" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/25> a soap:Option ;
+    rdfs:label "Kentucky" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/26> a soap:Option ;
+    rdfs:label "Georgia Tech" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/27> a soap:Option ;
+    rdfs:label "Houston" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/28> a soap:Option ;
+    rdfs:label "Charlotte" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/29> a soap:Option ;
+    rdfs:label "Akron" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/3> a soap:Option ;
+    rdfs:label "Texas St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/30> a soap:Option ;
+    rdfs:label "Miami FL" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/31> a soap:Option ;
+    rdfs:label "Colorado St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/32> a soap:Option ;
+    rdfs:label "Mississippi" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/33> a soap:Option ;
+    rdfs:label "Boston College" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/34> a soap:Option ;
+    rdfs:label "Texas" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/35> a soap:Option ;
+    rdfs:label "Ohio" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/36> a soap:Option ;
+    rdfs:label "BYU" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/37> a soap:Option ;
+    rdfs:label "ULM" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/38> a soap:Option ;
+    rdfs:label "Florida Intl" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/39> a soap:Option ;
+    rdfs:label "Pittsburgh" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/4> a soap:Option ;
+    rdfs:label "UT San Antonio" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/40> a soap:Option ;
+    rdfs:label "Wisconsin" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/41> a soap:Option ;
+    rdfs:label "California" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/42> a soap:Option ;
+    rdfs:label "Utah St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/43> a soap:Option ;
+    rdfs:label "Oklahoma St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/44> a soap:Option ;
+    rdfs:label "Kansas St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/45> a soap:Option ;
+    rdfs:label "Ga Southern" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/46> a soap:Option ;
+    rdfs:label "Old Dominion" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/47> a soap:Option ;
+    rdfs:label "Appalachian St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/48> a soap:Option ;
+    rdfs:label "Iowa St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/49> a soap:Option ;
+    rdfs:label "N Illinois" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/5> a soap:Option ;
+    rdfs:label "Georgia St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/50> a soap:Option ;
+    rdfs:label "Boise St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/51> a soap:Option ;
+    rdfs:label "Coastal Car" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/52> a soap:Option ;
+    rdfs:label "Clemson" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/53> a soap:Option ;
+    rdfs:label "W Michigan" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/54> a soap:Option ;
+    rdfs:label "UCLA" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/55> a soap:Option ;
+    rdfs:label "Baylor" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/56> a soap:Option ;
+    rdfs:label "San Jose St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/57> a soap:Option ;
+    rdfs:label "West Virginia" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/58> a soap:Option ;
+    rdfs:label "Michigan St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/59> a soap:Option ;
+    rdfs:label "Kansas" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/6> a soap:Option ;
+    rdfs:label "Missouri" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/60> a soap:Option ;
+    rdfs:label "MTSU" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/61> a soap:Option ;
+    rdfs:label "Temple" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/62> a soap:Option ;
+    rdfs:label "Syracuse" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/63> a soap:Option ;
+    rdfs:label "Navy" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/64> a soap:Option ;
+    rdfs:label "Purdue" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/65> a soap:Option ;
+    rdfs:label "NC State" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/66> a soap:Option ;
+    rdfs:label "Air Force" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/67> a soap:Option ;
+    rdfs:label "Florida" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/68> a soap:Option ;
+    rdfs:label "Oklahoma" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/69> a soap:Option ;
+    rdfs:label "Oregon St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/7> a soap:Option ;
+    rdfs:label "Notre Dame" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/70> a soap:Option ;
+    rdfs:label "Louisiana" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/71> a soap:Option ;
+    rdfs:label "Louisiana Tech" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/72> a soap:Option ;
+    rdfs:label "LSU" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/73> a soap:Option ;
+    rdfs:label "Nebraska" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/74> a soap:Option ;
+    rdfs:label "Connecticut" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/75> a soap:Option ;
+    rdfs:label "Hawaii" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/76> a soap:Option ;
+    rdfs:label "SMU" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/77> a soap:Option ;
+    rdfs:label "South Alabama" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/78> a soap:Option ;
+    rdfs:label "Wake Forest" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/79> a soap:Option ;
+    rdfs:label "Stanford" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/8> a soap:Option ;
+    rdfs:label "WKU" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/80> a soap:Option ;
+    rdfs:label "Duke" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/81> a soap:Option ;
+    rdfs:label "Buffalo" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/82> a soap:Option ;
+    rdfs:label "Ohio St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/83> a soap:Option ;
+    rdfs:label "San Diego St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/84> a soap:Option ;
+    rdfs:label "Miami OH" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/85> a soap:Option ;
+    rdfs:label "Bowling Green" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/86> a soap:Option ;
+    rdfs:label "Penn St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/87> a soap:Option ;
+    rdfs:label "South Carolina" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/88> a soap:Option ;
+    rdfs:label "Michigan" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/89> a soap:Option ;
+    rdfs:label "Army" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/9> a soap:Option ;
+    rdfs:label "Ball St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/90> a soap:Option ;
+    rdfs:label "Northwestern" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/91> a soap:Option ;
+    rdfs:label "Washington St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/92> a soap:Option ;
+    rdfs:label "Arkansas St" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/93> a soap:Option ;
+    rdfs:label "Minnesota" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/94> a soap:Option ;
+    rdfs:label "Iowa" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/95> a soap:Option ;
+    rdfs:label "Massachusetts" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/96> a soap:Option ;
+    rdfs:label "Oregon" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/97> a soap:Option ;
+    rdfs:label "Wyoming" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/98> a soap:Option ;
+    rdfs:label "UNLV" .
+
+<http://www.semanticweb.org/soap/data/00056-00003846/option/00056-00003846/99> a soap:Option ;
+    rdfs:label "North Carolina" .
+

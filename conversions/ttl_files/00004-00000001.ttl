@@ -1,0 +1,175 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix soap: <http://www.semanticweb.org/soap#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/agent/00004-00000001/1> a soap:Agent ;
+    rdfs:label "Synthetic agent 1 (00004-00000001)" ;
+    soap:hasExpressed <http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/1> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/agent/00004-00000001/2> a soap:Agent ;
+    rdfs:label "Synthetic agent 2 (00004-00000001)" ;
+    soap:hasExpressed <http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/2> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/agent/00004-00000001/3> a soap:Agent ;
+    rdfs:label "Synthetic agent 3 (00004-00000001)" ;
+    soap:hasExpressed <http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/agent/00004-00000001/4> a soap:Agent ;
+    rdfs:label "Synthetic agent 4 (00004-00000001)" ;
+    soap:hasExpressed <http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/4> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/agent/00004-00000001/5> a soap:Agent ;
+    rdfs:label "Synthetic agent 5 (00004-00000001)" ;
+    soap:hasExpressed <http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/5> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/agent/00004-00000001/6> a soap:Agent ;
+    rdfs:label "Synthetic agent 6 (00004-00000001)" ;
+    soap:hasExpressed <http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/6> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/1> a soap:AggregatedBallot,
+        soap:Ballot,
+        soap:CompleteBallot,
+        soap:RankedBallot ;
+    soap:hasBallotOption <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/1/1>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/1/2>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/1/3> ;
+    soap:hasContext <http://www.semanticweb.org/soap/data/00004-00000001/context/00004-00000001> ;
+    soap:hasMultiplicity "263"^^xsd:int .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/2> a soap:AggregatedBallot,
+        soap:Ballot,
+        soap:CompleteBallot,
+        soap:RankedBallot ;
+    soap:hasBallotOption <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/2/1>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/2/2>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/2/3> ;
+    soap:hasContext <http://www.semanticweb.org/soap/data/00004-00000001/context/00004-00000001> ;
+    soap:hasMultiplicity "249"^^xsd:int .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/3> a soap:AggregatedBallot,
+        soap:Ballot,
+        soap:CompleteBallot,
+        soap:RankedBallot ;
+    soap:hasBallotOption <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/3/1>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/3/2>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/3/3> ;
+    soap:hasContext <http://www.semanticweb.org/soap/data/00004-00000001/context/00004-00000001> ;
+    soap:hasMultiplicity "78"^^xsd:int .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/4> a soap:AggregatedBallot,
+        soap:Ballot,
+        soap:CompleteBallot,
+        soap:RankedBallot ;
+    soap:hasBallotOption <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/4/1>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/4/2>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/4/3> ;
+    soap:hasContext <http://www.semanticweb.org/soap/data/00004-00000001/context/00004-00000001> ;
+    soap:hasMultiplicity "46"^^xsd:int .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/5> a soap:AggregatedBallot,
+        soap:Ballot,
+        soap:CompleteBallot,
+        soap:RankedBallot ;
+    soap:hasBallotOption <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/5/1>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/5/2>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/5/3> ;
+    soap:hasContext <http://www.semanticweb.org/soap/data/00004-00000001/context/00004-00000001> ;
+    soap:hasMultiplicity "17"^^xsd:int .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/ballot/00004-00000001/6> a soap:AggregatedBallot,
+        soap:Ballot,
+        soap:CompleteBallot,
+        soap:RankedBallot ;
+    soap:hasBallotOption <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/6/1>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/6/2>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/6/3> ;
+    soap:hasContext <http://www.semanticweb.org/soap/data/00004-00000001/context/00004-00000001> ;
+    soap:hasMultiplicity "11"^^xsd:int .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/1/1> a soap:BallotOption ;
+    soap:hasRank "2"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/1/2> a soap:BallotOption ;
+    soap:hasRank "1"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/1/3> a soap:BallotOption ;
+    soap:hasRank "3"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/2/1> a soap:BallotOption ;
+    soap:hasRank "1"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/2/2> a soap:BallotOption ;
+    soap:hasRank "2"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/2/3> a soap:BallotOption ;
+    soap:hasRank "3"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/3/1> a soap:BallotOption ;
+    soap:hasRank "1"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/3/2> a soap:BallotOption ;
+    soap:hasRank "3"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/3/3> a soap:BallotOption ;
+    soap:hasRank "2"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/4/1> a soap:BallotOption ;
+    soap:hasRank "3"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/4/2> a soap:BallotOption ;
+    soap:hasRank "1"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/4/3> a soap:BallotOption ;
+    soap:hasRank "2"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/5/1> a soap:BallotOption ;
+    soap:hasRank "2"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/5/2> a soap:BallotOption ;
+    soap:hasRank "3"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/5/3> a soap:BallotOption ;
+    soap:hasRank "1"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/6/1> a soap:BallotOption ;
+    soap:hasRank "3"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/6/2> a soap:BallotOption ;
+    soap:hasRank "2"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/bo/00004-00000001/6/3> a soap:BallotOption ;
+    soap:hasRank "1"^^xsd:int ;
+    soap:refersToOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/context/00004-00000001> a soap:Context ;
+    rdfs:label "Netflix Prize Data" ;
+    soap:hasAvailableOption <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2>,
+        <http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/1> a soap:Option ;
+    rdfs:label "Shrek (Full-screen)" .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/2> a soap:Option ;
+    rdfs:label "The X-Files: Season 2" .
+
+<http://www.semanticweb.org/soap/data/00004-00000001/option/00004-00000001/3> a soap:Option ;
+    rdfs:label "The Punisher" .
+
