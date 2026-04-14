@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/soap#"
+     xml:base="http://www.semanticweb.org/soap"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:soap="http://www.semanticweb.org/soap#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/soap">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/soap/26.1"/>
+        <dc:created>2026-01-08T02:13:00</dc:created>
+        <dc:creator>Nicolas Dix</dc:creator>
+        <dc:license rdf:resource="https://www.apache.org/licenses/LICENSE-2.0"/>
+        <rdfs:comment xml:lang="en">SOAP provides a formal, machine-interpretable model for representing preference data and collective decision outcomes. It aims to enable semantic interoperability between heterogeneous datasets by abstracting from format-specific encodings and making core concepts such as agents, preferences, alternatives, and contextual metadata explicit. The ontology is designed to support comparison, querying, and transformation of preference data across different sources and representations, with a particular focus on ranked, categorical, and incomplete preferences.</rdfs:comment>
+        <rdfs:label xml:lang="en">SOAP Ontology for Aligned Preferences</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasAvailableOption -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/soap#hasAvailableOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Context"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/soap#Option"/>
+        <rdfs:comment xml:lang="en">Links a context to the options that are available for selection within a given decision situation. This property defines the set of alternatives from which agents may choose when expressing their preferences, independently of whether an option is referenced in a particular ballot.</rdfs:comment>
+        <rdfs:label xml:lang="en">has available option</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasBallotEntry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/soap#hasBallotEntry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/soap#BallotEntry"/>
+        <rdfs:comment xml:lang="en">Links a ballot to a BallotEntry instance that represents the participation of a specific option in a particular preference expression. This intermediate construct allows contextual attributes such as rank, category, or score to be attached to an option as expressed on a given ballot, without treating these attributes as intrinsic properties of the option itself.</rdfs:comment>
+        <rdfs:label xml:lang="en">has ballot entry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasContext -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/soap#hasContext">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/soap#Context"/>
+        <rdfs:comment xml:lang="en">Links a ballot to the context in which it was expressed, such as an election, survey, or experiment. This enables preference expressions to be interpreted and compared with respect to their situational setting.</rdfs:comment>
+        <rdfs:label xml:lang="en">has context</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasExpressed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/soap#hasExpressed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:comment xml:lang="en">Links a ballot to the agent that expressed it. This property supports explicit attribution of preference expressions independently of the original data format or identifier conventions.</rdfs:comment>
+        <rdfs:label xml:lang="en">has expressed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#producesResult -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/soap#producesResult">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Context"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/soap#Result"/>
+        <rdfs:comment xml:lang="en">Links a context to a specific result of the preference expression. While an explicit encoding of results in the original dataset may be unavailable, the user is encouraged to include it if possible</rdfs:comment>
+        <rdfs:label xml:lang="en">produces result</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#refersToOption -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/soap#refersToOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#BallotEntry"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/soap#Option"/>
+        <rdfs:comment xml:lang="en">Links a BallotEntry to the (universal) Option it represents on a specific ballot.</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to option</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasMultiplicity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/soap#hasMultiplicity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">Number of agents who submitted this exact ballot</rdfs:comment>
+        <rdfs:label xml:lang="en">has multiplicity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasRank -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/soap#hasRank">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#BallotEntry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">Ordinal position in ranking</rdfs:comment>
+        <rdfs:label xml:lang="en">has rank</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasVoteCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/soap#hasVoteCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#BallotEntry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">Number of votes for an option</rdfs:comment>
+        <rdfs:label xml:lang="en">has vote count</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#hasWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/soap#hasWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#BallotEntry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="en">Influence / strength (contextual)</rdfs:comment>
+        <rdfs:label xml:lang="en">has weight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#isValid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/soap#isValid">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Record validity</rdfs:comment>
+        <rdfs:label xml:lang="en">is valid</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/soap#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">An entity capable of expressing preferences in a collective decision making setting. Agents may represent individuals, groups, organizations, or other participants, and are modeled independently of any particular data format to enable unambiguous attribution of preference expressions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <skos:altLabel xml:lang="en">Actor</skos:altLabel>
+        <skos:altLabel xml:lang="en">Decision-maker</skos:altLabel>
+        <skos:altLabel xml:lang="en">Participant</skos:altLabel>
+        <skos:altLabel xml:lang="en">Stakeholder</skos:altLabel>
+        <skos:altLabel xml:lang="en">Subject</skos:altLabel>
+        <skos:altLabel xml:lang="en">Voter</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#AggregatedBallot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#AggregatedBallot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:label xml:lang="en">Aggregated Ballot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#Ballot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#Ballot">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A concrete preference expression submitted by an agent within a given context. A ballot captures how preferences are expressed (e.g., ranked, tied, categorical, complete or incomplete) and serves as the primary unit for representing preference data independently of format-specific encodings.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ballot</rdfs:label>
+        <skos:altLabel xml:lang="en">Vote</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#BallotEntry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#BallotEntry">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Represents the participation of a specific option in a specific ballot. A BallotEntry captures contextual attributes of an option as it is expressed within a particular preference expression such as rank, category, or score, without treating these attributes as intrinsic properties of the option itself.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ballot Entry</rdfs:label>
+        <skos:altLabel xml:lang="en">Ballot item</skos:altLabel>
+        <skos:altLabel xml:lang="en">Preference entry</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#CategoricalBallot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#CategoricalBallot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:comment xml:lang="en">A ballot in which an agent assigns options to one or more categories, such as approval, rejection, or indifference. This class abstracts from specific category semantics and supports preference expressions that are not based on explicit rankings.</rdfs:comment>
+        <rdfs:label>Categorical Ballot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#CompleteBallot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#CompleteBallot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:comment xml:lang="en">A ballot that references all options available in the associated context. This classification reflects completeness of the preference expression without imposing assumptions about preference structure or ordering.</rdfs:comment>
+        <rdfs:label xml:lang="en">Complete Ballot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#Context">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The situational environment in which preferences are expressed and interpreted, such as an election, survey, or experiment. Context provides the semantic frame for preference expressions and outcomes, allowing datasets to be compared while keeping procedural and legal aspects out of scope.</rdfs:comment>
+        <rdfs:label xml:lang="en">Context</rdfs:label>
+        <skos:altLabel xml:lang="en">Circumstance</skos:altLabel>
+        <skos:altLabel xml:lang="en">Condition</skos:altLabel>
+        <skos:altLabel xml:lang="en">Environment</skos:altLabel>
+        <skos:altLabel xml:lang="en">Scenario</skos:altLabel>
+        <skos:altLabel xml:lang="en">Situation</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#IncompleteBallot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#IncompleteBallot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:comment xml:lang="en">A ballot that references only a subset of the options available in the associated context. This class allows partial or truncated preference expressions to be distinguished without interpreting omitted options.</rdfs:comment>
+        <rdfs:label xml:lang="en">Incomplete Ballot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#IndividualBallot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#IndividualBallot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:label xml:lang="en">Individual Ballot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#Option -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#Option">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">An abstract alternative over which preferences can be expressed within a decision making context, such as a candidate, item, or outcome. Options represent universal choice possibilities that may be made available in one or more contexts and referenced by ballots, but do not themselves carry contextual attributes such as rank or category.</rdfs:comment>
+        <rdfs:label xml:lang="en">Option</rdfs:label>
+        <skos:altLabel xml:lang="en">Alternative</skos:altLabel>
+        <skos:altLabel xml:lang="en">Candidate</skos:altLabel>
+        <skos:altLabel xml:lang="en">Choice</skos:altLabel>
+        <skos:altLabel xml:lang="en">Party</skos:altLabel>
+        <skos:altLabel xml:lang="en">Proposal</skos:altLabel>
+        <skos:altLabel xml:lang="en">Survey Item</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#RankedBallot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#RankedBallot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/soap#Ballot"/>
+        <rdfs:comment xml:lang="en">A ballot in which an agent expresses preferences by ordering options relative to one another. This class captures preference expressions that convey comparative ranking without prescribing how ties, weights, or completeness are represented.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ranked Ballot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/soap#Result -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/soap#Result">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">An outcome derived from one or more preference expressions within a context. Results are modeled separately from ballots to distinguish collective outcomes from individual inputs and to enable querying and analysis of decision outputs alongside preference data.</rdfs:comment>
+        <rdfs:label xml:lang="en">Result</rdfs:label>
+        <skos:altLabel xml:lang="en">Outcome</skos:altLabel>
+        <skos:altLabel xml:lang="en">Output</skos:altLabel>
+        <skos:altLabel xml:lang="en">Resolution</skos:altLabel>
+        <skos:altLabel xml:lang="en">Verdict</skos:altLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
