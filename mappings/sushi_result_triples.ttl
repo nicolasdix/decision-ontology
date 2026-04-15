@@ -10,8 +10,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 data:sushi_preference_survey
-    a soap:Context, prov:Entity ;
-    prov:wasDerivedFrom data:dataset0007.order ;
+    a soap:Context ;
     rdfs:label "Sushi Preference Survey" ;
     soap:hasAvailableOption data:ebi ;
     soap:hasAvailableOption data:anago ;
@@ -22,29 +21,7 @@ data:sushi_preference_survey
     soap:hasAvailableOption data:tamago ;
     soap:hasAvailableOption data:toro ;
     soap:hasAvailableOption data:tekkaMaki ;
-    soap:hasAvailableOption data:kappaMaki ;
-    soap:producesResult data:result .
-
-data:dataset0007.order a prov:Entity ;
-    dc:format "order" ;
-    dc:issued "2015-12-29"^^xsd:date ;
-    dc:license "Individual" ;
-    dc:source "https://www.kamishima.net/sushi/" .
-
-data:mapping_run_sushi a prov:Activity ;
-    prov:generated data:sushi_ttl_export.ttl ;
-    prov:endedAtTime "2026-02-01T18:11:00"^^xsd:dateTime ;
-    prov:used data:dataset0007.order .
-
-data:sushi_rdf_export.ttl a prov:Entity ;
-    dc:format "turtle" ;
-    prov:wasDerivedFrom data:dataset0007.order ;
-    prov:wasGeneratedBy data:mapping_run_sushi .
-
-data:result
-    a soap:Result ;
-    rdfs:label "Result" ;
-    rdfs:comment "No explicit outcome is provided in the dataset; results can be derived from ballots using a chosen aggregation rule."@en .
+    soap:hasAvailableOption data:kappaMaki .
 
 data:ebi a soap:Option ; rdfs:label "Ebi" .
 data:anago a soap:Option ; rdfs:label "Anago" .
