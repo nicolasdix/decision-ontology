@@ -1,5 +1,5 @@
-@prefix do: <http://www.semanticweb.org/decision-ontology#> .
-@prefix data: <http://www.semanticweb.org/decision-ontology/data/sushi/> .
+@prefix soap: <http://www.semanticweb.org/soap#> .
+@prefix data: <http://www.semanticweb.org/soap/data/sushi/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -10,20 +10,20 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 data:sushi_preference_survey
-    a do:Context, prov:Entity ;
+    a soap:Context, prov:Entity ;
     prov:wasDerivedFrom data:dataset0007.order ;
     rdfs:label "Sushi Preference Survey" ;
-    do:hasAvailableOption data:ebi ;
-    do:hasAvailableOption data:anago ;
-    do:hasAvailableOption data:maguro ;
-    do:hasAvailableOption data:ika ;
-    do:hasAvailableOption data:uni ;
-    do:hasAvailableOption data:ikura ;
-    do:hasAvailableOption data:tamago ;
-    do:hasAvailableOption data:toro ;
-    do:hasAvailableOption data:tekkaMaki ;
-    do:hasAvailableOption data:kappaMaki ;
-    do:producesResult data:result .
+    soap:hasAvailableOption data:ebi ;
+    soap:hasAvailableOption data:anago ;
+    soap:hasAvailableOption data:maguro ;
+    soap:hasAvailableOption data:ika ;
+    soap:hasAvailableOption data:uni ;
+    soap:hasAvailableOption data:ikura ;
+    soap:hasAvailableOption data:tamago ;
+    soap:hasAvailableOption data:toro ;
+    soap:hasAvailableOption data:tekkaMaki ;
+    soap:hasAvailableOption data:kappaMaki ;
+    soap:producesResult data:result .
 
 data:dataset0007.order a prov:Entity ;
     dc:format "order" ;
@@ -42,77 +42,77 @@ data:sushi_rdf_export.ttl a prov:Entity ;
     prov:wasGeneratedBy data:mapping_run_sushi .
 
 data:result
-    a do:Result ;
+    a soap:Result ;
     rdfs:label "Result" ;
     rdfs:comment "No explicit outcome is provided in the dataset; results can be derived from ballots using a chosen aggregation rule."@en .
 
-data:ebi a do:Option ; rdfs:label "Ebi" .
-data:anago a do:Option ; rdfs:label "Anago" .
-data:maguro a do:Option ; rdfs:label "Maguro" .
-data:ika a do:Option ; rdfs:label "Ika" .
-data:uni a do:Option ; rdfs:label "Uni" .
-data:ikura a do:Option ; rdfs:label "Ikura" .
-data:tamago a do:Option ; rdfs:label "Tamago" .
-data:toro a do:Option ; rdfs:label "Toro" .
-data:tekkaMaki a do:Option ; rdfs:label "Tekka Maki" .
-data:kappaMaki a do:Option ; rdfs:label "Kappa Maki" .
+data:ebi a soap:Option ; rdfs:label "Ebi" .
+data:anago a soap:Option ; rdfs:label "Anago" .
+data:maguro a soap:Option ; rdfs:label "Maguro" .
+data:ika a soap:Option ; rdfs:label "Ika" .
+data:uni a soap:Option ; rdfs:label "Uni" .
+data:ikura a soap:Option ; rdfs:label "Ikura" .
+data:tamago a soap:Option ; rdfs:label "Tamago" .
+data:toro a soap:Option ; rdfs:label "Toro" .
+data:tekkaMaki a soap:Option ; rdfs:label "Tekka Maki" .
+data:kappaMaki a soap:Option ; rdfs:label "Kappa Maki" .
 
 data:agent_r1
-    a do:Agent ;
+    a soap:Agent ;
     rdfs:label "Respondent 1" ;
-    do:hasExpressed data:ballot_r1 .
+    soap:hasExpressed data:ballot_r1 .
 
 data:ballot_r1
-    a do:Ballot, do:RankedBallot, do:CompleteBallot ;
-    do:hasContext data:sushi_preference_survey ;
-    do:hasBallotEntry data:r1-ikura , data:r1-ebi , data:r1-ika , data:r1-uni , data:r1-tamago , data:r1-kappaMaki , data:r1-tekkaMaki , data:r1-anago , data:r1-toro , data:r1-maguro .
+    a soap:Ballot, soap:RankedBallot, soap:CompleteBallot ;
+    soap:hasContext data:sushi_preference_survey ;
+    soap:hasBallotEntry data:r1-ikura , data:r1-ebi , data:r1-ika , data:r1-uni , data:r1-tamago , data:r1-kappaMaki , data:r1-tekkaMaki , data:r1-anago , data:r1-toro , data:r1-maguro .
 
 data:r1-ikura
-    a do:BallotEntry ;
-    do:refersToOption data:ikura ;
-    do:hasRank 1 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:ikura ;
+    soap:hasRank 1 .
 
 data:r1-ebi
-    a do:BallotEntry ;
-    do:refersToOption data:ebi ;
-    do:hasRank 2 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:ebi ;
+    soap:hasRank 2 .
 
 data:r1-ika
-    a do:BallotEntry ;
-    do:refersToOption data:ika ;
-    do:hasRank 3 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:ika ;
+    soap:hasRank 3 .
 
 data:r1-uni
-    a do:BallotEntry ;
-    do:refersToOption data:uni ;
-    do:hasRank 4 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:uni ;
+    soap:hasRank 4 .
 
 data:r1-tamago
-    a do:BallotEntry ;
-    do:refersToOption data:tamago ;
-    do:hasRank 5 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:tamago ;
+    soap:hasRank 5 .
 
 data:r1-kappaMaki
-    a do:BallotEntry ;
-    do:refersToOption data:kappaMaki ;
-    do:hasRank 6 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:kappaMaki ;
+    soap:hasRank 6 .
 
 data:r1-tekkaMaki
-    a do:BallotEntry ;
-    do:refersToOption data:tekkaMaki ;
-    do:hasRank 7 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:tekkaMaki ;
+    soap:hasRank 7 .
 
 data:r1-anago
-    a do:BallotEntry ;
-    do:refersToOption data:anago ;
-    do:hasRank 8 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:anago ;
+    soap:hasRank 8 .
 
 data:r1-toro
-    a do:BallotEntry ;
-    do:refersToOption data:toro ;
-    do:hasRank 9 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:toro ;
+    soap:hasRank 9 .
 
 data:r1-maguro
-    a do:BallotEntry ;
-    do:refersToOption data:maguro ;
-    do:hasRank 10 .
+    a soap:BallotEntry ;
+    soap:refersToOption data:maguro ;
+    soap:hasRank 10 .
